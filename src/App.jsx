@@ -6,6 +6,7 @@ import DataUpload from './pages/DataUpload'
 import SalesForecasting from './pages/SalesForecasting'
 import MarketBasketAnalysis from './pages/MarketBasketAnalysis'
 import Settings from './pages/Settings'
+import { FileUploadProvider } from './contexts/FileUploadContext'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard')
@@ -28,12 +29,14 @@ function App() {
   }
 
   return (
-    <div className="flex h-screen bg-gray-50">
-      <Sidebar currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <main className="flex-1 overflow-auto md:ml-0">
-        {renderPage()}
-      </main>
-    </div>
+    <FileUploadProvider>
+      <div className="flex h-screen bg-gray-50">
+        <Sidebar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+        <main className="flex-1 overflow-auto md:ml-0">
+          {renderPage()}
+        </main>
+      </div>
+    </FileUploadProvider>
   )
 }
 

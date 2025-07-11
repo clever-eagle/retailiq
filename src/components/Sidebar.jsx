@@ -6,9 +6,12 @@ import {
   ShoppingCart, 
   Settings,
   Menu,
-  X
+  X,
+  Plus
 } from 'lucide-react'
 import { useState } from 'react'
+import UploadDialog from './UploadDialog'
+import { Button } from '@/components/ui/button'
 
 const navigationItems = [
   {
@@ -109,6 +112,23 @@ function Sidebar({ currentPage, setCurrentPage }) {
               </button>
             )
           })}
+          
+          {/* Quick Upload Button */}
+          <div className="pt-4 border-t border-gray-200">
+            <UploadDialog
+              trigger={
+                <Button variant="outline" className="w-full justify-start gap-3" size="sm">
+                  <Plus className="h-4 w-4" />
+                  <span>Quick Upload</span>
+                </Button>
+              }
+              onUploadComplete={(file) => {
+                console.log('File uploaded from sidebar:', file);
+                // Optionally navigate to data upload page
+                setCurrentPage('data-upload');
+              }}
+            />
+          </div>
         </nav>
 
         {/* Footer */}
