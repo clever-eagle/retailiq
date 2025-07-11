@@ -10,13 +10,14 @@ import {
 } from 'recharts'
 import { 
   ShoppingCart, TrendingUp, Users, Package, Download, 
-  RefreshCw, ArrowRight, Target, DollarSign, Lightbulb
+  RefreshCw, ArrowRight, Target, DollarSign, Lightbulb, AlertCircle
 } from 'lucide-react'
 import { 
-  generateDetailedAssociationRules, 
-  generateCrossSellOpportunities, 
-  generateCustomerSegments 
-} from '../utils/detailedMockData'
+  loadCSVData,
+  processMarketBasketData,
+  processCustomerSegments
+} from '../utils/csvDataProcessor'
+import { generateCrossSellOpportunities } from '../utils/detailedMockData'
 
 function MarketBasketAnalysis() {
   const [associationRules, setAssociationRules] = useState([])
@@ -26,17 +27,38 @@ function MarketBasketAnalysis() {
   const [selectedMetric, setSelectedMetric] = useState('lift')
   const [minSupport, setMinSupport] = useState(0.05)
   const [minConfidence, setMinConfidence] = useState(0.5)
+  const [error, setError] = useState(null)
 
   useEffect(() => {
-    // Simulate loading analysis data
+    // Load and process real CSV data for market basket analysis
     const loadData = async () => {
       setLoading(true)
-      await new Promise(resolve => setTimeout(resolve, 1500)) // Simulate API call
+      setError(null)
       
-      setAssociationRules(generateDetailedAssociationRules())
-      setCrossSellOpportunities(generateCrossSellOpportunities())
-      setCustomerSegments(generateCustomerSegments())
-      setLoading(false)
+      try {
+        // Simulate loading time for better UX
+        await new Promise(resolve => setTimeout(resolve, 1000))
+        
+        // Load CSV data
+        const transactions = await loadCSVData()
+        console.log('Loaded transactions for basket analysis:', transactions.length)
+        
+        // Process the data for market basket analysis
+        const basketData = processMarketBasketData(transactions)
+        const customerData = processCustomerSegments(transactions)
+        
+        setAssociationRules(basketData.associationRules)
+        setCustomerSegments(customerData)
+        
+        // Generate cross-sell opportunities (can be enhanced with real data later)
+        setCrossSellOpportunities(generateCrossSellOpportunities())
+        
+      } catch (err) {
+        console.error('Error loading market basket data:', err)
+        setError('Failed to load transaction data. Please try again.')
+      } finally {
+        setLoading(false)
+      }
     }
 
     loadData()
@@ -82,9 +104,29 @@ function MarketBasketAnalysis() {
           <div className="flex items-center justify-center h-64">
             <div className="text-center">
               <RefreshCw className="h-8 w-8 animate-spin text-blue-600 mx-auto mb-4" />
-              <p className="text-gray-600">Analyzing purchase patterns...</p>
+              <p className="text-gray-600">Analyzing purchase patterns and generating association rules...</p>
             </div>
           </div>
+        </div>
+      </div>
+    )
+  }
+
+  if (error) {
+    return (
+      <div className="p-8">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-8">
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">Market Basket Analysis</h1>
+            <p className="text-gray-600">Discover product associations and purchasing patterns</p>
+          </div>
+          
+          <Alert variant="destructive">
+            <AlertCircle className="h-4 w-4" />
+            <AlertDescription>
+              {error}
+            </AlertDescription>
+          </Alert>
         </div>
       </div>
     )
