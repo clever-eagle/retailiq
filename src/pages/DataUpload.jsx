@@ -1,4 +1,5 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
+import { useFileUpload } from '@/contexts/FileUploadContext';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
@@ -9,12 +10,19 @@ import FileManager from '@/components/FileManager';
 import AnalysisTypeSelector from '@/components/AnalysisTypeSelector';
 import { downloadSampleCSV } from '@/utils/sampleData';
 import { validateFile, formatFileSize, getFileIcon, simulateFileUpload, FILE_STATUS } from '@/utils/fileUpload';
+import { toast } from 'sonner';
 
 function DataUpload() {
-  const [uploadedFiles, setUploadedFiles] = useState([]);
+  const { uploadedFiles, addFile, updateFile, removeFile } = useFileUpload();
   const [dragActive, setDragActive] = useState(false);
   const [showAnalysisSelection, setShowAnalysisSelection] = useState(false);
   const fileInputRef = useRef(null);
+
+  // Update analysis selection visibility when uploaded files change
+  useEffect(() => {
+    const successfulUploads = uploadedFiles.filter(file => file.status === FILE_STATUS.SUCCESS);
+    setShowAnalysisSelection(successfulUploads.length > 0);
+  }, [uploadedFiles]);
 
   const handleDrag = (e) => {
     e.preventDefault();
@@ -59,7 +67,7 @@ function DataUpload() {
         uploadedAt: new Date()
       };
       
-      setUploadedFiles(prev => [...prev, fileObj]);
+      addFile(fileObj);
       
       if (validation.isValid) {
         uploadFile(fileObj);
@@ -68,20 +76,19 @@ function DataUpload() {
   };
 
   const uploadFile = async (fileObj) => {
-    setUploadedFiles(prev => 
-      prev.map(f => f.id === fileObj.id ? { ...f, status: FILE_STATUS.UPLOADING } : f)
-    );
+    updateFile(fileObj.id, { status: FILE_STATUS.UPLOADING });
 
     try {
       await simulateFileUpload(fileObj.file, (progress) => {
-        setUploadedFiles(prev => 
-          prev.map(f => f.id === fileObj.id ? { ...f, progress } : f)
-        );
+        updateFile(fileObj.id, { progress });
       });
 
-      setUploadedFiles(prev => 
-        prev.map(f => f.id === fileObj.id ? { ...f, status: FILE_STATUS.SUCCESS, progress: 100 } : f)
-      );
+      updateFile(fileObj.id, { status: FILE_STATUS.SUCCESS, progress: 100 });
+      
+      // Show success toast
+      toast.success(`${fileObj.name} uploaded successfully!`, {
+        description: 'File is ready for analysis'
+      });
 
       // Show analysis selection if we have successful uploads
       const hasSuccessfulUploads = uploadedFiles.some(f => f.status === FILE_STATUS.SUCCESS) || 
@@ -90,13 +97,15 @@ function DataUpload() {
         setShowAnalysisSelection(true);
       }
     } catch (error) {
-      setUploadedFiles(prev => 
-        prev.map(f => f.id === fileObj.id ? { 
-          ...f, 
-          status: FILE_STATUS.ERROR, 
-          errors: [error.message] 
-        } : f)
-      );
+      updateFile(fileObj.id, { 
+        status: FILE_STATUS.ERROR, 
+        errors: [error.message] 
+      });
+      
+      // Show error toast
+      toast.error(`Failed to upload ${fileObj.name}`, {
+        description: error.message
+      });
     }
   };
 
@@ -105,7 +114,7 @@ function DataUpload() {
   };
 
   const handleRemoveFile = (fileId) => {
-    setUploadedFiles(prev => prev.filter(f => f.id !== fileId));
+    removeFile(fileId);
     
     // Hide analysis selection if no successful uploads remain
     const remainingFiles = uploadedFiles.filter(f => f.id !== fileId);
@@ -144,7 +153,12 @@ function DataUpload() {
               <Button
                 variant="outline"
                 size="sm"
-                onClick={downloadSampleCSV}
+                onClick={() => {
+                  downloadSampleCSV();
+                  toast.success('Sample CSV downloaded!', {
+                    description: 'Use this as a template for your data'
+                  });
+                }}
                 className="flex items-center space-x-2"
               >
                 <Download className="w-4 h-4" />

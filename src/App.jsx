@@ -7,6 +7,7 @@ import SalesForecasting from './pages/SalesForecasting'
 import MarketBasketAnalysis from './pages/MarketBasketAnalysis'
 import Settings from './pages/Settings'
 import { FileUploadProvider } from './contexts/FileUploadContext'
+import { Toaster } from '@/components/ui/sonner'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('dashboard')
@@ -14,7 +15,7 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'dashboard':
-        return <Dashboard />
+        return <Dashboard onNavigate={setCurrentPage} />
       case 'data-upload':
         return <DataUpload />
       case 'sales-forecasting':
@@ -24,7 +25,7 @@ function App() {
       case 'settings':
         return <Settings />
       default:
-        return <Dashboard />
+        return <Dashboard onNavigate={setCurrentPage} />
     }
   }
 
@@ -36,6 +37,7 @@ function App() {
           {renderPage()}
         </main>
       </div>
+      <Toaster />
     </FileUploadProvider>
   )
 }
