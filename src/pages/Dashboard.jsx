@@ -6,7 +6,6 @@ import {
   AnalysisResultsCard,
 } from "@/components/DashboardCards";
 import FileStatusOverview from "@/components/FileStatusOverview";
-import { ForecastChart } from "@/components/SimpleCharts";
 import {
   loadCSVData,
   processSalesData,
@@ -187,9 +186,6 @@ function Dashboard({ onNavigate }) {
           <div className="lg:col-span-2 space-y-6">
             {/* Sales Overview */}
             <SalesOverviewCard salesData={salesData} />
-
-            {/* Forecast Chart */}
-            <ForecastChart forecastData={forecastData} />
 
             {/* Recent Analysis Results */}
             <AnalysisResultsCard recentAnalyses={recentAnalyses} />
