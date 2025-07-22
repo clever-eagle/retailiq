@@ -6,7 +6,6 @@ import {
   AnalysisResultsCard,
 } from "@/components/DashboardCards";
 import FileStatusOverview from "@/components/FileStatusOverview";
-import QuickActionsCard from "@/components/QuickActionsCard";
 import { ForecastChart } from "@/components/SimpleCharts";
 import {
   loadCSVData,
@@ -202,13 +201,6 @@ function Dashboard({ onNavigate }) {
             <FileStatusOverview
               uploadedFiles={uploadedFiles}
               onUploadComplete={handleUploadComplete}
-            />
-
-            {/* Quick Actions */}
-            <QuickActionsCard
-              uploadedFiles={uploadedFiles}
-              onUploadComplete={handleUploadComplete}
-              onNavigate={handleNavigation}
             />
           </div>
         </div>
