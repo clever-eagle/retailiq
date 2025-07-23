@@ -40,19 +40,38 @@ class ApiService {
 
   // Upload CSV data
   async uploadData(file) {
+    console.log(
+      "🔄 API Service: Uploading file:",
+      file.name,
+      "Size:",
+      file.size
+    );
+
     const formData = new FormData();
     formData.append("file", file);
 
-    return this.makeRequest("/upload-data", {
+    console.log("📡 Making request to /upload-data...");
+
+    const result = await this.makeRequest("/upload-data", {
       method: "POST",
       body: formData,
       headers: {}, // Let browser set content-type for FormData
     });
+
+    console.log("✅ API Service: Upload successful:", result);
+    return result;
   }
 
   // Get data summary
   async getDataSummary() {
     return this.makeRequest("/data-summary");
+  }
+
+  // Reset all data to empty state
+  async resetData() {
+    return this.makeRequest("/reset-data", {
+      method: "POST",
+    });
   }
 
   // Perform market basket analysis

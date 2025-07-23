@@ -220,13 +220,21 @@ function MarketBasketAnalysis() {
             .filter((rule) => rule.confidence > 0.6 && rule.lift > 2)
             .slice(0, 6)
             .map((rule, index) => ({
-              product: rule.antecedent.join(" + "),
+              product: Array.isArray(rule.antecedent)
+                ? rule.antecedent.join(" + ")
+                : rule.antecedent || "Unknown",
               recommendations: rule.consequent,
               potentialRevenue: rule.expectedRevenue,
               successRate: Math.round(rule.confidence * 100),
-              bundle: `${rule.antecedent.join(" ")} & ${rule.consequent.join(
-                " "
-              )} Bundle`,
+              bundle: `${
+                Array.isArray(rule.antecedent)
+                  ? rule.antecedent.join(" ")
+                  : rule.antecedent || "Product"
+              } & ${
+                Array.isArray(rule.consequent)
+                  ? rule.consequent.join(" ")
+                  : rule.consequent || "Item"
+              } Bundle`,
               discount: Math.min(25, Math.round(rule.lift * 5)), // Dynamic discount based on lift
             }));
         } else {
@@ -639,13 +647,13 @@ function MarketBasketAnalysis() {
                               <div className="font-medium text-gray-900">
                                 {Array.isArray(rule.antecedent)
                                   ? rule.antecedent.join(", ")
-                                  : rule.antecedent}
+                                  : rule.antecedent || "Unknown"}
                               </div>
                               <div className="flex items-center text-gray-600 mt-1">
                                 <ArrowRight className="h-3 w-3 mr-1" />
                                 {Array.isArray(rule.consequent)
                                   ? rule.consequent.join(", ")
-                                  : rule.consequent}
+                                  : rule.consequent || "Unknown"}
                               </div>
                             </div>
                           </div>
@@ -871,14 +879,20 @@ function MarketBasketAnalysis() {
                   <Lightbulb className="h-4 w-4" />
                   <AlertDescription>
                     <strong>Strongest Association:</strong>{" "}
-                    {Array.isArray(associationRules[0]?.antecedent)
-                      ? associationRules[0]?.antecedent.join(", ")
-                      : associationRules[0]?.antecedent}{" "}
-                    →{" "}
-                    {Array.isArray(associationRules[0]?.consequent)
-                      ? associationRules[0]?.consequent.join(", ")
-                      : associationRules[0]?.consequent}{" "}
-                    with {associationRules[0]?.lift?.toFixed(2)}x lift
+                    {associationRules[0] ? (
+                      <>
+                        {Array.isArray(associationRules[0]?.antecedent)
+                          ? associationRules[0]?.antecedent.join(", ")
+                          : associationRules[0]?.antecedent || "Unknown"}{" "}
+                        →{" "}
+                        {Array.isArray(associationRules[0]?.consequent)
+                          ? associationRules[0]?.consequent.join(", ")
+                          : associationRules[0]?.consequent || "Unknown"}{" "}
+                        with {associationRules[0]?.lift?.toFixed(2) || 0}x lift
+                      </>
+                    ) : (
+                      "No strong associations found"
+                    )}
                   </AlertDescription>
                 </Alert>
 
@@ -926,9 +940,22 @@ function MarketBasketAnalysis() {
                     Product Placement
                   </h4>
                   <p className="text-sm text-blue-800 mt-1">
-                    Place {associationRules[0]?.antecedent.join(", ")} near{" "}
-                    {associationRules[0]?.consequent.join(", ")} to increase
-                    cross-sells.
+                    {associationRules[0] ? (
+                      <>
+                        Place{" "}
+                        {Array.isArray(associationRules[0]?.antecedent)
+                          ? associationRules[0]?.antecedent.join(", ")
+                          : associationRules[0]?.antecedent || "products"}{" "}
+                        near{" "}
+                        {Array.isArray(associationRules[0]?.consequent)
+                          ? associationRules[0]?.consequent.join(", ")
+                          : associationRules[0]?.consequent ||
+                            "related items"}{" "}
+                        to increase cross-sells.
+                      </>
+                    ) : (
+                      "Analyze more data to get product placement recommendations."
+                    )}
                   </p>
                 </div>
 

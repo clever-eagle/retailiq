@@ -1,0 +1,1001 @@
+transaction_id,customer_id,items,date,time,persona,customer_loyalty,store_location,payment_method
+TXN_000001,CUST_0214,Face Cream;Tommy Hilfiger Jacket;Fitness Tracker;Sunscreen,2025-03-21,19:34,Fashion Conscious,vip,Store B,Credit Card
+TXN_000002,CUST_0006,Hair Dryer;Backpack;Perfume,2025-04-17,09:11,Fitness Enthusiast,regular,Store B,Cash
+TXN_000003,CUST_0236,Fishing Rod;Tennis Racket;Sleeping Bag;Ski Equipment;Golf Balls,2025-04-06,10:47,Fitness Enthusiast,vip,Online,Mobile Payment
+TXN_000004,CUST_0137,Xbox Series X;iPad;External SSD,2025-04-16,12:43,Tech Enthusiast,new,Store A,Mobile Payment
+TXN_000005,CUST_0056,Butter;Eggs;Yogurt,2025-06-04,14:16,General Shopper,regular,Store A,Cash
+TXN_000006,CUST_0096,Science Fiction Novel;Fruits;To Kill a Mockingbird,2025-02-23,15:36,General Shopper,regular,Store A,Cash
+TXN_000007,CUST_0037,Fruits;Rice Cooker;Olive Oil;Cheese;Pasta;Milk;Peanut Butter;Nuts Mix,2025-03-20,09:35,Home Cook,vip,Store B,Cash
+TXN_000008,CUST_0226,Conditioner;Resistance Bands;Dumbbells;Water Bottle;Organic Coffee,2025-05-19,14:30,Fitness Enthusiast,regular,Store C,Debit Card
+TXN_000009,CUST_0057,Dark Chocolate;Butter,2025-02-25,14:49,Book Lover,new,Store A,Mobile Payment
+TXN_000010,CUST_0092,Body Wash;Nike Socks;Supplement Pills;Converse All Stars;Deodorant,2025-02-05,14:54,Fashion Conscious,regular,Online,Cash
+TXN_000011,CUST_0042,Instant Pot;Food Processor;BBQ Grill;Honey;Cereal;Vacuum Cleaner;Milk;Solar Lights;Tomato Sauce;Skincare Set,2025-02-20,08:50,Home Cook,regular,Store C,Credit Card
+TXN_000012,CUST_0014,1984;To Kill a Mockingbird;Romance Novel,2025-03-16,11:30,General Shopper,vip,Store C,Credit Card
+TXN_000013,CUST_0203,Salmon,2025-01-26,18:21,Home Cook,regular,Store C,Mobile Payment
+TXN_000014,CUST_0033,Solar Lights;Green Tea;Air Fryer;Lawn Mower;Quinoa;Instant Pot;Coffee Maker;Outdoor Furniture,2025-04-09,12:04,Home Cook,vip,Store A,Credit Card
+TXN_000015,CUST_0133,Tommy Hilfiger Jacket;Nike Air Max,2025-04-29,20:29,Fashion Conscious,regular,Store C,Credit Card
+TXN_000016,CUST_0215,Soccer Ball;Backpack;Resistance Bands;Fitness Tracker;Yoga Mat;Sunscreen;Fishing Rod;Golf Balls;Mountain Bike,2025-04-24,09:33,Fitness Enthusiast,regular,Store C,Cash
+TXN_000017,CUST_0092,Body Wash;Shampoo;Nike Socks;Face Cream;Electric Toothbrush;Toothpaste;Dumbbells;Skincare Set,2025-01-30,18:43,Fashion Conscious,regular,Store C,Credit Card
+TXN_000018,CUST_0023,Dark Chocolate;Peanut Butter;Vegetables;Instant Pot;Stand Mixer;Air Fryer;Microwave;Nuts Mix;Vacuum Cleaner,2025-05-14,19:18,Home Cook,regular,Store C,Mobile Payment
+TXN_000019,CUST_0129,Outdoor Furniture;Honey;Cereal;Milk;Garden Hose;Solar Lights;Flower Pots;Yogurt;Plant Fertilizer;Eggs;Deodorant,2025-01-24,17:30,Home Cook,regular,Store C,Credit Card
+TXN_000020,CUST_0060,Deodorant;Body Wash,2025-05-18,19:30,Fashion Conscious,regular,Store C,Debit Card
+TXN_000021,CUST_0092,Shampoo;Vitamins;Converse All Stars;Resistance Bands;Ray-Ban Sunglasses,2025-03-06,12:09,Fashion Conscious,regular,Online,Credit Card
+TXN_000022,CUST_0039,Quinoa;Game of Thrones;Bread;The Great Gatsby,2025-07-23,19:35,Book Lover,regular,Store B,Credit Card
+TXN_000023,CUST_0102,Biography;Milk,2025-04-16,19:33,Book Lover,regular,Online,Credit Card
+TXN_000024,CUST_0219,Snowboard;Tennis Balls;Surfboard;Running Shoes;Resistance Bands;Shampoo;Tennis Racket,2025-02-02,08:44,Fitness Enthusiast,vip,Store A,Debit Card
+TXN_000025,CUST_0030,Kindle;Power Bank;Graphics Card RTX 4070;USB-C Cable;Gaming Keyboard;PlayStation 5;AirPods Pro,2025-03-16,11:42,Tech Enthusiast,regular,Store A,Cash
+TXN_000026,CUST_0035,Conditioner,2025-04-23,17:55,Fitness Enthusiast,vip,Store B,Credit Card
+TXN_000027,CUST_0116,Makeup Kit,2025-04-15,07:19,Fashion Conscious,vip,Store C,Debit Card
+TXN_000028,CUST_0238,Tomato Sauce;The Great Gatsby;Orange Juice,2025-04-16,07:33,Book Lover,new,Online,Debit Card
+TXN_000029,CUST_0021,Adidas Ultraboost;Dumbbells,2025-03-25,13:12,Fashion Conscious,new,Store B,Credit Card
+TXN_000030,CUST_0122,Gaming Keyboard;PlayStation 5;Wireless Charger,2025-02-22,11:34,Tech Enthusiast,new,Online,Credit Card
+TXN_000031,CUST_0035,Soccer Ball;Fitness Tracker;Mountain Bike;Tennis Racket,2025-02-19,14:40,Fitness Enthusiast,vip,Store A,Credit Card
+TXN_000032,CUST_0107,Yoga Mat,2025-05-15,11:37,Fitness Enthusiast,new,Online,Credit Card
+TXN_000033,CUST_0122,USB-C Cable;External SSD;Nintendo Switch;Dell XPS 13;Gaming Keyboard,2025-04-24,17:18,Tech Enthusiast,new,Online,Cash
+TXN_000034,CUST_0100,Dumbbells;Yoga Mat;Moisturizer;Vitamins;Toothpaste;Uniqlo Sweater;Body Wash,2025-06-07,12:53,Fashion Conscious,new,Store A,Mobile Payment
+TXN_000035,CUST_0164,Graphics Card RTX 4070;Power Bank,2025-04-02,23:31,Tech Enthusiast,regular,Store A,Credit Card
+TXN_000036,CUST_0089,Twilight;Self-Help Book;Quinoa;Milk,2025-05-21,20:46,Book Lover,regular,Store C,Debit Card
+TXN_000037,CUST_0036,iPad Mini;Sony WH-1000XM5,2025-06-12,08:13,Tech Enthusiast,regular,Store B,Credit Card
+TXN_000038,CUST_0070,Yogurt;Cereal,2025-06-11,17:29,Book Lover,new,Store C,Credit Card
+TXN_000039,CUST_0195,Cheese;Peanut Butter;Fruits,2025-06-28,16:28,Book Lover,new,Store A,Credit Card
+TXN_000040,CUST_0076,Mystery Novel,2025-05-08,15:05,Book Lover,regular,Store B,Credit Card
+TXN_000041,CUST_0012,Toothpaste;Vitamins;Supplement Pills,2025-05-10,11:34,Fashion Conscious,new,Store C,Credit Card
+TXN_000042,CUST_0149,Plant Fertilizer;Lawn Mower;Olive Oil;Green Tea;Flower Pots;Solar Lights;Quinoa;Garden Hose,2025-02-19,05:56,Home Cook,regular,Store B,Credit Card
+TXN_000043,CUST_0214,Conditioner;Gap Jeans;Vans Old Skool;Fitness Tracker,2025-04-03,12:54,Fashion Conscious,vip,Store C,Credit Card
+TXN_000044,CUST_0032,Vitamins;Tommy Hilfiger Jacket;Uniqlo Sweater;Under Armour T-Shirt,2025-02-05,11:32,Fashion Conscious,regular,Store C,Debit Card
+TXN_000045,CUST_0096,"Skincare Set;Microsoft Surface;Nike Hoodie;Makeup Kit;Smart TV 55""",2025-06-26,22:08,General Shopper,regular,Store A,Cash
+TXN_000046,CUST_0067,Graphics Card RTX 4070,2025-02-26,11:50,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000047,CUST_0151,Face Cream,2025-05-28,18:14,Fitness Enthusiast,new,Online,Mobile Payment
+TXN_000048,CUST_0206,Deodorant;Toothpaste,2025-03-13,20:41,Fitness Enthusiast,new,Online,Credit Card
+TXN_000049,CUST_0100,Polo Ralph Lauren Shirt;Face Cream;Under Armour T-Shirt,2025-03-06,07:43,Fashion Conscious,new,Store C,Debit Card
+TXN_000050,CUST_0107,Water Bottle,2025-04-16,15:08,Fitness Enthusiast,new,Online,Credit Card
+TXN_000051,CUST_0190,Chicken Breast;Romance Novel;Tomato Sauce;Pasta;To Kill a Mockingbird;Butter,2025-05-22,14:15,Book Lover,regular,Store A,Cash
+TXN_000052,CUST_0041,Conditioner,2025-03-12,11:21,Fashion Conscious,new,Store B,Mobile Payment
+TXN_000053,CUST_0104,Lawn Mower;Toaster;Quinoa;Green Tea;Rice Cooker;Organic Coffee;Flower Pots;Fruits;Butter;Bread;Olive Oil;Food Processor,2025-03-12,10:14,Home Cook,regular,Store A,Debit Card
+TXN_000054,CUST_0079,Sleeping Bag,2025-06-08,19:15,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000055,CUST_0124,Tennis Balls;Gym Bag;Moisturizer;Fitness Tracker,2025-04-25,14:21,Fitness Enthusiast,new,Store C,Mobile Payment
+TXN_000056,CUST_0225,Kindle;Apple Watch;Gaming Keyboard;iPad,2025-04-26,12:25,Tech Enthusiast,regular,Store B,Credit Card
+TXN_000057,CUST_0122,Samsung Galaxy S24;4K Monitor;Gaming Keyboard;Power Bank,2025-02-20,20:04,Tech Enthusiast,new,Store C,Mobile Payment
+TXN_000058,CUST_0030,Dell XPS 13;Xbox Series X;Nintendo Switch;iPhone 15,2025-06-30,05:08,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000059,CUST_0210,Makeup Kit;Fitness Tracker,2025-04-30,21:35,Fashion Conscious,regular,Online,Credit Card
+TXN_000060,CUST_0123,Converse All Stars;Hair Dryer;Calvin Klein Underwear;Fitness Tracker,2025-02-06,16:23,Fashion Conscious,new,Store B,Credit Card
+TXN_000061,CUST_0157,Vitamins;Moisturizer,2025-06-10,18:32,Fashion Conscious,regular,Store C,Credit Card
+TXN_000062,CUST_0241,Rice,2025-06-28,11:01,Book Lover,regular,Online,Debit Card
+TXN_000063,CUST_0095,Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Calvin Klein Underwear;Tommy Hilfiger Jacket;Protein Powder;Nike Air Max;Electric Toothbrush,2025-05-19,20:55,Fashion Conscious,regular,Store C,Credit Card
+TXN_000064,CUST_0137,Power Bank;Graphics Card RTX 4070;Apple Watch;Webcam;4K Monitor;Gaming Keyboard;Nintendo Switch;Kindle,2025-07-20,07:20,Tech Enthusiast,new,Store B,Debit Card
+TXN_000065,CUST_0019,Calvin Klein Underwear;Vitamins;Converse All Stars;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Toothpaste,2025-04-23,16:51,Fashion Conscious,regular,Store A,Cash
+TXN_000066,CUST_0027,USB-C Cable;Graphics Card RTX 4070,2025-03-02,10:56,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000067,CUST_0008,Honey;Cheese;Salmon,2025-05-07,10:07,Book Lover,regular,Store B,Credit Card
+TXN_000068,CUST_0101,Game of Thrones;Conditioner,2025-06-28,12:33,Book Lover,new,Online,Credit Card
+TXN_000069,CUST_0073,4K Monitor,2025-05-16,14:26,Tech Enthusiast,vip,Store C,Debit Card
+TXN_000070,CUST_0175,Science Fiction Novel;The Great Gatsby;Romance Novel,2025-02-16,18:56,Book Lover,new,Store B,Mobile Payment
+TXN_000071,CUST_0244,Adidas Ultraboost;Uniqlo Sweater;Skincare Set;Nike Socks;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Adidas Track Pants;Champion Hoodie,2025-04-29,15:15,Fashion Conscious,new,Store B,Debit Card
+TXN_000072,CUST_0155,Hair Dryer;Skincare Set;Body Wash;Shampoo;Protein Powder;Nike Air Max;Nike Hoodie,2025-03-14,16:06,Fashion Conscious,regular,Online,Credit Card
+TXN_000073,CUST_0093,Nintendo Switch;External SSD;MacBook Pro;iPad Mini,2025-02-05,23:16,Tech Enthusiast,regular,Online,Credit Card
+TXN_000074,CUST_0123,Body Wash;Hair Dryer;Shampoo;Tommy Hilfiger Jacket;Toothpaste,2025-06-01,15:28,Fashion Conscious,new,Store C,Debit Card
+TXN_000075,CUST_0089,Organic Coffee;Biography;Art Book;Orange Juice,2025-02-18,14:24,Book Lover,regular,Store A,Cash
+TXN_000076,CUST_0019,Nike Hoodie;H&M T-Shirt;Under Armour T-Shirt,2025-06-11,02:51,Fashion Conscious,regular,Store A,Credit Card
+TXN_000077,CUST_0059,Perfume;Fishing Rod;Vitamins;Conditioner;Mountain Bike;Fitness Tracker,2025-02-23,17:45,Fitness Enthusiast,vip,Store B,Credit Card
+TXN_000078,CUST_0123,Uniqlo Sweater;Polo Ralph Lauren Shirt;Champion Hoodie;Levi's Jeans;Tommy Hilfiger Jacket;Ray-Ban Sunglasses;Yoga Mat;Under Armour T-Shirt,2025-02-03,17:19,Fashion Conscious,new,Online,Debit Card
+TXN_000079,CUST_0063,Bluetooth Speaker;Wireless Charger;MacBook Pro;iPad Mini;RAM 16GB,2025-04-03,13:28,Tech Enthusiast,regular,Store B,Credit Card
+TXN_000080,CUST_0161,Yogurt;Orange Juice;Eggs;Peanut Butter,2025-05-13,15:05,Home Cook,vip,Store A,Debit Card
+TXN_000081,CUST_0195,Dark Chocolate;Organic Coffee;Rice;Quinoa;Magazine,2025-03-27,09:08,Book Lover,new,Online,Credit Card
+TXN_000082,CUST_0164,USB-C Cable;Gaming Mouse;Apple Watch;RAM 16GB;Webcam,2025-03-22,19:57,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000083,CUST_0117,Apple Watch,2025-06-28,17:27,Tech Enthusiast,vip,Store C,Credit Card
+TXN_000084,CUST_0100,Protein Powder;Tommy Hilfiger Jacket;Champion Hoodie,2025-06-01,14:29,Fashion Conscious,new,Store A,Debit Card
+TXN_000085,CUST_0000,Swimming Goggles;Basketball,2025-02-02,16:29,Fitness Enthusiast,regular,Online,Debit Card
+TXN_000086,CUST_0050,Honey;Pride and Prejudice,2025-03-05,12:49,Book Lover,new,Online,Credit Card
+TXN_000087,CUST_0064,Zara Dress;Vitamins;Adidas Track Pants;Calvin Klein Underwear;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Electric Toothbrush;Conditioner,2025-05-29,15:35,Fashion Conscious,regular,Store A,Debit Card
+TXN_000088,CUST_0095,Calvin Klein Underwear;Perfume;Toothpaste;Under Armour T-Shirt,2025-06-25,19:14,Fashion Conscious,regular,Store A,Mobile Payment
+TXN_000089,CUST_0100,Uniqlo Sweater;Skincare Set;Nike Socks,2025-06-27,09:11,Fashion Conscious,new,Store C,Debit Card
+TXN_000090,CUST_0017,iPhone 15,2025-02-24,16:17,Tech Enthusiast,new,Store B,Credit Card
+TXN_000091,CUST_0057,Game of Thrones;Magazine,2025-07-16,06:13,Book Lover,new,Online,Credit Card
+TXN_000092,CUST_0152,Golf Balls;Resistance Bands;Yoga Mat;Tennis Balls;Ski Equipment;Basketball;Olive Oil,2025-02-27,20:34,Fitness Enthusiast,new,Store C,Cash
+TXN_000093,CUST_0078,To Kill a Mockingbird;Science Fiction Novel,2025-05-28,10:36,Book Lover,regular,Online,Credit Card
+TXN_000094,CUST_0123,Vans Old Skool;Gap Jeans;Moisturizer;Adidas Ultraboost;Dumbbells,2025-02-16,08:50,Fashion Conscious,new,Store B,Credit Card
+TXN_000095,CUST_0040,Golf Clubs,2025-04-27,08:39,Fitness Enthusiast,regular,Online,Cash
+TXN_000096,CUST_0044,Ski Equipment;Bread,2025-06-17,13:05,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000097,CUST_0220,Dumbbells;Nike Socks;Fitness Tracker;Nike Air Max;Perfume,2025-02-01,19:12,Fashion Conscious,regular,Store C,Credit Card
+TXN_000098,CUST_0112,Eggs;Milk;Flower Pots;Toaster;Garden Hose;Cereal;Rice Cooker;Lawn Mower;Moisturizer,2025-06-17,14:21,Home Cook,regular,Store A,Credit Card
+TXN_000099,CUST_0205,Olive Oil;Twilight,2025-05-27,20:40,Book Lover,vip,Store B,Mobile Payment
+TXN_000100,CUST_0195,Harry Potter Series;History Book;Biography;Dark Chocolate;Game of Thrones,2025-03-21,17:19,Book Lover,new,Store A,Debit Card
+TXN_000101,CUST_0054,iPad;External SSD;Gaming Mouse;PlayStation 5;Apple Watch;Graphics Card RTX 4070;Rice,2025-03-14,17:14,Tech Enthusiast,vip,Online,Credit Card
+TXN_000102,CUST_0232,Backpack;Hiking Boots;Golf Clubs;Golf Balls;Basketball;Gym Bag;Salmon,2025-07-02,06:24,Fitness Enthusiast,regular,Store B,Debit Card
+TXN_000103,CUST_0042,Garden Tools Set;Stand Mixer;Orange Juice;Food Processor;Blender;Toaster,2025-07-22,09:28,Home Cook,regular,Store A,Credit Card
+TXN_000104,CUST_0224,Vegetables;Toaster;Garden Hose,2025-02-21,15:21,General Shopper,regular,Store A,Credit Card
+TXN_000105,CUST_0119,Mountain Bike;Gym Bag;Vitamins;Backpack,2025-01-26,10:18,Fitness Enthusiast,new,Online,Cash
+TXN_000106,CUST_0098,Camping Tent,2025-02-19,19:38,Fitness Enthusiast,new,Store B,Mobile Payment
+TXN_000107,CUST_0244,Nike Socks;Nike Air Max;Adidas Ultraboost;Dumbbells,2025-03-25,10:37,Fashion Conscious,new,Store B,Credit Card
+TXN_000108,CUST_0042,Tomato Sauce;Garden Hose;Green Tea;Patio Umbrella;Plant Fertilizer;Chicken Breast;Eggs;Shampoo,2025-05-07,12:21,Home Cook,regular,Store C,Debit Card
+TXN_000109,CUST_0087,Nuts Mix;Cereal,2025-07-09,13:19,Home Cook,regular,Store C,Credit Card
+TXN_000110,CUST_0091,Under Armour T-Shirt;Nike Hoodie;Deodorant,2025-05-15,17:24,Fashion Conscious,new,Online,Mobile Payment
+TXN_000111,CUST_0024,Salmon;Twilight;1984,2025-04-10,00:38,Book Lover,vip,Store C,Debit Card
+TXN_000112,CUST_0122,Sony WH-1000XM5;AirPods Pro;Apple Watch;iPhone 15;Wireless Charger;Nintendo Switch,2025-03-11,15:49,Tech Enthusiast,new,Online,Credit Card
+TXN_000113,CUST_0124,Moisturizer;Yoga Mat;Deodorant;Protein Bars,2025-06-18,20:04,Fitness Enthusiast,new,Store C,Debit Card
+TXN_000114,CUST_0026,Nike Hoodie;Dumbbells,2025-06-04,17:03,Fashion Conscious,regular,Online,Credit Card
+TXN_000115,CUST_0071,Eggs;Cheese,2025-05-15,09:29,Book Lover,new,Store C,Cash
+TXN_000116,CUST_0016,Eggs;Lawn Mower;Butter;Blender;Electric Kettle;Chicken Breast;Fruits;Patio Umbrella;Orange Juice;Garden Hose;Solar Lights;BBQ Grill,2025-05-01,13:49,Home Cook,vip,Online,Debit Card
+TXN_000117,CUST_0084,Vitamins;Bike Helmet;Backpack;Mountain Bike;Toothpaste;Yoga Mat;Perfume,2025-05-21,14:49,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000118,CUST_0089,To Kill a Mockingbird;Game of Thrones;Fruits;Resistance Bands,2025-04-23,17:42,Book Lover,regular,Store A,Cash
+TXN_000119,CUST_0071,Biography;Mystery Novel;Rice;Self-Help Book,2025-02-24,12:07,Book Lover,new,Store A,Debit Card
+TXN_000120,CUST_0030,PlayStation 5;iPad;Sony WH-1000XM5,2025-04-22,04:50,Tech Enthusiast,regular,Online,Mobile Payment
+TXN_000121,CUST_0099,Dark Chocolate;Olive Oil;Garden Tools Set;Garden Hose;Lawn Mower;Yogurt;Milk,2025-04-30,07:32,Home Cook,new,Online,Credit Card
+TXN_000122,CUST_0172,Food Processor;Instant Pot;Air Fryer;Garden Tools Set;Chicken Breast;Toaster;Lawn Mower,2025-01-29,14:26,Home Cook,regular,Store C,Cash
+TXN_000123,CUST_0187,Makeup Kit;Yoga Mat;Perfume;Resistance Bands,2025-06-26,22:21,Fashion Conscious,regular,Online,Cash
+TXN_000124,CUST_0246,Game of Thrones;Science Fiction Novel;Chicken Breast,2025-07-13,22:35,Book Lover,new,Store A,Debit Card
+TXN_000125,CUST_0010,Vans Old Skool;Hair Dryer;Calvin Klein Underwear;Vitamins;Skincare Set;Protein Powder;Body Wash,2025-02-20,13:14,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000126,CUST_0034,Nike Socks;Perfume,2025-03-26,16:17,Fashion Conscious,new,Store A,Credit Card
+TXN_000127,CUST_0071,Eggs;Peanut Butter;History Book,2025-05-22,18:11,Book Lover,new,Online,Cash
+TXN_000128,CUST_0106,Nike Air Max;Resistance Bands;Yoga Mat;Shampoo,2025-07-09,09:01,Fashion Conscious,regular,Store C,Credit Card
+TXN_000129,CUST_0011,Perfume;Supplement Pills;Conditioner,2025-03-22,14:58,Fitness Enthusiast,new,Store A,Debit Card
+TXN_000130,CUST_0075,Supplement Pills,2025-06-14,17:23,General Shopper,new,Store B,Mobile Payment
+TXN_000131,CUST_0146,Polo Ralph Lauren Shirt;Tommy Hilfiger Jacket;Ray-Ban Sunglasses;Under Armour T-Shirt;Levi's Jeans;Gap Jeans;Nike Hoodie,2025-02-06,17:58,Fashion Conscious,vip,Store C,Mobile Payment
+TXN_000132,CUST_0131,Vitamins;Body Wash;Gym Bag;Makeup Kit;Resistance Bands,2025-05-21,16:19,Fitness Enthusiast,regular,Store A,Credit Card
+TXN_000133,CUST_0106,Nike Socks;Nike Air Max;Champion Hoodie,2025-02-02,17:57,Fashion Conscious,regular,Store C,Credit Card
+TXN_000134,CUST_0243,Tennis Balls;Tennis Racket;Sunscreen,2025-02-14,19:03,Fitness Enthusiast,regular,Store A,Debit Card
+TXN_000135,CUST_0196,Nike Socks;Dumbbells;Toothpaste,2025-03-19,19:32,Fashion Conscious,new,Online,Cash
+TXN_000136,CUST_0054,Gaming Keyboard;4K Monitor,2025-04-26,17:20,Tech Enthusiast,vip,Store A,Mobile Payment
+TXN_000137,CUST_0137,Dell XPS 13;Apple Watch;iPhone 15;Bluetooth Speaker,2025-05-10,19:39,Tech Enthusiast,new,Online,Debit Card
+TXN_000138,CUST_0035,Conditioner;Tennis Balls;Makeup Kit;Fishing Rod,2025-03-17,10:20,Fitness Enthusiast,vip,Store C,Credit Card
+TXN_000139,CUST_0015,MacBook Pro,2025-07-16,11:24,Tech Enthusiast,new,Store C,Cash
+TXN_000140,CUST_0174,Flower Pots;Garden Tools Set;Eggs;Green Tea;Garden Hose;Chicken Breast;Rice Cooker;Vegetables;Nuts Mix,2025-06-26,16:15,Home Cook,regular,Store C,Credit Card
+TXN_000141,CUST_0084,Perfume;Camping Tent,2025-06-26,11:52,Fitness Enthusiast,new,Store C,Debit Card
+TXN_000142,CUST_0044,Conditioner;Swimming Goggles;Basketball;Skincare Set;Fitness Tracker;Dumbbells,2025-05-02,11:12,Fitness Enthusiast,regular,Store B,Mobile Payment
+TXN_000143,CUST_0110,Resistance Bands;Electric Toothbrush;Adidas Track Pants,2025-02-27,16:22,Fashion Conscious,vip,Store A,Debit Card
+TXN_000144,CUST_0116,Sunscreen;Hair Dryer,2025-07-10,16:20,Fashion Conscious,vip,Store B,Cash
+TXN_000145,CUST_0092,Moisturizer;Skincare Set,2025-07-23,11:37,Fashion Conscious,regular,Store C,Credit Card
+TXN_000146,CUST_0097,Conditioner;Vans Old Skool;Calvin Klein Underwear;Skincare Set,2025-04-05,11:23,Fashion Conscious,vip,Store B,Mobile Payment
+TXN_000147,CUST_0197,Snowboard;Body Wash;Camping Tent,2025-07-12,09:41,Fitness Enthusiast,new,Online,Debit Card
+TXN_000148,CUST_0181,Skincare Set;Nike Socks;Nike Air Max;Makeup Kit;Electric Toothbrush,2025-02-27,12:38,Fashion Conscious,regular,Online,Mobile Payment
+TXN_000149,CUST_0216,Chicken Breast;BBQ Grill;Cheese;Protein Bars;Patio Umbrella;Microwave;Food Processor;Plant Fertilizer;Lawn Mower;Butter;Conditioner,2025-02-20,16:19,Home Cook,vip,Store A,Mobile Payment
+TXN_000150,CUST_0116,Conditioner;Calvin Klein Underwear,2025-05-22,11:20,Fashion Conscious,vip,Store A,Credit Card
+TXN_000151,CUST_0101,Salmon;Pride and Prejudice;Tomato Sauce;Harry Potter Series,2025-07-16,17:18,Book Lover,new,Online,Credit Card
+TXN_000152,CUST_0194,Samsung Galaxy S24;Calvin Klein Underwear;Polo Ralph Lauren Shirt,2025-05-04,18:30,General Shopper,regular,Online,Debit Card
+TXN_000153,CUST_0121,Electric Toothbrush;Orange Juice,2025-04-08,17:57,Fitness Enthusiast,new,Store A,Debit Card
+TXN_000154,CUST_0200,Calvin Klein Underwear;Body Wash,2025-05-29,12:42,Fashion Conscious,regular,Store C,Credit Card
+TXN_000155,CUST_0052,Game of Thrones;Under Armour T-Shirt;Levi's Jeans;The Great Gatsby;To Kill a Mockingbird;Art Book;Magazine,2025-05-26,17:54,General Shopper,regular,Online,Mobile Payment
+TXN_000156,CUST_0071,Magazine;Tomato Sauce;Science Fiction Novel;The Great Gatsby,2025-04-21,16:00,Book Lover,new,Online,Credit Card
+TXN_000157,CUST_0073,MacBook Pro,2025-04-11,13:01,Tech Enthusiast,vip,Store B,Debit Card
+TXN_000158,CUST_0021,Vitamins;Polo Ralph Lauren Shirt;Nike Hoodie;Under Armour T-Shirt;Levi's Jeans;Vans Old Skool;Ray-Ban Sunglasses;Deodorant,2025-06-11,17:16,Fashion Conscious,new,Store A,Cash
+TXN_000159,CUST_0047,"Power Bank;Graphics Card RTX 4070;MacBook Pro;External SSD;Smart TV 55"";Webcam;Samsung Galaxy S24;Dell XPS 13;iPad Mini",2025-05-07,07:50,Tech Enthusiast,vip,Store B,Mobile Payment
+TXN_000160,CUST_0140,Garden Tools Set;Nuts Mix;Quinoa;Eggs;Salmon;Food Processor;Cheese;Yogurt;Olive Oil;Honey,2025-07-23,18:23,Home Cook,regular,Store B,Debit Card
+TXN_000161,CUST_0020,Body Wash;Snowboard;Fishing Rod,2025-07-16,01:39,Fitness Enthusiast,vip,Online,Debit Card
+TXN_000162,CUST_0211,BBQ Grill;Microwave;Green Tea;Toaster,2025-07-23,14:50,Home Cook,regular,Online,Credit Card
+TXN_000163,CUST_0234,Pride and Prejudice;Magazine;Nuts Mix,2025-04-26,17:39,Book Lover,regular,Store A,Mobile Payment
+TXN_000164,CUST_0024,Salmon,2025-04-15,11:24,Book Lover,vip,Store C,Credit Card
+TXN_000165,CUST_0025,Butter;Yogurt;Pasta,2025-02-10,17:31,General Shopper,new,Store A,Debit Card
+TXN_000166,CUST_0244,Polo Ralph Lauren Shirt;Resistance Bands;Dumbbells,2025-07-02,21:29,Fashion Conscious,new,Online,Credit Card
+TXN_000167,CUST_0041,Converse All Stars;Supplement Pills;Calvin Klein Underwear;Nike Hoodie;Fitness Tracker;Protein Powder;Tommy Hilfiger Jacket,2025-06-06,18:52,Fashion Conscious,new,Store A,Debit Card
+TXN_000168,CUST_0056,Sony WH-1000XM5,2025-07-22,20:41,General Shopper,regular,Store C,Credit Card
+TXN_000169,CUST_0077,Running Shoes,2025-03-05,10:03,Fitness Enthusiast,new,Store A,Mobile Payment
+TXN_000170,CUST_0048,Polo Ralph Lauren Shirt;Adidas Ultraboost;Ray-Ban Sunglasses;Resistance Bands,2025-01-24,08:45,Fashion Conscious,vip,Store C,Credit Card
+TXN_000171,CUST_0201,Green Tea;Toaster;Microwave,2025-03-22,13:28,Home Cook,regular,Store A,Debit Card
+TXN_000172,CUST_0005,Deodorant;Converse All Stars;Skincare Set;Vans Old Skool;Nike Socks;Uniqlo Sweater,2025-03-02,14:10,Fashion Conscious,regular,Store A,Mobile Payment
+TXN_000173,CUST_0123,Converse All Stars;Moisturizer;Resistance Bands;Gap Jeans,2025-02-04,13:22,Fashion Conscious,new,Store A,Credit Card
+TXN_000174,CUST_0105,Backpack;Body Wash;Sleeping Bag,2025-03-14,12:12,Fitness Enthusiast,regular,Store A,Debit Card
+TXN_000175,CUST_0168,Nintendo Switch;Apple Watch,2025-03-06,13:54,Tech Enthusiast,regular,Store B,Credit Card
+TXN_000176,CUST_0043,"iPad Mini;Dell XPS 13;Smart TV 55"";Apple Watch",2025-04-30,22:55,Tech Enthusiast,new,Online,Mobile Payment
+TXN_000177,CUST_0154,Rice Cooker;Fruits;Bread;Garden Tools Set;Electric Kettle;Pasta;Quinoa,2025-02-28,05:35,Home Cook,regular,Store B,Cash
+TXN_000178,CUST_0147,Skincare Set;Levi's Jeans;Tommy Hilfiger Jacket;Resistance Bands,2025-04-20,09:13,Fashion Conscious,regular,Online,Debit Card
+TXN_000179,CUST_0235,Electric Toothbrush;Adidas Track Pants;Under Armour T-Shirt;Levi's Jeans;Toothpaste;Fitness Tracker;Deodorant;Polo Ralph Lauren Shirt;Butter;H&M T-Shirt,2025-05-15,17:45,Fashion Conscious,vip,Store C,Debit Card
+TXN_000180,CUST_0067,iPad;Kindle;Microsoft Surface,2025-06-06,19:52,Tech Enthusiast,regular,Online,Credit Card
+TXN_000181,CUST_0074,Sony WH-1000XM5,2025-02-20,10:12,Tech Enthusiast,regular,Store C,Cash
+TXN_000182,CUST_0039,Mystery Novel,2025-05-01,16:20,Book Lover,regular,Store C,Debit Card
+TXN_000183,CUST_0239,Champion Hoodie;Tommy Hilfiger Jacket;Sunscreen;Fitness Tracker;Protein Powder;Face Cream;Hair Dryer;Shampoo;Nike Air Max,2025-05-22,17:22,Fashion Conscious,regular,Store C,Credit Card
+TXN_000184,CUST_0186,Bread;Milk,2025-02-22,12:13,Book Lover,vip,Online,Debit Card
+TXN_000185,CUST_0061,Pride and Prejudice;Dark Chocolate,2025-04-17,13:32,Book Lover,vip,Store A,Cash
+TXN_000186,CUST_0057,History Book;Pride and Prejudice,2025-06-26,15:12,Book Lover,new,Online,Credit Card
+TXN_000187,CUST_0114,Nuts Mix;BBQ Grill;Electric Kettle;Quinoa;Honey;Organic Coffee;Fruits,2025-04-11,16:50,Home Cook,new,Online,Debit Card
+TXN_000188,CUST_0068,Adidas Ultraboost;Levi's Jeans;Nike Socks;Hair Dryer;Yoga Mat,2025-02-12,19:49,Fashion Conscious,vip,Store B,Credit Card
+TXN_000189,CUST_0033,Vacuum Cleaner;Chicken Breast;Garden Tools Set;Lawn Mower;Instant Pot;Vegetables;Rice,2025-06-11,13:26,Home Cook,vip,Store C,Credit Card
+TXN_000190,CUST_0142,Microwave;Electric Kettle;Green Tea;Lawn Mower;Toaster;Patio Umbrella;Honey;Solar Lights;Garden Hose,2025-06-09,11:51,Home Cook,regular,Store A,Credit Card
+TXN_000191,CUST_0224,Butter;Bread;Champion Hoodie;Green Tea,2025-03-12,08:08,General Shopper,regular,Online,Credit Card
+TXN_000192,CUST_0131,Tennis Racket;Vitamins;Deodorant;Face Cream;Golf Clubs,2025-03-19,16:16,Fitness Enthusiast,regular,Store C,Debit Card
+TXN_000193,CUST_0165,Yogurt;Cereal;Nuts Mix;Microwave;Stand Mixer;Flower Pots,2025-07-23,19:19,Home Cook,new,Store A,Cash
+TXN_000194,CUST_0035,Fitness Tracker;Vitamins;Golf Clubs;Camping Tent,2025-02-09,16:01,Fitness Enthusiast,vip,Store B,Mobile Payment
+TXN_000195,CUST_0089,Mystery Novel;Milk,2025-03-20,15:08,Book Lover,regular,Online,Credit Card
+TXN_000196,CUST_0055,Soccer Ball;Gym Bag,2025-05-25,14:54,Fitness Enthusiast,vip,Store B,Credit Card
+TXN_000197,CUST_0081,Gap Jeans,2025-01-26,00:07,Fashion Conscious,regular,Store C,Credit Card
+TXN_000198,CUST_0088,Gaming Mouse;Chicken Breast,2025-03-19,02:18,General Shopper,regular,Store C,Mobile Payment
+TXN_000199,CUST_0173,"Smart TV 55"";Bluetooth Speaker;Apple Watch;iPad",2025-03-12,08:31,Tech Enthusiast,regular,Store B,Credit Card
+TXN_000200,CUST_0102,Vegetables;Green Tea;Cookbook;Butter;1984,2025-05-02,07:46,Book Lover,regular,Store C,Debit Card
+TXN_000201,CUST_0041,Nike Hoodie;Levi's Jeans;Tommy Hilfiger Jacket;Perfume;Sunscreen;Adidas Ultraboost,2025-02-15,02:47,Fashion Conscious,new,Store A,Credit Card
+TXN_000202,CUST_0010,Dumbbells;Tommy Hilfiger Jacket;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Nike Hoodie;Sunscreen;Perfume;Calvin Klein Underwear,2025-05-10,13:56,Fashion Conscious,regular,Store A,Credit Card
+TXN_000203,CUST_0100,Nike Hoodie;Polo Ralph Lauren Shirt;Adidas Ultraboost;Face Cream,2025-06-16,20:48,Fashion Conscious,new,Store B,Cash
+TXN_000204,CUST_0068,Yoga Mat;Skincare Set;Conditioner;Face Cream,2025-07-09,08:02,Fashion Conscious,vip,Store A,Credit Card
+TXN_000205,CUST_0152,Golf Clubs;Gym Bag;Dumbbells;Supplement Pills,2025-03-20,15:05,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000206,CUST_0080,H&M T-Shirt;Polo Ralph Lauren Shirt;Fitness Tracker;Yoga Mat;Makeup Kit,2025-02-06,13:15,Fashion Conscious,new,Store B,Mobile Payment
+TXN_000207,CUST_0171,Gym Bag;Moisturizer;Protein Powder;Cereal,2025-04-03,15:25,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000208,CUST_0120,Toothpaste;H&M T-Shirt;Supplement Pills,2025-03-15,09:29,Fashion Conscious,new,Online,Credit Card
+TXN_000209,CUST_0032,Champion Hoodie;Ray-Ban Sunglasses,2025-04-27,20:07,Fashion Conscious,regular,Store B,Debit Card
+TXN_000210,CUST_0220,Under Armour T-Shirt;Electric Toothbrush;Skincare Set;Deodorant;Zara Dress,2025-07-02,14:29,Fashion Conscious,regular,Store B,Mobile Payment
+TXN_000211,CUST_0083,Power Bank;Gaming Mouse;4K Monitor;Gaming Keyboard;AirPods Pro;iPad Mini;Samsung Galaxy S24,2025-02-15,16:55,Tech Enthusiast,vip,Online,Cash
+TXN_000212,CUST_0084,Hiking Boots;Water Bottle,2025-01-26,15:27,Fitness Enthusiast,new,Store A,Cash
+TXN_000213,CUST_0119,Body Wash,2025-02-24,18:49,Fitness Enthusiast,new,Online,Mobile Payment
+TXN_000214,CUST_0105,Vitamins;Water Bottle,2025-03-02,12:41,Fitness Enthusiast,regular,Store C,Mobile Payment
+TXN_000215,CUST_0176,Apple Watch;Power Bank;Sony WH-1000XM5;Microsoft Surface;Protein Powder,2025-05-23,17:25,Tech Enthusiast,new,Store A,Debit Card
+TXN_000216,CUST_0149,BBQ Grill;Flower Pots;Green Tea;Milk;Peanut Butter,2025-04-15,15:29,Home Cook,regular,Online,Debit Card
+TXN_000217,CUST_0083,4K Monitor;MacBook Pro;Webcam;Bluetooth Speaker;Gaming Keyboard;Samsung Watch;Kindle,2025-07-10,17:52,Tech Enthusiast,vip,Store B,Credit Card
+TXN_000218,CUST_0241,Yogurt;Game of Thrones,2025-04-17,13:35,Book Lover,regular,Online,Debit Card
+TXN_000219,CUST_0040,Hiking Boots,2025-06-20,13:46,Fitness Enthusiast,regular,Online,Debit Card
+TXN_000220,CUST_0074,Microsoft Surface,2025-02-07,07:47,Tech Enthusiast,regular,Online,Cash
+TXN_000221,CUST_0243,Supplement Pills;Toothpaste;Yoga Mat;Running Shoes;Vitamins,2025-07-14,20:09,Fitness Enthusiast,regular,Online,Mobile Payment
+TXN_000222,CUST_0181,Under Armour T-Shirt;Electric Toothbrush,2025-04-16,05:02,Fashion Conscious,regular,Store A,Credit Card
+TXN_000223,CUST_0081,Nike Hoodie;Makeup Kit;Vitamins;Sunscreen;Dumbbells,2025-04-17,14:33,Fashion Conscious,regular,Store A,Mobile Payment
+TXN_000224,CUST_0079,Electric Toothbrush;Hair Dryer;Protein Powder,2025-03-17,00:45,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000225,CUST_0156,Mystery Novel;Cheese;Self-Help Book;To Kill a Mockingbird,2025-03-27,21:03,Book Lover,vip,Store C,Cash
+TXN_000226,CUST_0103,AirPods Pro;Kindle,2025-01-26,20:15,Tech Enthusiast,vip,Store C,Credit Card
+TXN_000227,CUST_0191,Deodorant,2025-03-06,19:27,Fitness Enthusiast,vip,Store A,Debit Card
+TXN_000228,CUST_0059,Golf Clubs,2025-03-11,19:24,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000229,CUST_0141,Pride and Prejudice;Quinoa;Olive Oil,2025-02-05,21:45,Book Lover,new,Store A,Mobile Payment
+TXN_000230,CUST_0051,Fruits;Cheese;Rice Cooker,2025-07-14,17:15,Home Cook,new,Online,Mobile Payment
+TXN_000231,CUST_0005,Conditioner;Shampoo;Ray-Ban Sunglasses,2025-05-15,18:50,Fashion Conscious,regular,Store C,Cash
+TXN_000232,CUST_0223,Organic Coffee;Peanut Butter;Stand Mixer;Air Fryer;Solar Lights;Orange Juice;Protein Bars;Cereal;Eggs,2025-06-30,12:24,Home Cook,regular,Online,Credit Card
+TXN_000233,CUST_0053,Twilight;Self-Help Book;1984;Butter,2025-04-15,08:18,Book Lover,regular,Store A,Credit Card
+TXN_000234,CUST_0012,Under Armour T-Shirt;Moisturizer,2025-07-10,11:21,Fashion Conscious,new,Online,Credit Card
+TXN_000235,CUST_0143,Nike Hoodie;Tommy Hilfiger Jacket;Sunscreen;Uniqlo Sweater;Shampoo;H&M T-Shirt;Levi's Jeans;Polo Ralph Lauren Shirt,2025-01-28,04:38,Fashion Conscious,vip,Store A,Credit Card
+TXN_000236,CUST_0034,Uniqlo Sweater;Vitamins;Moisturizer,2025-03-05,12:33,Fashion Conscious,new,Online,Credit Card
+TXN_000237,CUST_0162,Adidas Ultraboost;Champion Hoodie;Deodorant;Sunscreen;Resistance Bands,2025-01-30,03:17,Fashion Conscious,vip,Store B,Credit Card
+TXN_000238,CUST_0008,To Kill a Mockingbird,2025-06-11,14:14,Book Lover,regular,Store C,Debit Card
+TXN_000239,CUST_0247,Vitamins,2025-06-18,11:48,Fashion Conscious,new,Online,Credit Card
+TXN_000240,CUST_0057,Olive Oil;Cheese;Magazine;Game of Thrones;Cereal,2025-02-12,10:22,Book Lover,new,Online,Mobile Payment
+TXN_000241,CUST_0190,Chicken Breast,2025-04-05,18:33,Book Lover,regular,Store C,Debit Card
+TXN_000242,CUST_0047,AirPods Pro,2025-02-09,08:23,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000243,CUST_0235,Body Wash,2025-06-05,08:45,Fashion Conscious,vip,Store C,Debit Card
+TXN_000244,CUST_0024,Harry Potter Series,2025-04-22,17:20,Book Lover,vip,Store B,Cash
+TXN_000245,CUST_0199,Dumbbells;Fitness Tracker;Supplement Pills;Protein Powder;Electric Toothbrush;Shampoo;Moisturizer,2025-04-06,19:15,General Shopper,regular,Online,Credit Card
+TXN_000246,CUST_0039,The Da Vinci Code,2025-07-23,07:22,Book Lover,regular,Online,Credit Card
+TXN_000247,CUST_0229,Tommy Hilfiger Jacket;Zara Dress,2025-03-06,14:38,Fashion Conscious,new,Store A,Debit Card
+TXN_000248,CUST_0104,Stand Mixer;Chicken Breast;Honey;Cheese;Toaster;Coffee Maker;Eggs;Rice Cooker;Patio Umbrella,2025-07-23,20:23,Home Cook,regular,Store C,Debit Card
+TXN_000249,CUST_0042,Fruits;Quinoa;Food Processor;Protein Bars;Blender;Microwave;Electric Kettle;Organic Coffee;Rice Cooker,2025-04-30,18:45,Home Cook,regular,Online,Credit Card
+TXN_000250,CUST_0110,Champion Hoodie,2025-05-16,09:50,Fashion Conscious,vip,Store A,Credit Card
+TXN_000251,CUST_0001,Nintendo Switch,2025-02-08,11:41,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000252,CUST_0056,"Smart TV 55"";Webcam;Graphics Card RTX 4070;RAM 16GB;Gaming Keyboard;Kindle;USB-C Cable",2025-04-10,04:03,General Shopper,regular,Store A,Credit Card
+TXN_000253,CUST_0021,Moisturizer;Shampoo;Champion Hoodie;H&M T-Shirt;Conditioner;Converse All Stars,2025-02-22,14:38,Fashion Conscious,new,Store A,Cash
+TXN_000254,CUST_0088,"Smart TV 55"";PlayStation 5;Kindle;Gaming Keyboard",2025-04-19,12:21,General Shopper,regular,Store B,Credit Card
+TXN_000255,CUST_0224,Olive Oil;4K Monitor;Webcam;Gaming Keyboard;Tomato Sauce;iPhone 15;Nuts Mix;Microsoft Surface;Wireless Charger;Cheese;Quinoa,2025-01-31,15:18,General Shopper,regular,Store A,Debit Card
+TXN_000256,CUST_0063,Samsung Galaxy S24;Gaming Mouse,2025-07-05,12:31,Tech Enthusiast,regular,Store B,Debit Card
+TXN_000257,CUST_0137,Webcam;Nintendo Switch;Wireless Charger;iPhone 15;Sony WH-1000XM5;AirPods Pro,2025-07-02,07:49,Tech Enthusiast,new,Store B,Credit Card
+TXN_000258,CUST_0101,Peanut Butter,2025-03-14,16:20,Book Lover,new,Online,Debit Card
+TXN_000259,CUST_0170,Tommy Hilfiger Jacket;Nike Air Max;Under Armour T-Shirt;Toothpaste;H&M T-Shirt,2025-02-28,20:57,Fashion Conscious,vip,Store B,Credit Card
+TXN_000260,CUST_0031,Vegetables;Romance Novel;Supplement Pills;Cookbook,2025-04-02,14:18,Book Lover,vip,Store C,Debit Card
+TXN_000261,CUST_0100,Perfume,2025-04-19,15:30,Fashion Conscious,new,Store A,Credit Card
+TXN_000262,CUST_0102,Eggs;Chicken Breast,2025-06-05,20:32,Book Lover,regular,Online,Cash
+TXN_000263,CUST_0087,Plant Fertilizer;Peanut Butter;Bread;Milk;Fitness Tracker,2025-05-28,12:30,Home Cook,regular,Store B,Credit Card
+TXN_000264,CUST_0221,Power Bank;Wireless Charger;iPhone 15;iPad;Kindle;Apple Watch,2025-04-16,18:24,Tech Enthusiast,new,Store B,Mobile Payment
+TXN_000265,CUST_0149,Salmon;Lawn Mower;Orange Juice;Chicken Breast,2025-02-11,08:35,Home Cook,regular,Online,Debit Card
+TXN_000266,CUST_0096,Mystery Novel;Magazine;Champion Hoodie;Biography;Gap Jeans;Honey,2025-03-19,19:41,General Shopper,regular,Store B,Mobile Payment
+TXN_000267,CUST_0063,iPad,2025-02-15,16:33,Tech Enthusiast,regular,Store A,Mobile Payment
+TXN_000268,CUST_0056,Yogurt;Cereal;Honey;Tomato Sauce;Vegetables;Organic Coffee,2025-04-02,11:50,General Shopper,regular,Store B,Cash
+TXN_000269,CUST_0129,Vacuum Cleaner;Cheese;Pasta;Solar Lights;Nuts Mix;Eggs;Salmon;Butter,2025-05-22,05:53,Home Cook,regular,Online,Credit Card
+TXN_000270,CUST_0218,Mountain Bike;Surfboard;Snowboard;Basketball,2025-06-14,07:40,Fitness Enthusiast,regular,Store B,Mobile Payment
+TXN_000271,CUST_0079,Golf Balls;Mountain Bike;Fitness Tracker;Resistance Bands;Surfboard,2025-04-10,19:51,Fitness Enthusiast,new,Store C,Cash
+TXN_000272,CUST_0027,Dell XPS 13;Samsung Watch,2025-06-16,13:20,Tech Enthusiast,vip,Store A,Cash
+TXN_000273,CUST_0038,Toaster;Garden Hose;Blender;Plant Fertilizer;Coffee Maker,2025-06-30,16:56,Home Cook,new,Store B,Mobile Payment
+TXN_000274,CUST_0050,Twilight;Yogurt,2025-02-24,20:18,Book Lover,new,Store B,Cash
+TXN_000275,CUST_0015,Kindle;Samsung Galaxy S24,2025-04-06,15:26,Tech Enthusiast,new,Store A,Credit Card
+TXN_000276,CUST_0195,Vegetables;Orange Juice;Self-Help Book,2025-03-15,15:01,Book Lover,new,Store A,Credit Card
+TXN_000277,CUST_0000,Mountain Bike;Chicken Breast,2025-06-09,18:33,Fitness Enthusiast,regular,Online,Credit Card
+TXN_000278,CUST_0007,Surfboard;Conditioner;Shampoo;Tennis Racket;Electric Toothbrush;Supplement Pills;Protein Powder,2025-07-06,16:37,General Shopper,regular,Store B,Debit Card
+TXN_000279,CUST_0062,Tomato Sauce;Lawn Mower;Honey;Outdoor Furniture;Peanut Butter;Olive Oil;Coffee Maker;Plant Fertilizer;Dark Chocolate,2025-06-19,12:35,Home Cook,vip,Online,Debit Card
+TXN_000280,CUST_0037,Toaster;Coffee Maker;Garden Tools Set,2025-04-10,20:23,Home Cook,vip,Store B,Debit Card
+TXN_000281,CUST_0024,Self-Help Book;Cookbook;Fruits;Romance Novel,2025-06-18,18:13,Book Lover,vip,Online,Cash
+TXN_000282,CUST_0062,Garden Tools Set;Flower Pots;Fruits;Butter;Toaster,2025-05-18,12:42,Home Cook,vip,Online,Credit Card
+TXN_000283,CUST_0189,Outdoor Furniture,2025-06-14,19:46,Home Cook,regular,Store A,Debit Card
+TXN_000284,CUST_0105,Face Cream;Surfboard;Moisturizer;Makeup Kit;Fitness Tracker,2025-03-22,17:12,Fitness Enthusiast,regular,Store B,Debit Card
+TXN_000285,CUST_0077,Resistance Bands;Deodorant;Makeup Kit;Shampoo,2025-07-17,09:19,Fitness Enthusiast,new,Store A,Debit Card
+TXN_000286,CUST_0045,Olive Oil,2025-04-16,08:10,Book Lover,regular,Store A,Credit Card
+TXN_000287,CUST_0115,Flower Pots;Honey;Green Tea;Quinoa;Peanut Butter;Butter;Bread;Olive Oil;Garden Hose;Instant Pot;Coffee Maker,2025-06-17,17:19,Home Cook,regular,Store A,Mobile Payment
+TXN_000288,CUST_0196,Zara Dress,2025-04-02,04:34,Fashion Conscious,new,Store C,Debit Card
+TXN_000289,CUST_0002,"Xbox Series X;Bluetooth Speaker;Smart TV 55"";Apple Watch;4K Monitor;Wireless Charger;Chicken Breast",2025-03-30,23:21,Tech Enthusiast,regular,Store A,Credit Card
+TXN_000290,CUST_0149,Tomato Sauce;Orange Juice;Dark Chocolate;Peanut Butter;Plant Fertilizer,2025-06-22,11:08,Home Cook,regular,Store A,Mobile Payment
+TXN_000291,CUST_0096,Hair Dryer;Resistance Bands;Shampoo;Deodorant;Dumbbells;Supplement Pills;Conditioner;Protein Powder,2025-07-23,16:21,General Shopper,regular,Store A,Credit Card
+TXN_000292,CUST_0065,Supplement Pills;Gym Bag;Resistance Bands;Moisturizer,2025-04-23,10:13,Fitness Enthusiast,regular,Online,Credit Card
+TXN_000293,CUST_0027,AirPods Pro;MacBook Pro;Microsoft Surface;USB-C Cable;Dell XPS 13;Samsung Watch;Kindle,2025-07-18,17:23,Tech Enthusiast,vip,Online,Mobile Payment
+TXN_000294,CUST_0106,Protein Powder;Tommy Hilfiger Jacket;Calvin Klein Underwear;Champion Hoodie;Levi's Jeans;Ray-Ban Sunglasses,2025-01-28,14:19,Fashion Conscious,regular,Store A,Credit Card
+TXN_000295,CUST_0030,Dell XPS 13;Apple Watch;iPhone 15;External SSD;Gaming Mouse,2025-03-05,12:26,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000296,CUST_0162,Adidas Ultraboost;Fitness Tracker;Nike Hoodie,2025-05-11,13:33,Fashion Conscious,vip,Store B,Credit Card
+TXN_000297,CUST_0050,Eggs;Bread;Salmon;Rice;Cheese,2025-02-12,09:45,Book Lover,new,Store B,Mobile Payment
+TXN_000298,CUST_0207,Tommy Hilfiger Jacket,2025-06-25,14:26,Fashion Conscious,new,Store C,Credit Card
+TXN_000299,CUST_0096,Surfboard;Champion Hoodie;Samsung Watch,2025-06-05,19:05,General Shopper,regular,Store A,Mobile Payment
+TXN_000300,CUST_0002,USB-C Cable;Sony WH-1000XM5;iPhone 15;Wireless Charger,2025-07-17,07:28,Tech Enthusiast,regular,Online,Debit Card
+TXN_000301,CUST_0011,Resistance Bands;Sunscreen;Supplement Pills,2025-01-29,09:36,Fitness Enthusiast,new,Store C,Mobile Payment
+TXN_000302,CUST_0013,Lawn Mower;Nuts Mix;Plant Fertilizer;Magazine;Cookbook;Fruits;Electric Kettle;Coffee Maker;Vegetables;Olive Oil,2025-01-29,21:29,General Shopper,regular,Store C,Credit Card
+TXN_000303,CUST_0047,Nintendo Switch;Wireless Charger;Webcam;Xbox Series X,2025-02-16,11:51,Tech Enthusiast,vip,Online,Cash
+TXN_000304,CUST_0064,Skincare Set;Vans Old Skool;Face Cream;Nike Socks;H&M T-Shirt,2025-03-02,15:19,Fashion Conscious,regular,Store B,Debit Card
+TXN_000305,CUST_0090,Toaster;Garden Tools Set;Lawn Mower;Peanut Butter;Electric Kettle;Rice;BBQ Grill;Vacuum Cleaner;Shampoo,2025-06-11,06:34,Home Cook,new,Online,Credit Card
+TXN_000306,CUST_0009,Microsoft Surface;Graphics Card RTX 4070;Power Bank;AirPods Pro;4K Monitor,2025-02-20,10:39,Tech Enthusiast,new,Store C,Debit Card
+TXN_000307,CUST_0111,Polo Ralph Lauren Shirt;Levi's Jeans;Nike Socks;Fitness Tracker;H&M T-Shirt;Supplement Pills;Body Wash;Shampoo,2025-05-15,01:44,Fashion Conscious,regular,Store B,Credit Card
+TXN_000308,CUST_0153,Skincare Set;Shampoo;Gap Jeans;Calvin Klein Underwear;Conditioner;Nike Air Max,2025-02-02,15:05,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000309,CUST_0240,Peanut Butter;Salmon;Yogurt,2025-03-13,09:51,Home Cook,new,Online,Credit Card
+TXN_000310,CUST_0076,Magazine;Self-Help Book;Science Fiction Novel,2025-02-12,12:24,Book Lover,regular,Store C,Credit Card
+TXN_000311,CUST_0098,Vitamins;Protein Powder;Sleeping Bag,2025-02-04,10:27,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000312,CUST_0061,Rice,2025-06-26,14:34,Book Lover,vip,Online,Debit Card
+TXN_000313,CUST_0045,Chicken Breast;Green Tea,2025-07-10,18:40,Book Lover,regular,Store A,Debit Card
+TXN_000314,CUST_0024,Game of Thrones;History Book;Pride and Prejudice;The Great Gatsby,2025-07-01,18:09,Book Lover,vip,Store B,Cash
+TXN_000315,CUST_0078,Art Book,2025-03-24,19:07,Book Lover,regular,Online,Credit Card
+TXN_000316,CUST_0032,Under Armour T-Shirt;Perfume;Levi's Jeans;Electric Toothbrush;Supplement Pills;Nike Air Max,2025-06-16,14:52,Fashion Conscious,regular,Online,Cash
+TXN_000317,CUST_0007,Bike Helmet;Makeup Kit;Running Shoes,2025-05-01,15:11,General Shopper,regular,Store C,Credit Card
+TXN_000318,CUST_0169,Fruits;Salmon;The Great Gatsby,2025-05-28,18:13,Book Lover,regular,Store B,Credit Card
+TXN_000319,CUST_0124,Fitness Tracker;Moisturizer;Sleeping Bag,2025-03-13,19:04,Fitness Enthusiast,new,Online,Credit Card
+TXN_000320,CUST_0065,Conditioner;Shampoo;Basketball;Golf Balls;Soccer Ball,2025-05-08,13:58,Fitness Enthusiast,regular,Online,Credit Card
+TXN_000321,CUST_0086,Nike Hoodie;Nike Air Max;Resistance Bands;H&M T-Shirt;Polo Ralph Lauren Shirt;Gap Jeans;Vitamins,2025-07-01,19:26,Fashion Conscious,regular,Online,Credit Card
+TXN_000322,CUST_0037,Rice;Solar Lights;Stand Mixer;Microwave;Patio Umbrella;Cheese;Lawn Mower,2025-01-30,10:03,Home Cook,vip,Store B,Mobile Payment
+TXN_000323,CUST_0104,BBQ Grill;Instant Pot,2025-01-27,11:01,Home Cook,regular,Store C,Credit Card
+TXN_000324,CUST_0148,Under Armour T-Shirt;Levi's Jeans;Tommy Hilfiger Jacket;Zara Dress;Uniqlo Sweater,2025-07-18,10:21,Fashion Conscious,regular,Store B,Credit Card
+TXN_000325,CUST_0016,Orange Juice;Patio Umbrella;Vacuum Cleaner;Eggs;Rice;Bread;Cheese;Pasta;Solar Lights;Salmon;Flower Pots;Fruits;Plant Fertilizer,2025-02-05,07:33,Home Cook,vip,Online,Debit Card
+TXN_000326,CUST_0089,Self-Help Book;Cookbook;Peanut Butter;Magazine,2025-02-16,16:19,Book Lover,regular,Store A,Mobile Payment
+TXN_000327,CUST_0059,Protein Powder;Backpack;Water Bottle;Perfume,2025-06-17,10:37,Fitness Enthusiast,vip,Store C,Credit Card
+TXN_000328,CUST_0088,Camping Tent;Backpack;Hiking Boots,2025-07-02,17:03,General Shopper,regular,Store C,Mobile Payment
+TXN_000329,CUST_0001,USB-C Cable;MacBook Pro;External SSD,2025-03-06,18:57,Tech Enthusiast,vip,Store B,Credit Card
+TXN_000330,CUST_0158,Body Wash;Running Shoes,2025-07-21,18:57,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000331,CUST_0033,Electric Kettle;Quinoa;Outdoor Furniture;Instant Pot;Garden Tools Set;Plant Fertilizer,2025-06-20,12:22,Home Cook,vip,Store B,Credit Card
+TXN_000332,CUST_0013,Fitness Tracker;Vitamins;Perfume;Dumbbells;Hair Dryer;Deodorant,2025-06-16,18:38,General Shopper,regular,Store C,Credit Card
+TXN_000333,CUST_0075,Pasta;Butter,2025-06-19,13:04,General Shopper,new,Store C,Credit Card
+TXN_000334,CUST_0024,Organic Coffee;Romance Novel,2025-03-29,12:12,Book Lover,vip,Store B,Mobile Payment
+TXN_000335,CUST_0218,Face Cream;Soccer Ball;Bike Helmet,2025-03-30,18:58,Fitness Enthusiast,regular,Store C,Debit Card
+TXN_000336,CUST_0054,"Smart TV 55"";PlayStation 5;iPhone 15",2025-04-22,15:53,Tech Enthusiast,vip,Store B,Credit Card
+TXN_000337,CUST_0057,Science Fiction Novel;Nuts Mix;Vegetables,2025-03-12,19:34,Book Lover,new,Store C,Debit Card
+TXN_000338,CUST_0097,Zara Dress;Fitness Tracker;Champion Hoodie;Supplement Pills;Makeup Kit;H&M T-Shirt,2025-06-11,17:10,Fashion Conscious,vip,Store C,Debit Card
+TXN_000339,CUST_0047,AirPods Pro;External SSD;Nintendo Switch;iPad Mini,2025-04-14,15:34,Tech Enthusiast,vip,Store A,Cash
+TXN_000340,CUST_0060,Levi's Jeans;Deodorant,2025-02-06,11:39,Fashion Conscious,regular,Online,Debit Card
+TXN_000341,CUST_0096,Electric Kettle,2025-01-29,15:44,General Shopper,regular,Store A,Cash
+TXN_000342,CUST_0030,4K Monitor;MacBook Pro;Gaming Mouse,2025-03-19,21:18,Tech Enthusiast,regular,Online,Debit Card
+TXN_000343,CUST_0094,Basketball;Gap Jeans;Nike Socks;H&M T-Shirt;Hiking Boots,2025-05-15,10:32,General Shopper,new,Store A,Mobile Payment
+TXN_000344,CUST_0074,External SSD,2025-06-24,12:37,Tech Enthusiast,regular,Store A,Debit Card
+TXN_000345,CUST_0077,Snowboard;Butter,2025-03-29,16:47,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000346,CUST_0113,Eggs;Garden Tools Set;Flower Pots;Honey;Organic Coffee;Yogurt;Face Cream,2025-04-15,22:57,Home Cook,new,Online,Mobile Payment
+TXN_000347,CUST_0198,Pasta;Organic Coffee;Butter;Olive Oil,2025-03-27,11:45,Book Lover,new,Store C,Mobile Payment
+TXN_000348,CUST_0043,Wireless Charger;Samsung Watch;Gaming Mouse;RAM 16GB,2025-07-20,09:49,Tech Enthusiast,new,Store A,Credit Card
+TXN_000349,CUST_0187,Champion Hoodie;Tommy Hilfiger Jacket;Uniqlo Sweater;Calvin Klein Underwear;Nike Air Max;Moisturizer;Vitamins;Nike Hoodie;Gap Jeans;Organic Coffee,2025-03-19,18:20,Fashion Conscious,regular,Store A,Cash
+TXN_000350,CUST_0207,Resistance Bands,2025-06-19,19:48,Fashion Conscious,new,Store A,Credit Card
+TXN_000351,CUST_0030,Power Bank;Microsoft Surface;RAM 16GB,2025-06-18,15:29,Tech Enthusiast,regular,Store A,Credit Card
+TXN_000352,CUST_0079,Supplement Pills;Mountain Bike;Resistance Bands;Basketball;Surfboard,2025-07-19,15:31,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000353,CUST_0150,Levi's Jeans;Tommy Hilfiger Jacket;Nike Hoodie,2025-07-16,10:15,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000354,CUST_0023,Outdoor Furniture;Rice Cooker;Electric Kettle;Coffee Maker;Patio Umbrella;Milk,2025-05-04,14:30,Home Cook,regular,Store B,Debit Card
+TXN_000355,CUST_0050,Orange Juice;Romance Novel,2025-06-08,17:48,Book Lover,new,Store A,Credit Card
+TXN_000356,CUST_0243,Supplement Pills;Yoga Mat;Fitness Tracker;Vitamins;Backpack,2025-02-06,14:24,Fitness Enthusiast,regular,Store C,Debit Card
+TXN_000357,CUST_0033,Organic Coffee;Flower Pots;Orange Juice;Solar Lights;Nuts Mix;Dark Chocolate;Quinoa;Yogurt;Fruits;Electric Kettle,2025-02-23,15:07,Home Cook,vip,Store B,Cash
+TXN_000358,CUST_0007,Gaming Mouse;Graphics Card RTX 4070,2025-04-22,11:16,General Shopper,regular,Store B,Credit Card
+TXN_000359,CUST_0042,Microwave;Plant Fertilizer;Honey;Organic Coffee;Instant Pot;Lawn Mower;Patio Umbrella;Quinoa;Dark Chocolate;Electric Kettle;Green Tea;Stand Mixer;Milk;BBQ Grill,2025-05-06,11:36,Home Cook,regular,Store C,Debit Card
+TXN_000360,CUST_0154,Outdoor Furniture,2025-04-24,15:50,Home Cook,regular,Online,Credit Card
+TXN_000361,CUST_0100,Deodorant;Zara Dress;Ray-Ban Sunglasses,2025-07-21,01:11,Fashion Conscious,new,Store B,Mobile Payment
+TXN_000362,CUST_0046,To Kill a Mockingbird;Makeup Kit,2025-06-07,15:51,Book Lover,new,Store B,Mobile Payment
+TXN_000363,CUST_0239,Resistance Bands;Vitamins;Deodorant;Zara Dress,2025-06-12,16:31,Fashion Conscious,regular,Store A,Debit Card
+TXN_000364,CUST_0245,Levi's Jeans;Protein Bars;Sleeping Bag;Nuts Mix,2025-01-29,16:21,General Shopper,regular,Online,Mobile Payment
+TXN_000365,CUST_0125,Vegetables;Organic Coffee;Quinoa,2025-02-05,19:19,Book Lover,new,Store B,Cash
+TXN_000366,CUST_0057,Organic Coffee;Mystery Novel;1984,2025-05-30,14:27,Book Lover,new,Store B,Mobile Payment
+TXN_000367,CUST_0092,Fitness Tracker,2025-06-12,12:34,Fashion Conscious,regular,Online,Mobile Payment
+TXN_000368,CUST_0190,Chicken Breast,2025-06-12,15:58,Book Lover,regular,Store B,Cash
+TXN_000369,CUST_0040,Basketball;Camping Tent;Surfboard;Perfume;Yoga Mat;Vitamins,2025-05-24,12:37,Fitness Enthusiast,regular,Online,Credit Card
+TXN_000370,CUST_0161,Garden Tools Set;Garden Hose;BBQ Grill;Instant Pot;Nuts Mix;Cereal;Eggs;Electric Kettle;Microwave,2025-05-08,07:11,Home Cook,vip,Online,Debit Card
+TXN_000371,CUST_0196,Converse All Stars;Nike Socks;Gap Jeans,2025-05-30,18:14,Fashion Conscious,new,Online,Debit Card
+TXN_000372,CUST_0029,Stand Mixer;Butter;Vegetables,2025-05-22,18:24,Home Cook,new,Store A,Debit Card
+TXN_000373,CUST_0035,Running Shoes;Perfume;Backpack;Mountain Bike;Ski Equipment;Cheese,2025-07-23,13:15,Fitness Enthusiast,vip,Store C,Debit Card
+TXN_000374,CUST_0050,Romance Novel;Self-Help Book,2025-04-02,20:23,Book Lover,new,Store B,Credit Card
+TXN_000375,CUST_0008,History Book;Game of Thrones,2025-05-04,20:48,Book Lover,regular,Online,Debit Card
+TXN_000376,CUST_0035,Hiking Boots;Toothpaste;Skincare Set;Snowboard,2025-02-28,14:31,Fitness Enthusiast,vip,Store B,Mobile Payment
+TXN_000377,CUST_0087,Eggs;Vegetables,2025-04-13,19:28,Home Cook,regular,Store C,Credit Card
+TXN_000378,CUST_0097,Zara Dress,2025-02-25,18:40,Fashion Conscious,vip,Store C,Debit Card
+TXN_000379,CUST_0001,"Apple Watch;External SSD;Smart TV 55"";USB-C Cable;iPad Mini",2025-05-08,22:21,Tech Enthusiast,vip,Store B,Mobile Payment
+TXN_000380,CUST_0109,Nike Air Max;Gap Jeans;Vitamins;H&M T-Shirt,2025-02-28,18:56,Fashion Conscious,vip,Online,Cash
+TXN_000381,CUST_0108,Makeup Kit;Water Bottle,2025-04-26,20:23,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000382,CUST_0216,Blender;Protein Bars;Flower Pots;Electric Kettle;Tomato Sauce;Peanut Butter;Pasta,2025-04-25,17:10,Home Cook,vip,Store C,Credit Card
+TXN_000383,CUST_0043,Apple Watch;Samsung Watch;Wireless Charger;Sony WH-1000XM5,2025-07-21,13:40,Tech Enthusiast,new,Online,Debit Card
+TXN_000384,CUST_0240,Milk;Rice Cooker;Electric Kettle;Coffee Maker;Blender;Rice;Patio Umbrella;Toaster;Yogurt;Vacuum Cleaner,2025-07-17,14:46,Home Cook,new,Store A,Mobile Payment
+TXN_000385,CUST_0013,Samsung Watch;Skincare Set;Harry Potter Series;Biography,2025-03-04,11:45,General Shopper,regular,Online,Debit Card
+TXN_000386,CUST_0095,Vans Old Skool;Nike Hoodie;Electric Toothbrush;Nike Air Max;Tommy Hilfiger Jacket;Converse All Stars,2025-02-05,15:40,Fashion Conscious,regular,Store B,Debit Card
+TXN_000387,CUST_0000,Swimming Goggles;Toothpaste,2025-03-29,11:11,Fitness Enthusiast,regular,Store C,Credit Card
+TXN_000388,CUST_0023,Stand Mixer;Food Processor,2025-03-13,07:04,Home Cook,regular,Store B,Credit Card
+TXN_000389,CUST_0063,Microsoft Surface;Wireless Charger,2025-06-24,14:10,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000390,CUST_0161,BBQ Grill;Food Processor;Eggs;Orange Juice;Yogurt;Milk;Peanut Butter;Air Fryer;Green Tea;Lawn Mower;Quinoa;Tomato Sauce;Rice Cooker,2025-07-05,15:42,Home Cook,vip,Store C,Credit Card
+TXN_000391,CUST_0198,Mystery Novel;Magazine;History Book,2025-01-30,10:04,Book Lover,new,Store A,Debit Card
+TXN_000392,CUST_0247,Nike Air Max;Sunscreen;Under Armour T-Shirt;Levi's Jeans,2025-02-03,09:20,Fashion Conscious,new,Store C,Debit Card
+TXN_000393,CUST_0027,Graphics Card RTX 4070;Gaming Mouse;Webcam;Bluetooth Speaker;Samsung Watch,2025-05-12,20:24,Tech Enthusiast,vip,Online,Credit Card
+TXN_000394,CUST_0080,Uniqlo Sweater;Calvin Klein Underwear,2025-05-09,17:37,Fashion Conscious,new,Online,Credit Card
+TXN_000395,CUST_0204,Cereal;Lawn Mower;BBQ Grill;Coffee Maker;Vitamins,2025-04-26,15:05,Home Cook,regular,Online,Cash
+TXN_000396,CUST_0225,Bluetooth Speaker;Sony WH-1000XM5;Dell XPS 13;Webcam;iPad,2025-07-09,00:37,Tech Enthusiast,regular,Online,Debit Card
+TXN_000397,CUST_0054,USB-C Cable;iPhone 15;Microsoft Surface;External SSD,2025-03-29,06:11,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000398,CUST_0082,Zara Dress;Adidas Ultraboost;Sunscreen;Body Wash;Makeup Kit;Supplement Pills,2025-02-22,00:01,Fashion Conscious,vip,Store B,Cash
+TXN_000399,CUST_0097,Electric Toothbrush;Shampoo,2025-03-06,18:53,Fashion Conscious,vip,Store B,Mobile Payment
+TXN_000400,CUST_0051,Olive Oil;Pasta;Instant Pot;Eggs;Nuts Mix;Air Fryer;Flower Pots,2025-06-24,17:21,Home Cook,new,Store C,Cash
+TXN_000401,CUST_0197,Skincare Set,2025-05-28,14:40,Fitness Enthusiast,new,Store C,Cash
+TXN_000402,CUST_0035,Vitamins;Conditioner;Swimming Goggles;Protein Powder;Supplement Pills;Yoga Mat,2025-02-11,15:24,Fitness Enthusiast,vip,Store A,Credit Card
+TXN_000403,CUST_0122,Nintendo Switch;Gaming Keyboard,2025-01-24,12:59,Tech Enthusiast,new,Store A,Mobile Payment
+TXN_000404,CUST_0082,Perfume;Deodorant;Adidas Track Pants;Face Cream;Supplement Pills;Conditioner;Skincare Set;Under Armour T-Shirt,2025-06-28,16:53,Fashion Conscious,vip,Store B,Debit Card
+TXN_000405,CUST_0176,Samsung Galaxy S24;Bluetooth Speaker;Xbox Series X,2025-02-05,17:10,Tech Enthusiast,new,Store A,Cash
+TXN_000406,CUST_0112,Patio Umbrella;Eggs;Green Tea;Blender;Butter;Rice Cooker;Yogurt;Shampoo,2025-03-28,15:45,Home Cook,regular,Store A,Credit Card
+TXN_000407,CUST_0205,Orange Juice,2025-04-17,17:32,Book Lover,vip,Store B,Debit Card
+TXN_000408,CUST_0121,Fitness Tracker;Mountain Bike;Water Bottle;Sleeping Bag,2025-04-17,12:05,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000409,CUST_0197,Toothpaste;Camping Tent,2025-06-11,16:59,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000410,CUST_0089,Romance Novel,2025-03-12,11:06,Book Lover,regular,Store C,Credit Card
+TXN_000411,CUST_0246,Cereal;Biography;The Great Gatsby;Orange Juice,2025-02-19,13:30,Book Lover,new,Store C,Debit Card
+TXN_000412,CUST_0059,Snowboard;Perfume;Resistance Bands;Yoga Mat;Toothpaste,2025-06-07,12:54,Fitness Enthusiast,vip,Store C,Credit Card
+TXN_000413,CUST_0149,Vacuum Cleaner,2025-05-10,09:57,Home Cook,regular,Store B,Debit Card
+TXN_000414,CUST_0186,Pasta;Harry Potter Series;History Book,2025-02-23,11:43,Book Lover,vip,Online,Cash
+TXN_000415,CUST_0015,"Gaming Mouse;Samsung Galaxy S24;Smart TV 55""",2025-05-21,18:22,Tech Enthusiast,new,Store A,Credit Card
+TXN_000416,CUST_0089,Science Fiction Novel;To Kill a Mockingbird;Mystery Novel;Cookbook;Cereal,2025-04-24,07:02,Book Lover,regular,Store B,Debit Card
+TXN_000417,CUST_0016,Green Tea;Olive Oil;Vacuum Cleaner;Garden Hose;BBQ Grill;Food Processor;Solar Lights,2025-04-27,06:52,Home Cook,vip,Store A,Debit Card
+TXN_000418,CUST_0227,Resistance Bands;Face Cream;Fitness Tracker;Champion Hoodie,2025-06-11,15:17,Fashion Conscious,regular,Store A,Credit Card
+TXN_000419,CUST_0084,Swimming Goggles;Golf Balls,2025-03-31,19:02,Fitness Enthusiast,new,Online,Mobile Payment
+TXN_000420,CUST_0062,Instant Pot;Air Fryer;Honey;Nuts Mix;Cheese;Vegetables;Orange Juice;Rice Cooker;Salmon;Vacuum Cleaner;Outdoor Furniture,2025-04-04,13:37,Home Cook,vip,Online,Mobile Payment
+TXN_000421,CUST_0039,Eggs;Green Tea;Organic Coffee,2025-07-11,13:44,Book Lover,regular,Online,Credit Card
+TXN_000422,CUST_0095,Adidas Track Pants;Gap Jeans;Nike Hoodie;Converse All Stars;Under Armour T-Shirt;Levi's Jeans;Zara Dress,2025-06-14,09:11,Fashion Conscious,regular,Online,Mobile Payment
+TXN_000423,CUST_0031,History Book;Science Fiction Novel,2025-02-15,18:19,Book Lover,vip,Online,Debit Card
+TXN_000424,CUST_0001,External SSD;Apple Watch;USB-C Cable;PlayStation 5,2025-03-24,15:59,Tech Enthusiast,vip,Store C,Debit Card
+TXN_000425,CUST_0001,"Power Bank;Smart TV 55"";Bluetooth Speaker;Nintendo Switch;Gaming Mouse;Kindle",2025-04-11,10:28,Tech Enthusiast,vip,Online,Cash
+TXN_000426,CUST_0214,Body Wash;Moisturizer;Ray-Ban Sunglasses;Makeup Kit,2025-06-06,18:19,Fashion Conscious,vip,Store A,Cash
+TXN_000427,CUST_0044,Toothpaste;Swimming Goggles;Makeup Kit;Snowboard,2025-07-23,10:37,Fitness Enthusiast,regular,Store A,Credit Card
+TXN_000428,CUST_0111,Perfume;Dumbbells;Yoga Mat;Sunscreen,2025-04-24,05:24,Fashion Conscious,regular,Online,Mobile Payment
+TXN_000429,CUST_0131,Hair Dryer;Body Wash;Soccer Ball,2025-07-16,16:40,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000430,CUST_0083,Webcam;External SSD,2025-05-11,09:29,Tech Enthusiast,vip,Store B,Debit Card
+TXN_000431,CUST_0003,RAM 16GB;iPad;Nintendo Switch;Samsung Watch;Power Bank;Dell XPS 13,2025-07-09,17:25,Tech Enthusiast,new,Store A,Debit Card
+TXN_000432,CUST_0010,Supplement Pills,2025-06-04,11:17,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000433,CUST_0134,Under Armour T-Shirt;Shampoo,2025-07-23,07:06,Fashion Conscious,new,Online,Debit Card
+TXN_000434,CUST_0202,Gym Bag;Resistance Bands;Yoga Mat;Perfume;Skincare Set,2025-05-21,11:53,Fitness Enthusiast,vip,Store C,Debit Card
+TXN_000435,CUST_0027,RAM 16GB;iPad;Bluetooth Speaker;External SSD;Gaming Mouse;PlayStation 5;Xbox Series X;Apple Watch,2025-06-18,06:51,Tech Enthusiast,vip,Store C,Debit Card
+TXN_000436,CUST_0043,iPad;Samsung Galaxy S24;Power Bank;Sony WH-1000XM5;Webcam,2025-02-12,18:54,Tech Enthusiast,new,Online,Credit Card
+TXN_000437,CUST_0037,Garden Hose;Cheese;Pasta;Microwave;Eggs;Peanut Butter,2025-07-17,15:59,Home Cook,vip,Store C,Credit Card
+TXN_000438,CUST_0094,Magazine;Cookbook;Science Fiction Novel;Twilight;Game of Thrones;The Great Gatsby;Mystery Novel;1984,2025-03-05,10:10,General Shopper,new,Online,Cash
+TXN_000439,CUST_0006,Basketball,2025-06-12,21:34,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000440,CUST_0208,Wireless Charger,2025-01-27,14:30,Tech Enthusiast,new,Online,Cash
+TXN_000441,CUST_0112,Quinoa;Pasta;Salmon;Instant Pot;Food Processor;Flower Pots,2025-04-02,16:32,Home Cook,regular,Online,Debit Card
+TXN_000442,CUST_0078,Quinoa,2025-02-28,15:20,Book Lover,regular,Online,Mobile Payment
+TXN_000443,CUST_0168,Dell XPS 13,2025-07-17,12:36,Tech Enthusiast,regular,Store C,Cash
+TXN_000444,CUST_0018,Supplement Pills;Body Wash;Conditioner;Shampoo;Moisturizer;H&M T-Shirt;Adidas Track Pants,2025-03-21,11:42,Fashion Conscious,new,Store C,Debit Card
+TXN_000445,CUST_0032,Uniqlo Sweater;Supplement Pills;Sunscreen,2025-04-30,12:25,Fashion Conscious,regular,Store B,Mobile Payment
+TXN_000446,CUST_0008,Game of Thrones,2025-04-10,14:09,Book Lover,regular,Store C,Debit Card
+TXN_000447,CUST_0122,External SSD;Wireless Charger;MacBook Pro;Nintendo Switch;iPad,2025-07-03,19:56,Tech Enthusiast,new,Store C,Mobile Payment
+TXN_000448,CUST_0116,Vitamins;Protein Powder;Nike Socks,2025-07-16,12:38,Fashion Conscious,vip,Store C,Mobile Payment
+TXN_000449,CUST_0078,Organic Coffee,2025-06-12,13:44,Book Lover,regular,Online,Credit Card
+TXN_000450,CUST_0092,Calvin Klein Underwear;Fitness Tracker;Nike Socks;Face Cream;Electric Toothbrush;Skincare Set,2025-02-15,15:09,Fashion Conscious,regular,Online,Credit Card
+TXN_000451,CUST_0032,Hair Dryer;Vitamins;Toothpaste;Skincare Set;Nike Air Max;Makeup Kit,2025-06-11,18:45,Fashion Conscious,regular,Online,Debit Card
+TXN_000452,CUST_0216,Lawn Mower;Flower Pots;Electric Kettle,2025-02-15,18:06,Home Cook,vip,Online,Credit Card
+TXN_000453,CUST_0089,Protein Bars;Perfume,2025-03-14,20:10,Book Lover,regular,Store C,Credit Card
+TXN_000454,CUST_0159,Protein Bars;Patio Umbrella;Bread;Green Tea,2025-02-15,06:15,Home Cook,regular,Store C,Debit Card
+TXN_000455,CUST_0071,Magazine;Pasta;Cookbook;Organic Coffee,2025-04-10,05:28,Book Lover,new,Store C,Credit Card
+TXN_000456,CUST_0185,Adidas Track Pants;Basketball;Nike Hoodie;Swimming Goggles;Vans Old Skool;Levi's Jeans;Perfume,2025-02-26,12:27,General Shopper,vip,Store C,Cash
+TXN_000457,CUST_0176,"Samsung Galaxy S24;Smart TV 55"";PlayStation 5;Gaming Mouse;RAM 16GB;MacBook Pro;Dell XPS 13",2025-04-04,08:29,Tech Enthusiast,new,Store C,Credit Card
+TXN_000458,CUST_0033,Food Processor,2025-02-19,06:26,Home Cook,vip,Store C,Credit Card
+TXN_000459,CUST_0210,Converse All Stars;Resistance Bands,2025-04-17,18:00,Fashion Conscious,regular,Store B,Debit Card
+TXN_000460,CUST_0093,Dell XPS 13;Samsung Galaxy S24;Gaming Mouse,2025-04-17,10:53,Tech Enthusiast,regular,Store A,Debit Card
+TXN_000461,CUST_0167,Pasta;Orange Juice;Coffee Maker;Protein Bars;Yogurt,2025-03-16,16:02,Home Cook,new,Store B,Credit Card
+TXN_000462,CUST_0152,Surfboard;Vitamins;Deodorant;Snowboard,2025-07-12,07:41,Fitness Enthusiast,new,Store B,Credit Card
+TXN_000463,CUST_0128,Air Fryer;Cereal;Microwave;Vegetables;Outdoor Furniture;Electric Kettle;Honey;Fruits;Vacuum Cleaner,2025-06-18,11:31,Home Cook,new,Online,Debit Card
+TXN_000464,CUST_0061,Biography;History Book;Cheese,2025-04-18,23:25,Book Lover,vip,Store C,Mobile Payment
+TXN_000465,CUST_0001,Gaming Mouse;USB-C Cable;Sony WH-1000XM5,2025-02-27,18:15,Tech Enthusiast,vip,Online,Debit Card
+TXN_000466,CUST_0032,Perfume;Hair Dryer;Shampoo;Deodorant;Champion Hoodie,2025-02-02,19:06,Fashion Conscious,regular,Store C,Credit Card
+TXN_000467,CUST_0124,Sunscreen,2025-06-05,14:45,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000468,CUST_0087,Protein Bars;Stand Mixer;Green Tea;Solar Lights,2025-07-23,12:34,Home Cook,regular,Store C,Debit Card
+TXN_000469,CUST_0014,RAM 16GB;Ray-Ban Sunglasses;Tomato Sauce;Chicken Breast,2025-05-16,19:50,General Shopper,vip,Online,Mobile Payment
+TXN_000470,CUST_0157,Zara Dress;Deodorant;Vitamins,2025-05-05,21:56,Fashion Conscious,regular,Store A,Credit Card
+TXN_000471,CUST_0142,Food Processor;Vegetables;Garden Tools Set;Lawn Mower;Electric Kettle,2025-07-23,12:38,Home Cook,regular,Online,Debit Card
+TXN_000472,CUST_0041,Supplement Pills;Toothpaste;Nike Air Max;Makeup Kit;Tommy Hilfiger Jacket;Gap Jeans,2025-05-17,08:34,Fashion Conscious,new,Store A,Cash
+TXN_000473,CUST_0026,H&M T-Shirt;Hair Dryer;Converse All Stars;Fitness Tracker;Under Armour T-Shirt;Levi's Jeans;Body Wash;Conditioner;Face Cream;Uniqlo Sweater,2025-02-27,14:36,Fashion Conscious,regular,Store C,Cash
+TXN_000474,CUST_0231,Electric Kettle;Olive Oil;Cereal;Rice;Outdoor Furniture;Garden Tools Set;Plant Fertilizer;Lawn Mower;Butter;Blender,2025-02-17,18:52,Home Cook,new,Store C,Credit Card
+TXN_000475,CUST_0054,Power Bank;External SSD;Webcam;iPhone 15;Gaming Keyboard;Kindle,2025-03-17,13:24,Tech Enthusiast,vip,Online,Debit Card
+TXN_000476,CUST_0239,Champion Hoodie;Protein Powder;Gap Jeans;Vans Old Skool;H&M T-Shirt;Fitness Tracker;Perfume;Under Armour T-Shirt,2025-05-11,18:02,Fashion Conscious,regular,Online,Cash
+TXN_000477,CUST_0213,Backpack;Vitamins;Shampoo;Skincare Set,2025-06-25,14:14,Fitness Enthusiast,regular,Store C,Debit Card
+TXN_000478,CUST_0145,Webcam;Gaming Keyboard;Apple Watch;iPhone 15,2025-06-18,12:15,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000479,CUST_0210,Electric Toothbrush;Resistance Bands;Perfume;Supplement Pills;Protein Powder,2025-02-16,17:17,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000480,CUST_0146,Nike Socks;Under Armour T-Shirt;Converse All Stars;Face Cream,2025-03-16,16:40,Fashion Conscious,vip,Online,Credit Card
+TXN_000481,CUST_0023,Instant Pot;Green Tea;Peanut Butter;Eggs;Air Fryer,2025-05-29,13:41,Home Cook,regular,Store B,Cash
+TXN_000482,CUST_0133,Fitness Tracker;Adidas Ultraboost,2025-04-16,08:45,Fashion Conscious,regular,Store A,Mobile Payment
+TXN_000483,CUST_0086,Electric Toothbrush;Polo Ralph Lauren Shirt,2025-07-22,11:03,Fashion Conscious,regular,Store A,Credit Card
+TXN_000484,CUST_0090,Dark Chocolate;Stand Mixer,2025-02-07,18:21,Home Cook,new,Store A,Debit Card
+TXN_000485,CUST_0162,Electric Toothbrush;Converse All Stars;Vans Old Skool;Conditioner;Under Armour T-Shirt;Shampoo;Fitness Tracker;Makeup Kit;Ray-Ban Sunglasses;Polo Ralph Lauren Shirt,2025-01-28,08:57,Fashion Conscious,vip,Store C,Mobile Payment
+TXN_000486,CUST_0021,Calvin Klein Underwear;Makeup Kit,2025-06-26,17:39,Fashion Conscious,new,Store B,Cash
+TXN_000487,CUST_0110,Champion Hoodie;Fitness Tracker;Adidas Track Pants,2025-01-29,16:10,Fashion Conscious,vip,Store A,Credit Card
+TXN_000488,CUST_0198,Olive Oil;Science Fiction Novel,2025-04-01,11:54,Book Lover,new,Store B,Credit Card
+TXN_000489,CUST_0066,Zara Dress;Nike Air Max;Electric Toothbrush;Adidas Ultraboost;Yoga Mat;Under Armour T-Shirt;Levi's Jeans;Nuts Mix;Nike Socks;H&M T-Shirt;Nike Hoodie,2025-03-05,14:55,Fashion Conscious,vip,Store A,Debit Card
+TXN_000490,CUST_0003,Samsung Watch;AirPods Pro,2025-02-22,16:17,Tech Enthusiast,new,Online,Debit Card
+TXN_000491,CUST_0183,Fitness Tracker;Champion Hoodie;Gap Jeans;Moisturizer;Skincare Set,2025-02-05,16:21,Fashion Conscious,new,Online,Debit Card
+TXN_000492,CUST_0012,Under Armour T-Shirt;Protein Powder;Perfume;H&M T-Shirt,2025-05-07,12:13,Fashion Conscious,new,Store A,Cash
+TXN_000493,CUST_0036,Gaming Mouse;PlayStation 5;Samsung Watch;Apple Watch,2025-06-23,13:34,Tech Enthusiast,regular,Store C,Debit Card
+TXN_000494,CUST_0157,Shampoo;Fitness Tracker,2025-07-09,10:27,Fashion Conscious,regular,Store C,Credit Card
+TXN_000495,CUST_0214,Zara Dress;Resistance Bands;Face Cream;Adidas Track Pants;Under Armour T-Shirt;H&M T-Shirt,2025-01-29,11:53,Fashion Conscious,vip,Store B,Mobile Payment
+TXN_000496,CUST_0178,Snowboard;Dumbbells;Electric Toothbrush,2025-03-04,11:33,Fitness Enthusiast,vip,Store C,Debit Card
+TXN_000497,CUST_0007,Protein Powder;Webcam;Fitness Tracker;Apple Watch;Perfume;Xbox Series X;Toothpaste;Makeup Kit,2025-04-24,16:35,General Shopper,regular,Store C,Debit Card
+TXN_000498,CUST_0242,Gym Bag;Face Cream,2025-05-27,07:52,Fitness Enthusiast,new,Store B,Credit Card
+TXN_000499,CUST_0118,Backpack;Hair Dryer;Surfboard;Ski Equipment;Olive Oil,2025-02-22,12:12,Fitness Enthusiast,vip,Store B,Credit Card
+TXN_000500,CUST_0055,Bike Helmet;Hair Dryer;Shampoo,2025-05-15,17:03,Fitness Enthusiast,vip,Store B,Credit Card
+TXN_000501,CUST_0149,Plant Fertilizer;Lawn Mower;Peanut Butter;Bread;Olive Oil;Green Tea;Air Fryer;Electric Kettle;Protein Bars,2025-05-10,21:43,Home Cook,regular,Online,Credit Card
+TXN_000502,CUST_0062,Coffee Maker;Protein Bars;Fruits;Tomato Sauce;Blender,2025-05-22,16:28,Home Cook,vip,Store B,Debit Card
+TXN_000503,CUST_0021,Skincare Set,2025-06-11,05:57,Fashion Conscious,new,Store A,Debit Card
+TXN_000504,CUST_0093,USB-C Cable;Wireless Charger;iPhone 15;Dell XPS 13;Webcam;4K Monitor,2025-06-02,04:22,Tech Enthusiast,regular,Online,Debit Card
+TXN_000505,CUST_0062,Solar Lights;Quinoa;Garden Tools Set;Lawn Mower;Protein Bars;Electric Kettle;Rice,2025-06-20,12:28,Home Cook,vip,Store C,Cash
+TXN_000506,CUST_0023,Patio Umbrella;Air Fryer;Rice;Butter;Plant Fertilizer;Lawn Mower,2025-07-16,14:58,Home Cook,regular,Store B,Credit Card
+TXN_000507,CUST_0232,Dumbbells;Camping Tent;Supplement Pills;Peanut Butter,2025-05-14,20:26,Fitness Enthusiast,regular,Store B,Debit Card
+TXN_000508,CUST_0088,Skincare Set;Fitness Tracker;Protein Powder;Fishing Rod;Sunscreen;Golf Clubs,2025-03-15,06:56,General Shopper,regular,Store C,Debit Card
+TXN_000509,CUST_0093,Wireless Charger;iPhone 15;RAM 16GB;PlayStation 5;iPad,2025-06-28,12:23,Tech Enthusiast,regular,Store C,Mobile Payment
+TXN_000510,CUST_0200,Gap Jeans;Yoga Mat,2025-02-12,20:31,Fashion Conscious,regular,Store C,Credit Card
+TXN_000511,CUST_0240,Bread;Garden Tools Set;Rice;Fruits;Blender;Vegetables,2025-05-20,17:57,Home Cook,new,Online,Cash
+TXN_000512,CUST_0051,Outdoor Furniture;Orange Juice;Dark Chocolate;Vegetables;Microwave;Peanut Butter;Cheese;Vacuum Cleaner;Instant Pot;Milk;Food Processor;Skincare Set,2025-07-12,09:50,Home Cook,new,Online,Mobile Payment
+TXN_000513,CUST_0082,Dumbbells;Uniqlo Sweater;Fitness Tracker,2025-04-09,14:22,Fashion Conscious,vip,Online,Credit Card
+TXN_000514,CUST_0078,Magazine,2025-02-25,22:53,Book Lover,regular,Store B,Credit Card
+TXN_000515,CUST_0117,Kindle;MacBook Pro;RAM 16GB,2025-07-02,19:10,Tech Enthusiast,vip,Online,Credit Card
+TXN_000516,CUST_0075,Instant Pot;Food Processor;Garden Hose;Patio Umbrella;Vacuum Cleaner,2025-07-02,13:16,General Shopper,new,Store B,Credit Card
+TXN_000517,CUST_0098,Soccer Ball;Golf Balls,2025-04-10,11:45,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000518,CUST_0043,Samsung Galaxy S24;RAM 16GB;Gaming Keyboard;PlayStation 5,2025-07-10,15:19,Tech Enthusiast,new,Store A,Cash
+TXN_000519,CUST_0151,Golf Clubs;Soccer Ball,2025-06-22,05:00,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000520,CUST_0216,Outdoor Furniture;Flower Pots;Lawn Mower;Vegetables;Rice Cooker,2025-06-25,13:24,Home Cook,vip,Store C,Credit Card
+TXN_000521,CUST_0079,Camping Tent;Ski Equipment;Deodorant,2025-03-22,15:52,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000522,CUST_0096,Solar Lights;Rice Cooker;Instant Pot;Plant Fertilizer;Stand Mixer;Air Fryer;Electric Kettle,2025-07-02,10:42,General Shopper,regular,Store B,Credit Card
+TXN_000523,CUST_0010,Perfume;Protein Powder;Vitamins;Body Wash;Nike Socks,2025-07-09,18:15,Fashion Conscious,regular,Online,Debit Card
+TXN_000524,CUST_0015,Samsung Watch;Gaming Mouse;iPad Mini;iPhone 15;External SSD,2025-06-20,12:57,Tech Enthusiast,new,Store B,Cash
+TXN_000525,CUST_0183,Champion Hoodie;Dumbbells,2025-05-08,14:21,Fashion Conscious,new,Store A,Mobile Payment
+TXN_000526,CUST_0216,Coffee Maker;Honey;BBQ Grill,2025-06-23,05:52,Home Cook,vip,Online,Credit Card
+TXN_000527,CUST_0031,Green Tea;The Great Gatsby;Cereal;Self-Help Book,2025-07-02,18:31,Book Lover,vip,Online,Cash
+TXN_000528,CUST_0137,RAM 16GB;AirPods Pro,2025-03-30,16:38,Tech Enthusiast,new,Store C,Credit Card
+TXN_000529,CUST_0126,Shampoo,2025-05-14,10:03,Fitness Enthusiast,regular,Store A,Debit Card
+TXN_000530,CUST_0119,Body Wash;Ski Equipment;Vitamins;Electric Toothbrush,2025-02-15,12:59,Fitness Enthusiast,new,Store A,Debit Card
+TXN_000531,CUST_0070,Nuts Mix;Mystery Novel;Cheese;Pasta;Organic Coffee,2025-03-02,12:05,Book Lover,new,Online,Credit Card
+TXN_000532,CUST_0217,Body Wash;Makeup Kit;Converse All Stars,2025-03-19,18:17,Fashion Conscious,new,Store A,Cash
+TXN_000533,CUST_0215,Sunscreen;Conditioner;Hair Dryer,2025-04-29,17:42,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000534,CUST_0038,Protein Bars;Vegetables;Blender;Yogurt;Nuts Mix;Microwave;Garden Tools Set;Solar Lights;Green Tea,2025-05-03,16:59,Home Cook,new,Online,Cash
+TXN_000535,CUST_0116,Supplement Pills;Adidas Ultraboost,2025-06-25,11:00,Fashion Conscious,vip,Store C,Debit Card
+TXN_000536,CUST_0172,Rice;Garden Hose;BBQ Grill;Cereal;Plant Fertilizer;Coffee Maker,2025-05-07,17:33,Home Cook,regular,Store B,Debit Card
+TXN_000537,CUST_0083,Webcam;Gaming Mouse,2025-03-14,19:33,Tech Enthusiast,vip,Store A,Debit Card
+TXN_000538,CUST_0107,Dumbbells;Gym Bag;Conditioner;Backpack;Golf Clubs,2025-06-20,14:25,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000539,CUST_0110,Face Cream;Moisturizer;Adidas Ultraboost;Electric Toothbrush,2025-07-22,11:15,Fashion Conscious,vip,Store C,Debit Card
+TXN_000540,CUST_0190,The Da Vinci Code;Cookbook;The Great Gatsby;Nuts Mix,2025-03-06,13:50,Book Lover,regular,Store B,Credit Card
+TXN_000541,CUST_0061,Chicken Breast;Salmon;Twilight;Olive Oil,2025-07-09,17:28,Book Lover,vip,Online,Debit Card
+TXN_000542,CUST_0175,Milk;Bread,2025-05-15,17:34,Book Lover,new,Online,Mobile Payment
+TXN_000543,CUST_0090,Green Tea;Peanut Butter;Garden Hose;Olive Oil,2025-02-20,17:14,Home Cook,new,Store B,Credit Card
+TXN_000544,CUST_0060,Tommy Hilfiger Jacket;Nike Socks;Resistance Bands;Adidas Ultraboost;Polo Ralph Lauren Shirt;Levi's Jeans;Green Tea,2025-07-11,12:59,Fashion Conscious,regular,Store C,Credit Card
+TXN_000545,CUST_0113,Yogurt;Electric Kettle;Stand Mixer;Air Fryer;Flower Pots;Rice Cooker;Pasta,2025-02-27,08:34,Home Cook,new,Store A,Debit Card
+TXN_000546,CUST_0080,Gap Jeans;Face Cream;Electric Toothbrush;Resistance Bands,2025-06-18,15:04,Fashion Conscious,new,Store C,Debit Card
+TXN_000547,CUST_0128,Dark Chocolate;Lawn Mower;Cheese;Instant Pot;Air Fryer;BBQ Grill;Toaster;Eggs;Bread;Microwave;Pasta;Yogurt,2025-02-18,12:32,Home Cook,new,Online,Mobile Payment
+TXN_000548,CUST_0165,Cheese;Rice Cooker;Outdoor Furniture;Toaster;Garden Hose;Coffee Maker;Quinoa;BBQ Grill;Pasta;Patio Umbrella;Vegetables;Yogurt,2025-07-23,21:02,Home Cook,new,Online,Debit Card
+TXN_000549,CUST_0117,iPad Mini;AirPods Pro;Kindle;Webcam;Skincare Set,2025-06-02,16:59,Tech Enthusiast,vip,Online,Debit Card
+TXN_000550,CUST_0067,Nintendo Switch;Xbox Series X;Sony WH-1000XM5,2025-03-25,08:23,Tech Enthusiast,regular,Store A,Debit Card
+TXN_000551,CUST_0083,Apple Watch;iPhone 15;Webcam,2025-05-12,15:15,Tech Enthusiast,vip,Store A,Cash
+TXN_000552,CUST_0051,Protein Bars;Patio Umbrella;Vacuum Cleaner;Chicken Breast;Cereal;Food Processor;Instant Pot;Air Fryer;Milk;Peanut Butter;Fruits;Microwave,2025-05-28,23:17,Home Cook,new,Store A,Credit Card
+TXN_000553,CUST_0072,"Smart TV 55"";Webcam;RAM 16GB",2025-05-29,18:07,Tech Enthusiast,regular,Store A,Credit Card
+TXN_000554,CUST_0000,Fitness Tracker;Bike Helmet,2025-02-06,17:07,Fitness Enthusiast,regular,Store B,Debit Card
+TXN_000555,CUST_0091,Makeup Kit;Adidas Track Pants;Conditioner;Dumbbells;Fitness Tracker;Protein Powder;Calvin Klein Underwear,2025-04-16,20:48,Fashion Conscious,new,Store A,Credit Card
+TXN_000556,CUST_0108,Fishing Rod;Swimming Goggles;Skincare Set;Surfboard;Vitamins;Toothpaste;Protein Bars,2025-02-13,14:50,Fitness Enthusiast,regular,Online,Cash
+TXN_000557,CUST_0236,Conditioner;Moisturizer;Water Bottle;Skincare Set,2025-04-27,12:54,Fitness Enthusiast,vip,Online,Debit Card
+TXN_000558,CUST_0190,Milk,2025-03-20,15:44,Book Lover,regular,Store C,Credit Card
+TXN_000559,CUST_0104,Cheese;Blender;Vacuum Cleaner;Cereal;Instant Pot;Outdoor Furniture;Microwave;Quinoa;Garden Tools Set,2025-05-08,08:21,Home Cook,regular,Online,Cash
+TXN_000560,CUST_0085,Stand Mixer;Rice;Cheese;Salmon;Tomato Sauce;Butter;Electric Kettle;Microwave,2025-02-13,19:52,Home Cook,new,Online,Cash
+TXN_000561,CUST_0014,Webcam;PlayStation 5;Gaming Mouse;Bluetooth Speaker;AirPods Pro;iPhone 15;Nintendo Switch,2025-01-30,16:41,General Shopper,vip,Store A,Credit Card
+TXN_000562,CUST_0026,Gap Jeans;Deodorant;Electric Toothbrush,2025-04-17,14:06,Fashion Conscious,regular,Store B,Credit Card
+TXN_000563,CUST_0229,Fitness Tracker;Under Armour T-Shirt;Dumbbells;Adidas Ultraboost;Hair Dryer;Converse All Stars;Electric Toothbrush,2025-07-10,08:08,Fashion Conscious,new,Online,Credit Card
+TXN_000564,CUST_0044,Makeup Kit;Electric Toothbrush;Supplement Pills;Resistance Bands,2025-02-17,07:30,Fitness Enthusiast,regular,Store A,Credit Card
+TXN_000565,CUST_0052,Twilight;Solar Lights;Snowboard;Self-Help Book;Cookbook;Patio Umbrella;Basketball;Electric Kettle;Garden Hose,2025-05-19,12:12,General Shopper,regular,Online,Cash
+TXN_000566,CUST_0247,Dumbbells;Toothpaste;Protein Powder;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Fitness Tracker;Adidas Ultraboost;Sunscreen,2025-01-30,20:08,Fashion Conscious,new,Online,Mobile Payment
+TXN_000567,CUST_0214,Conditioner;Vitamins;Fitness Tracker;Uniqlo Sweater,2025-05-13,16:04,Fashion Conscious,vip,Online,Credit Card
+TXN_000568,CUST_0110,Perfume;Sunscreen;Supplement Pills;Nike Socks;Hair Dryer,2025-06-18,10:17,Fashion Conscious,vip,Store B,Credit Card
+TXN_000569,CUST_0036,USB-C Cable;Microsoft Surface;iPhone 15,2025-05-05,08:51,Tech Enthusiast,regular,Online,Debit Card
+TXN_000570,CUST_0076,Art Book;Cereal;Pride and Prejudice,2025-06-29,08:51,Book Lover,regular,Online,Credit Card
+TXN_000571,CUST_0095,Calvin Klein Underwear;Polo Ralph Lauren Shirt;Adidas Ultraboost;Champion Hoodie;Under Armour T-Shirt;Adidas Track Pants;Shampoo;Chicken Breast,2025-06-18,10:30,Fashion Conscious,regular,Store B,Credit Card
+TXN_000572,CUST_0009,USB-C Cable;Wireless Charger;iPhone 15;Gaming Mouse;Xbox Series X;AirPods Pro,2025-02-05,14:37,Tech Enthusiast,new,Store B,Credit Card
+TXN_000573,CUST_0091,Levi's Jeans;Makeup Kit;Yoga Mat;Protein Powder;Zara Dress;Electric Toothbrush,2025-07-17,20:11,Fashion Conscious,new,Store C,Cash
+TXN_000574,CUST_0056,Camping Tent;Swimming Goggles;Fishing Rod;Under Armour T-Shirt;Vans Old Skool;Olive Oil,2025-04-20,17:34,General Shopper,regular,Store A,Debit Card
+TXN_000575,CUST_0151,Tennis Racket;Backpack;Deodorant;Tennis Balls,2025-03-25,15:22,Fitness Enthusiast,new,Store A,Debit Card
+TXN_000576,CUST_0124,Golf Clubs;Soccer Ball,2025-03-06,06:06,Fitness Enthusiast,new,Store C,Cash
+TXN_000577,CUST_0154,Lawn Mower,2025-06-12,21:29,Home Cook,regular,Online,Debit Card
+TXN_000578,CUST_0016,Rice;Stand Mixer;Honey;Orange Juice,2025-07-23,20:39,Home Cook,vip,Store A,Debit Card
+TXN_000579,CUST_0129,Air Fryer;Quinoa;Green Tea;Salmon;Peanut Butter;Vacuum Cleaner;Cereal;Vegetables;Honey,2025-03-29,16:04,Home Cook,regular,Store C,Credit Card
+TXN_000580,CUST_0080,Electric Toothbrush;Toothpaste;Nike Socks;Adidas Ultraboost;Shampoo,2025-05-15,10:47,Fashion Conscious,new,Online,Debit Card
+TXN_000581,CUST_0085,Cereal;Protein Bars;Lawn Mower;Eggs;Stand Mixer,2025-06-06,09:38,Home Cook,new,Store A,Mobile Payment
+TXN_000582,CUST_0128,Cheese;Nuts Mix;Peanut Butter;Eggs;Bread;Lawn Mower;Electric Kettle,2025-06-01,13:55,Home Cook,new,Store B,Mobile Payment
+TXN_000583,CUST_0054,Wireless Charger;Samsung Watch;Sony WH-1000XM5;USB-C Cable;MacBook Pro;iPad;Olive Oil,2025-04-27,12:44,Tech Enthusiast,vip,Store B,Debit Card
+TXN_000584,CUST_0159,Coffee Maker;Yogurt;Protein Bars;Flower Pots;Tomato Sauce;Peanut Butter,2025-02-20,16:05,Home Cook,regular,Online,Debit Card
+TXN_000585,CUST_0020,Skincare Set;Bike Helmet;Mountain Bike,2025-05-26,17:38,Fitness Enthusiast,vip,Store C,Credit Card
+TXN_000586,CUST_0242,Resistance Bands;Backpack;Water Bottle;Hiking Boots;Deodorant;Soccer Ball,2025-05-08,19:56,Fitness Enthusiast,new,Store C,Cash
+TXN_000587,CUST_0243,Shampoo;Yoga Mat;Water Bottle,2025-06-09,05:24,Fitness Enthusiast,regular,Store A,Debit Card
+TXN_000588,CUST_0066,Vitamins;Adidas Ultraboost;Uniqlo Sweater;Electric Toothbrush,2025-03-04,14:19,Fashion Conscious,vip,Store C,Debit Card
+TXN_000589,CUST_0151,Bike Helmet,2025-06-15,13:49,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000590,CUST_0242,Golf Balls;Moisturizer,2025-03-27,13:48,Fitness Enthusiast,new,Store B,Credit Card
+TXN_000591,CUST_0007,Biography;Webcam;Cookbook;Romance Novel,2025-03-14,16:11,General Shopper,regular,Store A,Debit Card
+TXN_000592,CUST_0123,Skincare Set;Converse All Stars;Face Cream;Sunscreen,2025-07-02,08:20,Fashion Conscious,new,Store B,Mobile Payment
+TXN_000593,CUST_0070,Nuts Mix,2025-03-25,18:48,Book Lover,new,Store B,Debit Card
+TXN_000594,CUST_0092,Face Cream;Shampoo;Resistance Bands,2025-03-15,07:17,Fashion Conscious,regular,Store A,Debit Card
+TXN_000595,CUST_0073,Gaming Mouse;4K Monitor;Dell XPS 13,2025-03-20,13:10,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000596,CUST_0148,Supplement Pills;Champion Hoodie;Under Armour T-Shirt;Sunscreen;Hair Dryer;Chicken Breast,2025-05-03,12:20,Fashion Conscious,regular,Store B,Debit Card
+TXN_000597,CUST_0227,Yoga Mat,2025-01-31,15:57,Fashion Conscious,regular,Store C,Credit Card
+TXN_000598,CUST_0202,Resistance Bands,2025-02-27,05:10,Fitness Enthusiast,vip,Online,Debit Card
+TXN_000599,CUST_0163,Quinoa,2025-03-12,07:35,Book Lover,regular,Store B,Debit Card
+TXN_000600,CUST_0071,Fruits;Milk;Organic Coffee;Peanut Butter,2025-04-20,09:56,Book Lover,new,Store C,Credit Card
+TXN_000601,CUST_0195,Peanut Butter;Twilight,2025-05-15,19:42,Book Lover,new,Online,Cash
+TXN_000602,CUST_0179,Instant Pot,2025-07-12,18:06,Home Cook,regular,Store B,Debit Card
+TXN_000603,CUST_0167,Nuts Mix;Green Tea;Vacuum Cleaner;Electric Kettle;Vegetables;Rice Cooker;Fruits;Blender,2025-03-27,14:34,Home Cook,new,Store B,Debit Card
+TXN_000604,CUST_0042,Air Fryer;Vegetables;Eggs,2025-02-03,15:11,Home Cook,regular,Store A,Debit Card
+TXN_000605,CUST_0020,Golf Balls;Snowboard;Resistance Bands;Sunscreen;Nuts Mix,2025-04-10,17:08,Fitness Enthusiast,vip,Store A,Debit Card
+TXN_000606,CUST_0019,Ray-Ban Sunglasses,2025-03-19,18:40,Fashion Conscious,regular,Online,Credit Card
+TXN_000607,CUST_0009,Dell XPS 13,2025-03-12,23:24,Tech Enthusiast,new,Online,Credit Card
+TXN_000608,CUST_0147,H&M T-Shirt;Converse All Stars;Skincare Set;Sunscreen;Nike Hoodie,2025-05-27,19:46,Fashion Conscious,regular,Online,Debit Card
+TXN_000609,CUST_0055,Golf Balls;Hair Dryer;Sunscreen,2025-02-05,16:52,Fitness Enthusiast,vip,Store A,Debit Card
+TXN_000610,CUST_0049,Running Shoes,2025-07-15,06:33,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000611,CUST_0038,BBQ Grill;Olive Oil;Patio Umbrella;Cereal;Quinoa;Nuts Mix;Garden Tools Set;Peanut Butter;Eggs;Butter;Milk;Cheese;Protein Bars;Honey,2025-01-29,18:01,Home Cook,new,Store B,Credit Card
+TXN_000612,CUST_0221,iPad Mini;Fitness Tracker,2025-03-05,18:35,Tech Enthusiast,new,Store B,Credit Card
+TXN_000613,CUST_0138,Cookbook,2025-07-12,15:35,General Shopper,new,Store A,Credit Card
+TXN_000614,CUST_0116,Tommy Hilfiger Jacket;Ray-Ban Sunglasses;Resistance Bands;Levi's Jeans,2025-03-28,18:09,Fashion Conscious,vip,Online,Debit Card
+TXN_000615,CUST_0142,Microwave;Rice Cooker;Cereal;Cheese;Honey;Quinoa;Milk;Butter;Bread;Food Processor,2025-03-24,15:20,Home Cook,regular,Store A,Credit Card
+TXN_000616,CUST_0016,Organic Coffee,2025-02-13,15:20,Home Cook,vip,Store C,Credit Card
+TXN_000617,CUST_0063,"Gaming Mouse;Gaming Keyboard;Bluetooth Speaker;Smart TV 55"";Sony WH-1000XM5",2025-07-02,16:10,Tech Enthusiast,regular,Store A,Credit Card
+TXN_000618,CUST_0079,Vitamins;Ski Equipment;Tennis Balls,2025-04-28,18:36,Fitness Enthusiast,new,Online,Mobile Payment
+TXN_000619,CUST_0117,Sony WH-1000XM5,2025-03-05,17:43,Tech Enthusiast,vip,Store B,Debit Card
+TXN_000620,CUST_0179,Food Processor;Olive Oil;Nuts Mix;Electric Kettle,2025-05-19,02:41,Home Cook,regular,Store A,Credit Card
+TXN_000621,CUST_0186,Harry Potter Series;Chicken Breast;Nuts Mix,2025-03-10,14:13,Book Lover,vip,Store C,Credit Card
+TXN_000622,CUST_0055,Moisturizer;Water Bottle;Surfboard;Resistance Bands,2025-02-23,18:58,Fitness Enthusiast,vip,Online,Cash
+TXN_000623,CUST_0236,Golf Clubs;Ski Equipment;Bike Helmet;Toothpaste;Deodorant;Yoga Mat,2025-05-15,08:42,Fitness Enthusiast,vip,Store B,Credit Card
+TXN_000624,CUST_0008,Magazine;Green Tea;Mystery Novel,2025-03-26,16:42,Book Lover,regular,Store C,Credit Card
+TXN_000625,CUST_0001,Kindle;4K Monitor;External SSD;Dell XPS 13;Apple Watch;Sony WH-1000XM5,2025-07-13,13:40,Tech Enthusiast,vip,Store B,Debit Card
+TXN_000626,CUST_0186,1984,2025-03-27,06:11,Book Lover,vip,Store B,Credit Card
+TXN_000627,CUST_0172,Butter;Nuts Mix;Bread;Vegetables;Electric Kettle,2025-03-18,19:08,Home Cook,regular,Store B,Mobile Payment
+TXN_000628,CUST_0085,Olive Oil;BBQ Grill;Tomato Sauce;Pasta;Organic Coffee;Orange Juice,2025-05-23,17:28,Home Cook,new,Store B,Debit Card
+TXN_000629,CUST_0196,Face Cream;Fitness Tracker;Yoga Mat;Nike Hoodie;Conditioner,2025-05-01,13:46,Fashion Conscious,new,Store B,Credit Card
+TXN_000630,CUST_0127,Vitamins;Yoga Mat;Nike Air Max;H&M T-Shirt;Dumbbells;Face Cream;Converse All Stars,2025-06-13,14:28,Fashion Conscious,new,Online,Mobile Payment
+TXN_000631,CUST_0013,Adidas Ultraboost;1984,2025-02-17,21:31,General Shopper,regular,Store A,Mobile Payment
+TXN_000632,CUST_0196,Calvin Klein Underwear;Gap Jeans;Supplement Pills;Makeup Kit,2025-05-18,21:04,Fashion Conscious,new,Store B,Credit Card
+TXN_000633,CUST_0080,Conditioner,2025-04-17,13:08,Fashion Conscious,new,Store C,Credit Card
+TXN_000634,CUST_0142,Instant Pot;Food Processor;Air Fryer;Rice;Coffee Maker;Salmon;Garden Hose;Garden Tools Set;Chicken Breast,2025-02-19,13:12,Home Cook,regular,Online,Debit Card
+TXN_000635,CUST_0006,Gym Bag;Moisturizer,2025-07-06,18:25,Fitness Enthusiast,regular,Store A,Credit Card
+TXN_000636,CUST_0022,Peanut Butter;Orange Juice;Yogurt,2025-06-16,09:18,General Shopper,regular,Store C,Debit Card
+TXN_000637,CUST_0232,Resistance Bands;Bike Helmet;Mountain Bike;Swimming Goggles,2025-07-11,12:12,Fitness Enthusiast,regular,Store C,Mobile Payment
+TXN_000638,CUST_0020,Soccer Ball;Snowboard;Moisturizer;Chicken Breast,2025-06-25,19:46,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000639,CUST_0026,Zara Dress;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Face Cream;Toothpaste;Vans Old Skool,2025-05-05,08:21,Fashion Conscious,regular,Store B,Credit Card
+TXN_000640,CUST_0185,Makeup Kit;Conditioner;Moisturizer;Face Cream;Deodorant,2025-04-22,16:03,General Shopper,vip,Store A,Debit Card
+TXN_000641,CUST_0178,Ski Equipment;Tennis Balls;Supplement Pills,2025-03-25,09:05,Fitness Enthusiast,vip,Store C,Credit Card
+TXN_000642,CUST_0165,Yogurt,2025-07-12,10:52,Home Cook,new,Store C,Debit Card
+TXN_000643,CUST_0132,Camping Tent;Mountain Bike;Moisturizer,2025-07-14,13:09,Fitness Enthusiast,vip,Store B,Cash
+TXN_000644,CUST_0121,Makeup Kit,2025-04-28,12:35,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000645,CUST_0155,Toothpaste;Deodorant;Nike Socks;Tommy Hilfiger Jacket;Vans Old Skool,2025-07-19,18:44,Fashion Conscious,regular,Store A,Credit Card
+TXN_000646,CUST_0013,Instant Pot;Tennis Racket;Water Bottle;Mountain Bike;Patio Umbrella;Running Shoes;Bike Helmet,2025-06-02,09:35,General Shopper,regular,Store A,Debit Card
+TXN_000647,CUST_0182,Skincare Set;Bike Helmet;Face Cream;Snowboard,2025-02-12,18:28,Fitness Enthusiast,new,Store C,Cash
+TXN_000648,CUST_0125,Magazine;Cookbook;Protein Bars,2025-06-26,12:50,Book Lover,new,Online,Cash
+TXN_000649,CUST_0248,Adidas Track Pants;Under Armour T-Shirt;Resistance Bands,2025-05-28,20:09,Fashion Conscious,new,Store A,Credit Card
+TXN_000650,CUST_0148,Makeup Kit,2025-04-08,18:13,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000651,CUST_0046,Art Book;Cookbook;The Great Gatsby;Magazine,2025-04-16,08:54,Book Lover,new,Online,Mobile Payment
+TXN_000652,CUST_0083,MacBook Pro,2025-02-15,08:20,Tech Enthusiast,vip,Store C,Debit Card
+TXN_000653,CUST_0069,Garden Hose;Stand Mixer;BBQ Grill;Rice Cooker,2025-07-03,13:55,General Shopper,new,Store A,Debit Card
+TXN_000654,CUST_0149,Electric Kettle;Microwave;Coffee Maker;Green Tea;Tomato Sauce;Rice Cooker;Food Processor;Protein Bars;Quinoa;Pasta,2025-07-07,13:48,Home Cook,regular,Store B,Mobile Payment
+TXN_000655,CUST_0246,Romance Novel,2025-02-13,14:02,Book Lover,new,Store A,Credit Card
+TXN_000656,CUST_0025,Dumbbells;Skincare Set;Toothpaste;Perfume,2025-05-06,18:22,General Shopper,new,Store B,Credit Card
+TXN_000657,CUST_0085,Plant Fertilizer;Air Fryer;Milk;Lawn Mower,2025-02-07,08:22,Home Cook,new,Store B,Debit Card
+TXN_000658,CUST_0241,1984;Rice;Milk;The Da Vinci Code,2025-03-25,07:12,Book Lover,regular,Store C,Debit Card
+TXN_000659,CUST_0087,Vegetables;Solar Lights;Flower Pots;Toaster;Stand Mixer;Fruits;Blender;Dark Chocolate;BBQ Grill;Olive Oil,2025-07-16,16:15,Home Cook,regular,Store B,Cash
+TXN_000660,CUST_0058,Deodorant;Gym Bag;Milk,2025-07-20,08:20,Fitness Enthusiast,regular,Store C,Cash
+TXN_000661,CUST_0219,Snowboard;Basketball;Face Cream;Soccer Ball;Gym Bag,2025-06-20,14:13,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000662,CUST_0065,Water Bottle,2025-01-29,10:45,Fitness Enthusiast,regular,Store C,Mobile Payment
+TXN_000663,CUST_0053,1984;Yogurt;Green Tea,2025-07-01,13:08,Book Lover,regular,Store B,Credit Card
+TXN_000664,CUST_0126,Toothpaste,2025-07-16,21:10,Fitness Enthusiast,regular,Online,Credit Card
+TXN_000665,CUST_0012,Skincare Set;Adidas Track Pants;Face Cream;Nike Hoodie;Conditioner;Makeup Kit;Dumbbells;Body Wash,2025-04-05,15:54,Fashion Conscious,new,Store A,Credit Card
+TXN_000666,CUST_0064,Adidas Ultraboost;Sunscreen;Under Armour T-Shirt;Conditioner,2025-03-10,16:25,Fashion Conscious,regular,Store B,Debit Card
+TXN_000667,CUST_0076,Dark Chocolate,2025-07-04,18:09,Book Lover,regular,Store B,Mobile Payment
+TXN_000668,CUST_0127,Levi's Jeans;Moisturizer;Deodorant;Yoga Mat;Fitness Tracker,2025-02-14,02:12,Fashion Conscious,new,Store A,Credit Card
+TXN_000669,CUST_0177,Under Armour T-Shirt;Levi's Jeans;Uniqlo Sweater,2025-05-29,12:27,Fashion Conscious,regular,Online,Credit Card
+TXN_000670,CUST_0202,Perfume;Dumbbells;Tennis Balls;Backpack;Toothpaste;Fitness Tracker;Yoga Mat,2025-02-21,14:16,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000671,CUST_0029,Plant Fertilizer;Eggs;Blender;Rice;Fruits,2025-03-21,06:17,Home Cook,new,Store A,Credit Card
+TXN_000672,CUST_0211,Organic Coffee;Dark Chocolate;Plant Fertilizer;Outdoor Furniture;Microwave;Olive Oil;Pasta;Rice Cooker,2025-05-07,10:14,Home Cook,regular,Store C,Credit Card
+TXN_000673,CUST_0205,Self-Help Book,2025-06-28,09:08,Book Lover,vip,Store A,Cash
+TXN_000674,CUST_0046,Magazine,2025-02-13,14:02,Book Lover,new,Store B,Mobile Payment
+TXN_000675,CUST_0059,Vitamins;Surfboard,2025-06-12,13:40,Fitness Enthusiast,vip,Store A,Mobile Payment
+TXN_000676,CUST_0199,H&M T-Shirt;Tomato Sauce;Tommy Hilfiger Jacket;Ray-Ban Sunglasses;Green Tea;The Great Gatsby;Chicken Breast,2025-05-02,10:39,General Shopper,regular,Store A,Mobile Payment
+TXN_000677,CUST_0011,Skincare Set;Shampoo,2025-01-25,15:47,Fitness Enthusiast,new,Store B,Credit Card
+TXN_000678,CUST_0174,Pasta;Quinoa,2025-07-14,16:19,Home Cook,regular,Online,Credit Card
+TXN_000679,CUST_0072,Kindle;Butter,2025-05-03,10:37,Tech Enthusiast,regular,Store B,Credit Card
+TXN_000680,CUST_0059,Dumbbells;Fitness Tracker,2025-06-15,17:47,Fitness Enthusiast,vip,Store C,Cash
+TXN_000681,CUST_0011,Basketball;Bike Helmet,2025-02-03,15:37,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000682,CUST_0144,Chicken Breast,2025-06-12,16:52,Book Lover,vip,Online,Cash
+TXN_000683,CUST_0087,Butter;Garden Tools Set;Yogurt;Outdoor Furniture,2025-05-13,11:37,Home Cook,regular,Store A,Credit Card
+TXN_000684,CUST_0024,Pasta;Romance Novel;Protein Bars;Art Book;Eggs,2025-03-03,12:48,Book Lover,vip,Store A,Mobile Payment
+TXN_000685,CUST_0127,Nike Air Max;Uniqlo Sweater,2025-02-13,08:51,Fashion Conscious,new,Store B,Credit Card
+TXN_000686,CUST_0086,Electric Toothbrush;Nike Socks;Zara Dress;Conditioner;Face Cream;Uniqlo Sweater,2025-02-26,12:05,Fashion Conscious,regular,Store B,Credit Card
+TXN_000687,CUST_0120,Gap Jeans,2025-03-18,16:29,Fashion Conscious,new,Store C,Credit Card
+TXN_000688,CUST_0242,Supplement Pills,2025-06-01,18:32,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000689,CUST_0133,Dumbbells;Supplement Pills;Protein Powder;Skincare Set,2025-01-30,14:54,Fashion Conscious,regular,Store B,Debit Card
+TXN_000690,CUST_0028,Electric Kettle;Coffee Maker;Fruits;Instant Pot;Stand Mixer;Air Fryer;Salmon;Green Tea,2025-04-18,09:33,Home Cook,vip,Store A,Mobile Payment
+TXN_000691,CUST_0104,Garden Hose;Tomato Sauce;Electric Kettle,2025-04-02,15:25,Home Cook,regular,Online,Credit Card
+TXN_000692,CUST_0150,Protein Powder;Toothpaste;Champion Hoodie;Vans Old Skool;Levi's Jeans,2025-04-10,15:04,Fashion Conscious,regular,Store A,Cash
+TXN_000693,CUST_0183,Perfume;Dumbbells;Nike Air Max,2025-07-10,09:47,Fashion Conscious,new,Store C,Debit Card
+TXN_000694,CUST_0162,Face Cream;Skincare Set;Sunscreen;Vitamins;Conditioner;Under Armour T-Shirt,2025-04-09,18:49,Fashion Conscious,vip,Store C,Credit Card
+TXN_000695,CUST_0091,Perfume;Yoga Mat;Gap Jeans;Vitamins;Uniqlo Sweater;Skincare Set,2025-04-17,16:44,Fashion Conscious,new,Store A,Debit Card
+TXN_000696,CUST_0082,Zara Dress;Dumbbells;Electric Toothbrush;Face Cream;Vans Old Skool;Adidas Track Pants;Sunscreen;Hair Dryer;Uniqlo Sweater;Yoga Mat,2025-06-14,07:46,Fashion Conscious,vip,Online,Mobile Payment
+TXN_000697,CUST_0205,Cookbook;To Kill a Mockingbird,2025-07-09,18:25,Book Lover,vip,Store C,Debit Card
+TXN_000698,CUST_0112,Food Processor;Air Fryer;Dark Chocolate;Electric Kettle;Stand Mixer,2025-06-27,15:52,Home Cook,regular,Online,Debit Card
+TXN_000699,CUST_0077,Golf Clubs;Toothpaste;Camping Tent,2025-04-22,18:36,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000700,CUST_0235,Resistance Bands;Yoga Mat;Electric Toothbrush;Supplement Pills;Sunscreen,2025-02-25,17:44,Fashion Conscious,vip,Store A,Cash
+TXN_000701,CUST_0204,Rice;Outdoor Furniture;Instant Pot;Rice Cooker;Dark Chocolate;Cheese;Electric Kettle,2025-04-20,14:40,Home Cook,regular,Store C,Cash
+TXN_000702,CUST_0162,Sunscreen;Resistance Bands;Protein Powder;H&M T-Shirt,2025-05-09,10:19,Fashion Conscious,vip,Store B,Credit Card
+TXN_000703,CUST_0131,Hair Dryer;Toothpaste;Fitness Tracker;Mountain Bike;Rice,2025-07-04,14:05,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000704,CUST_0007,Yogurt;Chicken Breast;Rice;Sleeping Bag,2025-07-07,14:05,General Shopper,regular,Store C,Debit Card
+TXN_000705,CUST_0000,Basketball,2025-07-20,06:46,Fitness Enthusiast,regular,Store C,Credit Card
+TXN_000706,CUST_0034,Adidas Ultraboost,2025-04-27,14:01,Fashion Conscious,new,Online,Credit Card
+TXN_000707,CUST_0024,Romance Novel;Butter;Bread;Salmon,2025-03-27,17:48,Book Lover,vip,Store C,Debit Card
+TXN_000708,CUST_0159,Plant Fertilizer;BBQ Grill;Garden Tools Set;Lawn Mower;Instant Pot,2025-04-17,12:50,Home Cook,regular,Online,Debit Card
+TXN_000709,CUST_0024,1984,2025-02-15,13:49,Book Lover,vip,Store B,Mobile Payment
+TXN_000710,CUST_0122,Dell XPS 13;Apple Watch;Nintendo Switch;Samsung Galaxy S24;iPad,2025-07-16,13:16,Tech Enthusiast,new,Store A,Credit Card
+TXN_000711,CUST_0096,Dark Chocolate;Organic Coffee,2025-06-11,11:54,General Shopper,regular,Online,Mobile Payment
+TXN_000712,CUST_0086,Makeup Kit;Electric Toothbrush;Face Cream;Perfume;Uniqlo Sweater,2025-02-24,13:01,Fashion Conscious,regular,Store B,Credit Card
+TXN_000713,CUST_0159,Air Fryer;Flower Pots,2025-02-10,04:21,Home Cook,regular,Store A,Debit Card
+TXN_000714,CUST_0074,Dell XPS 13;Graphics Card RTX 4070;RAM 16GB,2025-02-12,07:54,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000715,CUST_0220,Sunscreen;H&M T-Shirt;Nike Air Max;Uniqlo Sweater,2025-05-29,17:56,Fashion Conscious,regular,Store C,Credit Card
+TXN_000716,CUST_0077,Golf Balls;Vitamins,2025-05-09,06:48,Fitness Enthusiast,new,Store A,Debit Card
+TXN_000717,CUST_0246,1984;Dark Chocolate;Organic Coffee;Protein Bars,2025-04-12,20:26,Book Lover,new,Online,Credit Card
+TXN_000718,CUST_0141,Milk;The Da Vinci Code;Dark Chocolate,2025-07-03,20:53,Book Lover,new,Online,Cash
+TXN_000719,CUST_0124,Snowboard;Water Bottle;Hiking Boots;Deodorant,2025-03-30,15:48,Fitness Enthusiast,new,Online,Debit Card
+TXN_000720,CUST_0090,Coffee Maker,2025-06-15,14:40,Home Cook,new,Online,Debit Card
+TXN_000721,CUST_0064,Nike Socks;Adidas Ultraboost;Nike Hoodie;Vitamins;Protein Powder,2025-04-21,13:01,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000722,CUST_0080,Shampoo;Vitamins;Protein Powder;Yoga Mat;Electric Toothbrush,2025-02-27,12:42,Fashion Conscious,new,Store B,Credit Card
+TXN_000723,CUST_0043,"Wireless Charger;Smart TV 55"";Graphics Card RTX 4070;Gaming Mouse",2025-02-28,16:28,Tech Enthusiast,new,Store C,Mobile Payment
+TXN_000724,CUST_0205,Biography;Cereal;Tomato Sauce;Resistance Bands,2025-03-13,17:08,Book Lover,vip,Store A,Credit Card
+TXN_000725,CUST_0117,iPad;Apple Watch;USB-C Cable;4K Monitor;iPad Mini,2025-02-08,15:49,Tech Enthusiast,vip,Store A,Cash
+TXN_000726,CUST_0187,Under Armour T-Shirt;Electric Toothbrush;Sunscreen;Face Cream;Polo Ralph Lauren Shirt,2025-04-10,17:16,Fashion Conscious,regular,Store C,Debit Card
+TXN_000727,CUST_0034,Supplement Pills,2025-03-01,16:40,Fashion Conscious,new,Online,Debit Card
+TXN_000728,CUST_0231,Patio Umbrella;Vegetables;Olive Oil;BBQ Grill;Air Fryer;Coffee Maker,2025-05-09,17:52,Home Cook,new,Store A,Credit Card
+TXN_000729,CUST_0045,Eggs;Organic Coffee,2025-02-10,11:24,Book Lover,regular,Store C,Cash
+TXN_000730,CUST_0039,Biography,2025-02-13,11:32,Book Lover,regular,Online,Credit Card
+TXN_000731,CUST_0113,Patio Umbrella;Vacuum Cleaner;Solar Lights;Olive Oil;Pasta;Milk;Garden Hose;Coffee Maker,2025-06-25,13:38,Home Cook,new,Store C,Cash
+TXN_000732,CUST_0048,Gap Jeans;Toothpaste;Nike Socks,2025-03-13,19:47,Fashion Conscious,vip,Store B,Debit Card
+TXN_000733,CUST_0065,Gym Bag;Surfboard;Sunscreen,2025-04-01,16:05,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000734,CUST_0086,Nike Socks;Nike Air Max;Uniqlo Sweater,2025-04-07,15:11,Fashion Conscious,regular,Store A,Mobile Payment
+TXN_000735,CUST_0021,Hair Dryer;Shampoo;Sunscreen,2025-07-15,22:06,Fashion Conscious,new,Store A,Credit Card
+TXN_000736,CUST_0018,Adidas Track Pants;Toothpaste;Fitness Tracker;Tommy Hilfiger Jacket;Nike Air Max,2025-05-29,19:44,Fashion Conscious,new,Store C,Credit Card
+TXN_000737,CUST_0085,Peanut Butter;Vegetables;Electric Kettle;Milk;Garden Tools Set;Olive Oil;Green Tea;Coffee Maker;Pasta,2025-05-30,10:56,Home Cook,new,Online,Mobile Payment
+TXN_000738,CUST_0014,Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Zara Dress;Under Armour T-Shirt;Levi's Jeans;Vans Old Skool;Nike Air Max;Gap Jeans,2025-06-03,15:26,General Shopper,vip,Online,Debit Card
+TXN_000739,CUST_0113,Outdoor Furniture;Olive Oil;Dark Chocolate;Cereal;Honey;Patio Umbrella;Butter;Food Processor,2025-07-08,22:08,Home Cook,new,Store A,Cash
+TXN_000740,CUST_0231,Tomato Sauce;Peanut Butter;Vegetables;Rice;Patio Umbrella;Stand Mixer;Olive Oil;Pasta;Instant Pot;Garden Hose;Lawn Mower;Microwave;Dark Chocolate,2025-03-07,22:11,Home Cook,new,Store C,Mobile Payment
+TXN_000741,CUST_0158,Yoga Mat,2025-06-05,18:15,Fitness Enthusiast,new,Store C,Mobile Payment
+TXN_000742,CUST_0084,Hair Dryer;Conditioner,2025-02-07,10:48,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000743,CUST_0105,Fitness Tracker;Water Bottle;Skincare Set;Vitamins;Electric Toothbrush,2025-04-12,07:43,Fitness Enthusiast,regular,Store C,Credit Card
+TXN_000744,CUST_0015,Gaming Mouse;Power Bank;Gaming Keyboard;Bluetooth Speaker,2025-01-30,16:18,Tech Enthusiast,new,Store B,Credit Card
+TXN_000745,CUST_0231,Garden Tools Set;Blender;Coffee Maker;Electric Kettle;Tomato Sauce;Instant Pot;Air Fryer;Rice;Patio Umbrella,2025-01-29,12:49,Home Cook,new,Store B,Debit Card
+TXN_000746,CUST_0052,Golf Balls;Gym Bag;To Kill a Mockingbird;Swimming Goggles,2025-04-22,10:06,General Shopper,regular,Store B,Credit Card
+TXN_000747,CUST_0091,Uniqlo Sweater;Gap Jeans;Toothpaste;Fitness Tracker;Adidas Ultraboost;Sunscreen,2025-03-07,09:22,Fashion Conscious,new,Store A,Credit Card
+TXN_000748,CUST_0033,Olive Oil;Orange Juice;Electric Kettle;Cereal;Quinoa,2025-07-18,13:12,Home Cook,vip,Online,Credit Card
+TXN_000749,CUST_0003,iPad Mini;AirPods Pro;4K Monitor;USB-C Cable;iPhone 15;MacBook Pro,2025-06-18,04:12,Tech Enthusiast,new,Store C,Cash
+TXN_000750,CUST_0068,Uniqlo Sweater;Deodorant;Gap Jeans,2025-07-09,15:51,Fashion Conscious,vip,Store C,Credit Card
+TXN_000751,CUST_0187,Resistance Bands;Vans Old Skool;Fruits,2025-04-22,19:30,Fashion Conscious,regular,Store A,Mobile Payment
+TXN_000752,CUST_0032,Polo Ralph Lauren Shirt;Sunscreen;H&M T-Shirt;Champion Hoodie;Fitness Tracker,2025-02-21,17:23,Fashion Conscious,regular,Store B,Credit Card
+TXN_000753,CUST_0064,Face Cream;Conditioner;Adidas Track Pants;Vitamins;Fitness Tracker;Protein Powder;Sunscreen;Levi's Jeans,2025-04-23,14:24,Fashion Conscious,regular,Store A,Credit Card
+TXN_000754,CUST_0024,Chicken Breast;History Book;Magazine;Yoga Mat,2025-04-30,16:43,Book Lover,vip,Store C,Debit Card
+TXN_000755,CUST_0098,Tennis Balls;Tennis Racket;Basketball;Body Wash;Fishing Rod,2025-03-13,09:13,Fitness Enthusiast,new,Online,Debit Card
+TXN_000756,CUST_0055,Snowboard;Sleeping Bag;Soccer Ball;Conditioner;Gym Bag,2025-02-12,15:27,Fitness Enthusiast,vip,Online,Debit Card
+TXN_000757,CUST_0102,Quinoa;Orange Juice;Milk,2025-04-16,09:41,Book Lover,regular,Store A,Mobile Payment
+TXN_000758,CUST_0240,Blender;Toaster;Garden Hose;Outdoor Furniture;Electric Kettle;Nuts Mix;Vacuum Cleaner,2025-02-13,18:54,Home Cook,new,Store B,Credit Card
+TXN_000759,CUST_0190,Pride and Prejudice;Twilight;Science Fiction Novel;Yoga Mat,2025-03-05,18:25,Book Lover,regular,Online,Cash
+TXN_000760,CUST_0178,Soccer Ball,2025-05-01,09:20,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000761,CUST_0173,iPad;Webcam;Gaming Keyboard;MacBook Pro;Xbox Series X,2025-06-11,12:18,Tech Enthusiast,regular,Store C,Mobile Payment
+TXN_000762,CUST_0204,Tomato Sauce;Rice Cooker;Pasta;Blender;Milk;Vacuum Cleaner,2025-07-16,20:03,Home Cook,regular,Store B,Credit Card
+TXN_000763,CUST_0028,Outdoor Furniture;Stand Mixer;Air Fryer;BBQ Grill;Honey;Organic Coffee;Rice Cooker;Electric Kettle,2025-03-21,17:43,Home Cook,vip,Store A,Cash
+TXN_000764,CUST_0073,Apple Watch;Xbox Series X;iPad;Microsoft Surface,2025-05-26,19:08,Tech Enthusiast,vip,Store B,Credit Card
+TXN_000765,CUST_0045,1984,2025-03-22,16:54,Book Lover,regular,Store A,Credit Card
+TXN_000766,CUST_0080,Uniqlo Sweater;Levi's Jeans;Vans Old Skool;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Electric Toothbrush,2025-02-12,17:19,Fashion Conscious,new,Store A,Debit Card
+TXN_000767,CUST_0146,H&M T-Shirt;Nike Socks;Vans Old Skool;Calvin Klein Underwear;Supplement Pills;Nike Hoodie;Ray-Ban Sunglasses,2025-03-22,13:38,Fashion Conscious,vip,Store A,Debit Card
+TXN_000768,CUST_0204,Rice Cooker;Chicken Breast;Microwave;Plant Fertilizer;Tomato Sauce;Stand Mixer,2025-06-12,13:48,Home Cook,regular,Store B,Debit Card
+TXN_000769,CUST_0101,Cereal;Pasta,2025-04-24,19:38,Book Lover,new,Online,Cash
+TXN_000770,CUST_0059,Dumbbells;Electric Toothbrush;Ski Equipment;Skincare Set;Backpack;Makeup Kit;Tennis Racket;Water Bottle,2025-04-07,14:10,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000771,CUST_0124,Dumbbells;Body Wash;Shampoo;Electric Toothbrush;Face Cream,2025-02-28,18:59,Fitness Enthusiast,new,Online,Credit Card
+TXN_000772,CUST_0005,Nike Hoodie;Polo Ralph Lauren Shirt;Ray-Ban Sunglasses;Body Wash;Electric Toothbrush;Supplement Pills;Levi's Jeans,2025-05-09,13:46,Fashion Conscious,regular,Online,Debit Card
+TXN_000773,CUST_0027,AirPods Pro;Apple Watch;Graphics Card RTX 4070;MacBook Pro;RAM 16GB;Bluetooth Speaker,2025-04-10,01:17,Tech Enthusiast,vip,Store A,Mobile Payment
+TXN_000774,CUST_0050,To Kill a Mockingbird,2025-02-19,07:17,Book Lover,new,Online,Credit Card
+TXN_000775,CUST_0143,Vitamins;Adidas Ultraboost;Vans Old Skool;Champion Hoodie;Nike Air Max,2025-07-10,12:51,Fashion Conscious,vip,Store B,Credit Card
+TXN_000776,CUST_0096,Microsoft Surface;Zara Dress;Ray-Ban Sunglasses,2025-04-02,08:50,General Shopper,regular,Store A,Debit Card
+TXN_000777,CUST_0077,Dumbbells,2025-05-07,13:37,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000778,CUST_0046,Butter;Bread;The Da Vinci Code,2025-05-19,11:16,Book Lover,new,Online,Debit Card
+TXN_000779,CUST_0085,Cheese;Peanut Butter;Bread;Organic Coffee;Nuts Mix;Butter;Plant Fertilizer;Protein Bars;BBQ Grill,2025-02-26,14:56,Home Cook,new,Store B,Mobile Payment
+TXN_000780,CUST_0177,Adidas Track Pants;Yoga Mat,2025-03-26,12:30,Fashion Conscious,regular,Store B,Credit Card
+TXN_000781,CUST_0211,Eggs;Rice Cooker;Instant Pot;Outdoor Furniture;Cereal;Microwave;Patio Umbrella,2025-06-08,09:19,Home Cook,regular,Store C,Mobile Payment
+TXN_000782,CUST_0130,Nike Hoodie;Fitness Tracker;Under Armour T-Shirt;Converse All Stars,2025-04-06,13:10,Fashion Conscious,regular,Store A,Credit Card
+TXN_000783,CUST_0117,"Bluetooth Speaker;Smart TV 55"";Webcam;Kindle;Graphics Card RTX 4070;Samsung Watch",2025-06-12,15:12,Tech Enthusiast,vip,Online,Credit Card
+TXN_000784,CUST_0024,Cookbook;Milk;Organic Coffee;Peanut Butter,2025-07-13,16:28,Book Lover,vip,Store B,Cash
+TXN_000785,CUST_0114,Garden Tools Set;Bread;Rice Cooker;Instant Pot;Garden Hose;Solar Lights;Honey;Organic Coffee;Salmon;Coffee Maker;Outdoor Furniture;Toaster,2025-03-18,16:48,Home Cook,new,Store A,Credit Card
+TXN_000786,CUST_0129,Olive Oil;Nuts Mix;Flower Pots;Bread;Instant Pot;Garden Hose;Shampoo,2025-04-10,09:17,Home Cook,regular,Store B,Cash
+TXN_000787,CUST_0075,Stand Mixer;Gaming Mouse;Gaming Keyboard;Blender;Body Wash;Deodorant;Sony WH-1000XM5,2025-04-24,16:52,General Shopper,new,Store A,Credit Card
+TXN_000788,CUST_0179,Chicken Breast;Olive Oil;Flower Pots,2025-05-16,13:05,Home Cook,regular,Store C,Credit Card
+TXN_000789,CUST_0110,Nike Air Max;Tommy Hilfiger Jacket;Adidas Track Pants;Deodorant;Supplement Pills;Uniqlo Sweater,2025-05-16,13:38,Fashion Conscious,vip,Online,Cash
+TXN_000790,CUST_0227,Vitamins;Face Cream;Tommy Hilfiger Jacket;Champion Hoodie;Deodorant,2025-03-16,15:32,Fashion Conscious,regular,Online,Debit Card
+TXN_000791,CUST_0162,Zara Dress;Electric Toothbrush;Vitamins;Nike Socks;Fitness Tracker;Ray-Ban Sunglasses;Moisturizer;Polo Ralph Lauren Shirt;Uniqlo Sweater,2025-06-24,20:40,Fashion Conscious,vip,Store C,Debit Card
+TXN_000792,CUST_0103,Xbox Series X,2025-07-16,20:28,Tech Enthusiast,vip,Store C,Mobile Payment
+TXN_000793,CUST_0241,Art Book;Romance Novel;Rice,2025-06-27,15:27,Book Lover,regular,Store C,Mobile Payment
+TXN_000794,CUST_0133,Ray-Ban Sunglasses;Zara Dress;Converse All Stars;Under Armour T-Shirt;Nike Air Max,2025-06-11,18:40,Fashion Conscious,regular,Online,Cash
+TXN_000795,CUST_0020,Bike Helmet;Orange Juice,2025-06-06,20:58,Fitness Enthusiast,vip,Store B,Debit Card
+TXN_000796,CUST_0227,Hair Dryer;Zara Dress;Champion Hoodie;Resistance Bands;Fitness Tracker;Yoga Mat;Deodorant;Calvin Klein Underwear,2025-02-23,16:00,Fashion Conscious,regular,Store C,Credit Card
+TXN_000797,CUST_0153,Adidas Ultraboost;Supplement Pills;Calvin Klein Underwear;Deodorant;Nike Hoodie;Sunscreen,2025-07-16,16:48,Fashion Conscious,regular,Store C,Debit Card
+TXN_000798,CUST_0071,Cheese;Romance Novel;Cookbook;Milk,2025-06-25,06:55,Book Lover,new,Store A,Credit Card
+TXN_000799,CUST_0069,Camping Tent;Skincare Set;Surfboard;Toothpaste;Hair Dryer;Swimming Goggles,2025-04-02,14:26,General Shopper,new,Online,Debit Card
+TXN_000800,CUST_0178,Deodorant;Basketball;Vitamins,2025-01-30,01:03,Fitness Enthusiast,vip,Online,Credit Card
+TXN_000801,CUST_0041,Skincare Set;Vitamins;Deodorant;Conditioner,2025-02-23,13:06,Fashion Conscious,new,Store C,Cash
+TXN_000802,CUST_0222,Milk;Vegetables;Organic Coffee;Rice,2025-06-12,13:12,Home Cook,vip,Store A,Credit Card
+TXN_000803,CUST_0091,Makeup Kit;Champion Hoodie;Skincare Set;Levi's Jeans;Converse All Stars;Dumbbells;Supplement Pills,2025-04-18,15:53,Fashion Conscious,new,Store C,Mobile Payment
+TXN_000804,CUST_0050,Yogurt;Twilight;Quinoa;Biography,2025-02-02,14:23,Book Lover,new,Store A,Mobile Payment
+TXN_000805,CUST_0123,Champion Hoodie;Dumbbells,2025-03-20,17:03,Fashion Conscious,new,Store C,Credit Card
+TXN_000806,CUST_0096,1984;Cereal;Romance Novel;Salmon;Tennis Racket,2025-04-08,14:10,General Shopper,regular,Online,Credit Card
+TXN_000807,CUST_0139,Fruits;History Book;Eggs,2025-07-23,19:46,Book Lover,regular,Store B,Cash
+TXN_000808,CUST_0021,Tommy Hilfiger Jacket;Nike Air Max,2025-05-27,10:20,Fashion Conscious,new,Store B,Credit Card
+TXN_000809,CUST_0239,Dumbbells;Nike Hoodie;Vans Old Skool;Face Cream,2025-04-21,19:36,Fashion Conscious,regular,Store B,Credit Card
+TXN_000810,CUST_0059,Hiking Boots;Sunscreen;Camping Tent;Shampoo;Yoga Mat,2025-06-14,18:38,Fitness Enthusiast,vip,Online,Cash
+TXN_000811,CUST_0026,Dumbbells;Tomato Sauce,2025-04-23,18:06,Fashion Conscious,regular,Online,Credit Card
+TXN_000812,CUST_0034,Champion Hoodie;Yoga Mat,2025-04-22,09:15,Fashion Conscious,new,Store C,Debit Card
+TXN_000813,CUST_0074,External SSD;Apple Watch;Wireless Charger;Samsung Watch,2025-06-25,08:25,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000814,CUST_0113,Microwave;Coffee Maker;Food Processor;Dark Chocolate;Protein Bars;Salmon;Rice;Toaster;Electric Kettle;Bread,2025-07-02,15:24,Home Cook,new,Online,Credit Card
+TXN_000815,CUST_0208,MacBook Pro,2025-04-02,07:36,Tech Enthusiast,new,Store B,Cash
+TXN_000816,CUST_0196,Ray-Ban Sunglasses,2025-04-09,21:25,Fashion Conscious,new,Store C,Credit Card
+TXN_000817,CUST_0023,Honey,2025-02-23,14:36,Home Cook,regular,Store C,Credit Card
+TXN_000818,CUST_0111,Levi's Jeans;Under Armour T-Shirt;Gap Jeans;Uniqlo Sweater,2025-02-02,20:11,Fashion Conscious,regular,Online,Credit Card
+TXN_000819,CUST_0157,Fitness Tracker;Dumbbells,2025-02-06,17:12,Fashion Conscious,regular,Online,Credit Card
+TXN_000820,CUST_0035,Backpack;Sleeping Bag;Body Wash;Snowboard,2025-05-21,08:44,Fitness Enthusiast,vip,Store C,Debit Card
+TXN_000821,CUST_0014,Hair Dryer;Vans Old Skool,2025-04-11,16:32,General Shopper,vip,Store B,Debit Card
+TXN_000822,CUST_0088,History Book,2025-06-04,12:21,General Shopper,regular,Online,Credit Card
+TXN_000823,CUST_0146,Gap Jeans;Converse All Stars;Nike Air Max,2025-05-13,20:34,Fashion Conscious,vip,Store C,Credit Card
+TXN_000824,CUST_0204,Butter;Outdoor Furniture;Fruits;Patio Umbrella;Orange Juice,2025-03-26,03:55,Home Cook,regular,Store B,Cash
+TXN_000825,CUST_0084,Bike Helmet,2025-07-13,17:54,Fitness Enthusiast,new,Online,Debit Card
+TXN_000826,CUST_0082,Polo Ralph Lauren Shirt;Electric Toothbrush;Uniqlo Sweater;Supplement Pills;Nike Hoodie;Moisturizer,2025-07-22,15:17,Fashion Conscious,vip,Store A,Credit Card
+TXN_000827,CUST_0036,iPhone 15,2025-03-03,16:56,Tech Enthusiast,regular,Store B,Credit Card
+TXN_000828,CUST_0182,Resistance Bands;Mountain Bike;Shampoo;Face Cream,2025-02-21,12:46,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000829,CUST_0120,H&M T-Shirt;Converse All Stars;Shampoo;Vitamins;Tommy Hilfiger Jacket;Nike Hoodie;Electric Toothbrush,2025-04-28,18:40,Fashion Conscious,new,Store B,Mobile Payment
+TXN_000830,CUST_0225,"iPad Mini;Smart TV 55""",2025-04-03,18:45,Tech Enthusiast,regular,Store C,Debit Card
+TXN_000831,CUST_0020,Protein Powder;Face Cream;Soccer Ball,2025-03-12,14:01,Fitness Enthusiast,vip,Store B,Credit Card
+TXN_000832,CUST_0002,Power Bank,2025-06-20,20:08,Tech Enthusiast,regular,Online,Debit Card
+TXN_000833,CUST_0214,Shampoo;Yoga Mat,2025-05-29,17:24,Fashion Conscious,vip,Online,Mobile Payment
+TXN_000834,CUST_0038,Yogurt,2025-03-18,23:19,Home Cook,new,Store C,Credit Card
+TXN_000835,CUST_0101,Dark Chocolate,2025-02-27,23:40,Book Lover,new,Store A,Credit Card
+TXN_000836,CUST_0155,Ray-Ban Sunglasses,2025-07-23,12:29,Fashion Conscious,regular,Store A,Debit Card
+TXN_000837,CUST_0073,Dell XPS 13;Peanut Butter,2025-03-15,11:50,Tech Enthusiast,vip,Store A,Mobile Payment
+TXN_000838,CUST_0003,MacBook Pro;External SSD;iPad Mini;Dumbbells,2025-05-08,17:40,Tech Enthusiast,new,Store B,Credit Card
+TXN_000839,CUST_0006,Hair Dryer;Makeup Kit,2025-03-29,04:32,Fitness Enthusiast,regular,Online,Credit Card
+TXN_000840,CUST_0015,Sony WH-1000XM5;iPad Mini;Microsoft Surface;4K Monitor,2025-04-04,13:44,Tech Enthusiast,new,Online,Credit Card
+TXN_000841,CUST_0059,Face Cream;Golf Clubs;Running Shoes,2025-04-15,17:53,Fitness Enthusiast,vip,Online,Debit Card
+TXN_000842,CUST_0107,Toothpaste,2025-06-28,17:06,Fitness Enthusiast,new,Store A,Debit Card
+TXN_000843,CUST_0079,Surfboard;Protein Powder;Golf Balls;Fishing Rod,2025-04-24,00:01,Fitness Enthusiast,new,Online,Credit Card
+TXN_000844,CUST_0047,"Smart TV 55"";Wireless Charger",2025-02-06,14:05,Tech Enthusiast,vip,Store C,Credit Card
+TXN_000845,CUST_0143,Gap Jeans;Electric Toothbrush;Protein Powder;Dumbbells,2025-04-24,17:06,Fashion Conscious,vip,Store A,Credit Card
+TXN_000846,CUST_0066,Ray-Ban Sunglasses;Face Cream;Sunscreen;H&M T-Shirt,2025-03-31,08:50,Fashion Conscious,vip,Store C,Credit Card
+TXN_000847,CUST_0078,Game of Thrones;Harry Potter Series;Science Fiction Novel;Mystery Novel;Yogurt,2025-07-23,18:47,Book Lover,regular,Store A,Credit Card
+TXN_000848,CUST_0226,Electric Toothbrush;Snowboard;Deodorant,2025-04-08,18:08,Fitness Enthusiast,regular,Online,Debit Card
+TXN_000849,CUST_0081,Adidas Track Pants,2025-05-29,20:00,Fashion Conscious,regular,Store A,Credit Card
+TXN_000850,CUST_0092,Gap Jeans;Champion Hoodie;Nike Hoodie;Levi's Jeans;Makeup Kit;Skincare Set;H&M T-Shirt,2025-03-03,13:14,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000851,CUST_0094,Toaster;Coffee Maker;Honey;Chicken Breast;Air Fryer;Organic Coffee,2025-04-23,01:08,General Shopper,new,Store B,Credit Card
+TXN_000852,CUST_0113,Quinoa;Patio Umbrella;Tomato Sauce;Garden Tools Set;Outdoor Furniture,2025-07-22,17:21,Home Cook,new,Store A,Cash
+TXN_000853,CUST_0178,Shampoo,2025-05-01,19:55,Fitness Enthusiast,vip,Online,Credit Card
+TXN_000854,CUST_0109,Under Armour T-Shirt;Perfume,2025-06-06,09:50,Fashion Conscious,vip,Store B,Credit Card
+TXN_000855,CUST_0012,Nike Hoodie,2025-05-17,11:06,Fashion Conscious,new,Store B,Credit Card
+TXN_000856,CUST_0036,Webcam;RAM 16GB,2025-04-19,01:21,Tech Enthusiast,regular,Online,Credit Card
+TXN_000857,CUST_0107,Makeup Kit;Dumbbells;Fitness Tracker;Gym Bag,2025-03-12,18:50,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000858,CUST_0155,Tommy Hilfiger Jacket,2025-07-16,00:08,Fashion Conscious,regular,Store A,Debit Card
+TXN_000859,CUST_0117,"Microsoft Surface;Smart TV 55"";PlayStation 5;Power Bank",2025-05-18,18:04,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000860,CUST_0055,Golf Balls;Hiking Boots,2025-04-28,17:58,Fitness Enthusiast,vip,Online,Cash
+TXN_000861,CUST_0156,Protein Bars;1984,2025-05-07,16:44,Book Lover,vip,Store A,Mobile Payment
+TXN_000862,CUST_0204,Garden Tools Set;Cereal;Rice;Outdoor Furniture;Olive Oil;Fruits;Nuts Mix;Quinoa;Tomato Sauce;Salmon,2025-04-15,11:16,Home Cook,regular,Online,Credit Card
+TXN_000863,CUST_0215,Tennis Balls;Tennis Racket;Yoga Mat,2025-04-04,11:09,Fitness Enthusiast,regular,Store B,Mobile Payment
+TXN_000864,CUST_0156,Honey;History Book;Bread;Salmon,2025-03-13,14:38,Book Lover,vip,Store A,Debit Card
+TXN_000865,CUST_0091,Electric Toothbrush;Champion Hoodie;Adidas Ultraboost;Zara Dress,2025-05-14,12:30,Fashion Conscious,new,Online,Debit Card
+TXN_000866,CUST_0007,Wireless Charger;Nintendo Switch;USB-C Cable,2025-03-19,12:09,General Shopper,regular,Store B,Debit Card
+TXN_000867,CUST_0077,Water Bottle;Camping Tent,2025-02-14,13:07,Fitness Enthusiast,new,Store B,Credit Card
+TXN_000868,CUST_0096,Fitness Tracker;Hair Dryer,2025-07-17,11:35,General Shopper,regular,Online,Mobile Payment
+TXN_000869,CUST_0070,Game of Thrones,2025-03-08,18:42,Book Lover,new,Store C,Mobile Payment
+TXN_000870,CUST_0114,Milk;Dark Chocolate;Flower Pots;Butter;Microwave;Garden Hose,2025-06-14,15:02,Home Cook,new,Store B,Credit Card
+TXN_000871,CUST_0054,"Samsung Watch;External SSD;USB-C Cable;MacBook Pro;Smart TV 55""",2025-04-09,14:52,Tech Enthusiast,vip,Online,Debit Card
+TXN_000872,CUST_0125,Science Fiction Novel;Honey,2025-02-18,23:52,Book Lover,new,Store A,Mobile Payment
+TXN_000873,CUST_0034,Fitness Tracker;Face Cream,2025-03-26,14:11,Fashion Conscious,new,Store C,Credit Card
+TXN_000874,CUST_0043,"Kindle;Smart TV 55"";Dell XPS 13;Nintendo Switch",2025-06-18,16:50,Tech Enthusiast,new,Store A,Debit Card
+TXN_000875,CUST_0021,Nike Air Max;Converse All Stars;Conditioner;H&M T-Shirt,2025-03-29,10:28,Fashion Conscious,new,Store B,Debit Card
+TXN_000876,CUST_0140,Cereal;Microwave;Garden Tools Set;Olive Oil;Pasta;BBQ Grill;Milk;Food Processor;Protein Bars;Flower Pots,2025-06-19,15:18,Home Cook,regular,Store C,Credit Card
+TXN_000877,CUST_0073,MacBook Pro;iPhone 15;Bluetooth Speaker;Gaming Keyboard;Samsung Watch;USB-C Cable;Dell XPS 13;4K Monitor,2025-02-02,13:18,Tech Enthusiast,vip,Store B,Debit Card
+TXN_000878,CUST_0109,Resistance Bands;Peanut Butter;Skincare Set;Sunscreen,2025-05-26,19:29,Fashion Conscious,vip,Store C,Cash
+TXN_000879,CUST_0042,Cereal,2025-06-24,14:07,Home Cook,regular,Store B,Credit Card
+TXN_000880,CUST_0040,Tennis Balls;Fitness Tracker,2025-04-17,20:43,Fitness Enthusiast,regular,Online,Cash
+TXN_000881,CUST_0062,Blender;Toaster;Microwave;Green Tea;Flower Pots;Instant Pot;Salmon;Solar Lights;Peanut Butter,2025-02-28,12:59,Home Cook,vip,Store B,Credit Card
+TXN_000882,CUST_0170,Gap Jeans;Face Cream;Skincare Set;Calvin Klein Underwear;Conditioner;Vitamins;Moisturizer,2025-04-27,15:52,Fashion Conscious,vip,Store C,Cash
+TXN_000883,CUST_0107,Water Bottle;Tennis Racket;Backpack,2025-05-15,16:20,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000884,CUST_0067,4K Monitor;MacBook Pro;Samsung Galaxy S24,2025-03-13,19:39,Tech Enthusiast,regular,Store B,Cash
+TXN_000885,CUST_0050,Nuts Mix;To Kill a Mockingbird;Salmon,2025-07-06,13:29,Book Lover,new,Online,Cash
+TXN_000886,CUST_0007,Sony WH-1000XM5;Flower Pots;Blender;Microwave;Toaster,2025-05-13,16:50,General Shopper,regular,Store A,Credit Card
+TXN_000887,CUST_0248,Tommy Hilfiger Jacket;Nike Hoodie;Makeup Kit;Face Cream,2025-02-22,12:35,Fashion Conscious,new,Store C,Mobile Payment
+TXN_000888,CUST_0243,Water Bottle;Body Wash;Golf Balls;Deodorant,2025-06-18,17:49,Fitness Enthusiast,regular,Store C,Credit Card
+TXN_000889,CUST_0107,Ski Equipment;Tennis Racket;Gym Bag,2025-07-05,17:02,Fitness Enthusiast,new,Store A,Cash
+TXN_000890,CUST_0038,Eggs;Vegetables;Solar Lights;Rice;Rice Cooker;Olive Oil;Chicken Breast;Stand Mixer,2025-04-09,19:06,Home Cook,new,Store C,Credit Card
+TXN_000891,CUST_0034,Adidas Track Pants;Zara Dress;Skincare Set;Electric Toothbrush;Toothpaste;Converse All Stars,2025-06-23,12:00,Fashion Conscious,new,Store C,Debit Card
+TXN_000892,CUST_0248,Moisturizer;Electric Toothbrush;Nike Air Max,2025-04-30,13:23,Fashion Conscious,new,Store B,Debit Card
+TXN_000893,CUST_0018,H&M T-Shirt,2025-06-28,22:12,Fashion Conscious,new,Online,Credit Card
+TXN_000894,CUST_0109,Zara Dress;Nike Air Max;Adidas Track Pants;Under Armour T-Shirt;Levi's Jeans;Nike Socks;H&M T-Shirt,2025-03-06,16:59,Fashion Conscious,vip,Store C,Debit Card
+TXN_000895,CUST_0187,Nike Socks;Fitness Tracker;Toothpaste,2025-07-11,00:03,Fashion Conscious,regular,Store C,Mobile Payment
+TXN_000896,CUST_0207,Protein Powder;Under Armour T-Shirt;Adidas Ultraboost,2025-03-20,18:11,Fashion Conscious,new,Store C,Mobile Payment
+TXN_000897,CUST_0048,Resistance Bands;Converse All Stars;Adidas Track Pants;Under Armour T-Shirt;Levi's Jeans;Yoga Mat,2025-03-10,08:13,Fashion Conscious,vip,Store C,Credit Card
+TXN_000898,CUST_0247,Nike Air Max;Under Armour T-Shirt,2025-04-23,09:08,Fashion Conscious,new,Store C,Credit Card
+TXN_000899,CUST_0093,Graphics Card RTX 4070;RAM 16GB;Wireless Charger;Apple Watch;iPhone 15;Dell XPS 13,2025-06-01,12:08,Tech Enthusiast,regular,Store A,Credit Card
+TXN_000900,CUST_0012,Resistance Bands;Nike Hoodie;Makeup Kit;Champion Hoodie;Converse All Stars,2025-06-12,07:22,Fashion Conscious,new,Online,Debit Card
+TXN_000901,CUST_0109,Champion Hoodie;Toothpaste;Adidas Track Pants;Under Armour T-Shirt;H&M T-Shirt;Face Cream;Moisturizer,2025-06-27,06:07,Fashion Conscious,vip,Store C,Credit Card
+TXN_000902,CUST_0052,Uniqlo Sweater;Hair Dryer;Champion Hoodie;Gap Jeans;Fitness Tracker;Under Armour T-Shirt;To Kill a Mockingbird;Pride and Prejudice,2025-04-10,17:40,General Shopper,regular,Store B,Cash
+TXN_000903,CUST_0038,Pasta;Fruits;Nuts Mix;Vacuum Cleaner;Butter,2025-01-26,15:20,Home Cook,new,Online,Credit Card
+TXN_000904,CUST_0027,iPhone 15;Xbox Series X,2025-02-02,20:38,Tech Enthusiast,vip,Online,Credit Card
+TXN_000905,CUST_0040,Soccer Ball;Camping Tent;Tennis Racket;Snowboard;Surfboard;Body Wash,2025-03-12,22:42,Fitness Enthusiast,regular,Store C,Credit Card
+TXN_000906,CUST_0051,Fruits,2025-06-18,06:43,Home Cook,new,Store B,Debit Card
+TXN_000907,CUST_0215,Bike Helmet;Perfume,2025-05-29,16:53,Fitness Enthusiast,regular,Store B,Mobile Payment
+TXN_000908,CUST_0128,Bread;Stand Mixer;Yogurt;Instant Pot;Garden Hose;Chicken Breast;Vegetables;Cheese,2025-03-17,18:02,Home Cook,new,Store B,Cash
+TXN_000909,CUST_0157,Zara Dress;H&M T-Shirt;Nike Socks;Tommy Hilfiger Jacket;Fitness Tracker;Deodorant,2025-06-06,14:51,Fashion Conscious,regular,Store B,Debit Card
+TXN_000910,CUST_0000,Protein Powder,2025-05-12,16:26,Fitness Enthusiast,regular,Store C,Debit Card
+TXN_000911,CUST_0051,Protein Bars;Organic Coffee;Orange Juice;Tomato Sauce;Olive Oil;Chicken Breast,2025-02-08,11:25,Home Cook,new,Online,Mobile Payment
+TXN_000912,CUST_0036,"4K Monitor;Wireless Charger;PlayStation 5;Smart TV 55""",2025-02-09,05:40,Tech Enthusiast,regular,Online,Cash
+TXN_000913,CUST_0213,Hair Dryer;Gym Bag,2025-07-10,04:25,Fitness Enthusiast,regular,Store C,Mobile Payment
+TXN_000914,CUST_0039,Nuts Mix;Organic Coffee,2025-06-16,10:41,Book Lover,regular,Store A,Debit Card
+TXN_000915,CUST_0210,Supplement Pills;Protein Powder;Perfume;Nike Socks;Champion Hoodie;Zara Dress;Nike Air Max;Adidas Ultraboost;Ray-Ban Sunglasses,2025-02-03,15:07,Fashion Conscious,regular,Online,Mobile Payment
+TXN_000916,CUST_0178,Basketball;Resistance Bands;Fishing Rod;Conditioner;Water Bottle,2025-05-14,13:06,Fitness Enthusiast,vip,Store A,Mobile Payment
+TXN_000917,CUST_0166,Magazine;Chicken Breast,2025-06-25,11:47,Book Lover,new,Online,Mobile Payment
+TXN_000918,CUST_0096,Flower Pots;Peanut Butter;Olive Oil;Orange Juice,2025-06-30,09:39,General Shopper,regular,Store C,Credit Card
+TXN_000919,CUST_0240,Yogurt;Air Fryer;Dark Chocolate,2025-04-23,14:59,Home Cook,new,Store C,Credit Card
+TXN_000920,CUST_0094,The Da Vinci Code;Gap Jeans;Fruits,2025-07-02,16:51,General Shopper,new,Online,Credit Card
+TXN_000921,CUST_0095,Nike Hoodie,2025-06-18,08:58,Fashion Conscious,regular,Store A,Debit Card
+TXN_000922,CUST_0102,Eggs;The Great Gatsby;1984,2025-03-12,14:05,Book Lover,regular,Online,Mobile Payment
+TXN_000923,CUST_0241,Yogurt;Organic Coffee,2025-03-17,16:07,Book Lover,regular,Store A,Mobile Payment
+TXN_000924,CUST_0248,Protein Powder;Tommy Hilfiger Jacket;Conditioner;Shampoo;Levi's Jeans;Makeup Kit;Nike Socks;Polo Ralph Lauren Shirt;Protein Bars,2025-06-30,12:46,Fashion Conscious,new,Store A,Cash
+TXN_000925,CUST_0193,Magazine;Cookbook;Nuts Mix;Self-Help Book,2025-05-22,11:19,Book Lover,regular,Store C,Credit Card
+TXN_000926,CUST_0050,Vegetables,2025-07-03,15:03,Book Lover,new,Store C,Mobile Payment
+TXN_000927,CUST_0045,Chicken Breast;Harry Potter Series,2025-01-29,00:44,Book Lover,regular,Store B,Debit Card
+TXN_000928,CUST_0082,Face Cream,2025-06-17,19:09,Fashion Conscious,vip,Store C,Credit Card
+TXN_000929,CUST_0017,"Smart TV 55"";Samsung Watch;Graphics Card RTX 4070;iPhone 15",2025-03-13,06:30,Tech Enthusiast,new,Store B,Debit Card
+TXN_000930,CUST_0022,Rice;Milk;Salmon;Orange Juice;Cereal;Quinoa,2025-01-30,18:32,General Shopper,regular,Store C,Debit Card
+TXN_000931,CUST_0060,Ray-Ban Sunglasses;Gap Jeans;H&M T-Shirt;Nike Socks;Skincare Set,2025-03-30,16:06,Fashion Conscious,regular,Store A,Credit Card
+TXN_000932,CUST_0037,Instant Pot;Vacuum Cleaner;Toaster;Dark Chocolate;Solar Lights;Rice;Electric Kettle;Garden Hose;Garden Tools Set;Lawn Mower;Flower Pots;Outdoor Furniture,2025-05-29,19:45,Home Cook,vip,Store C,Cash
+TXN_000933,CUST_0076,Cheese,2025-05-16,18:01,Book Lover,regular,Online,Debit Card
+TXN_000934,CUST_0054,Gaming Keyboard;4K Monitor;Graphics Card RTX 4070,2025-04-02,10:29,Tech Enthusiast,vip,Store C,Credit Card
+TXN_000935,CUST_0110,Gap Jeans;Sunscreen;Adidas Track Pants;Body Wash;Ray-Ban Sunglasses;Nike Socks;Hair Dryer,2025-06-26,19:19,Fashion Conscious,vip,Store C,Credit Card
+TXN_000936,CUST_0097,Calvin Klein Underwear;Nike Air Max;Under Armour T-Shirt;Conditioner;Shampoo;Adidas Track Pants;Protein Powder,2025-04-23,15:34,Fashion Conscious,vip,Store C,Mobile Payment
+TXN_000937,CUST_0119,Yoga Mat;Shampoo,2025-02-01,16:25,Fitness Enthusiast,new,Store C,Cash
+TXN_000938,CUST_0209,"Smart TV 55"";Power Bank;Xbox Series X;Dell XPS 13;iPad Mini;AirPods Pro;iPad;RAM 16GB",2025-06-16,09:54,Tech Enthusiast,regular,Online,Debit Card
+TXN_000939,CUST_0122,Power Bank;AirPods Pro;Graphics Card RTX 4070;Nintendo Switch,2025-02-13,20:33,Tech Enthusiast,new,Online,Credit Card
+TXN_000940,CUST_0203,Microwave;BBQ Grill;Flower Pots;Electric Kettle;Solar Lights;Toaster;Air Fryer;Eggs,2025-04-24,08:39,Home Cook,regular,Store A,Credit Card
+TXN_000941,CUST_0242,Conditioner;Deodorant;Hair Dryer;Shampoo;Protein Powder,2025-01-30,08:16,Fitness Enthusiast,new,Online,Credit Card
+TXN_000942,CUST_0176,External SSD;MacBook Pro;PlayStation 5;Kindle,2025-03-13,08:17,Tech Enthusiast,new,Store C,Credit Card
+TXN_000943,CUST_0180,Backpack,2025-06-01,10:43,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000944,CUST_0047,iPhone 15;PlayStation 5;Gaming Mouse;RAM 16GB;USB-C Cable,2025-03-05,09:03,Tech Enthusiast,vip,Online,Credit Card
+TXN_000945,CUST_0066,Under Armour T-Shirt;Supplement Pills;Vans Old Skool;Dumbbells;Converse All Stars;Conditioner;Adidas Ultraboost;Levi's Jeans;Gap Jeans,2025-03-27,12:59,Fashion Conscious,vip,Store B,Debit Card
+TXN_000946,CUST_0201,Outdoor Furniture;Stand Mixer;Garden Hose;Nuts Mix;BBQ Grill;Olive Oil;Blender,2025-02-09,15:10,Home Cook,regular,Store C,Credit Card
+TXN_000947,CUST_0083,"Samsung Galaxy S24;Smart TV 55""",2025-06-09,11:08,Tech Enthusiast,vip,Store B,Credit Card
+TXN_000948,CUST_0011,Deodorant;Conditioner;Ski Equipment;Moisturizer,2025-05-16,10:42,Fitness Enthusiast,new,Online,Credit Card
+TXN_000949,CUST_0017,Gaming Keyboard;Samsung Watch;MacBook Pro,2025-04-24,17:25,Tech Enthusiast,new,Store C,Credit Card
+TXN_000950,CUST_0069,Flower Pots;Nike Hoodie;Gap Jeans;Stand Mixer;Uniqlo Sweater,2025-06-28,14:18,General Shopper,new,Store C,Mobile Payment
+TXN_000951,CUST_0088,Soccer Ball;Camping Tent;Water Bottle;Golf Clubs;Surfboard;Protein Powder,2025-02-15,05:30,General Shopper,regular,Store B,Cash
+TXN_000952,CUST_0023,Blender;Plant Fertilizer;Butter;Protein Bars;Air Fryer,2025-03-25,14:01,Home Cook,regular,Online,Debit Card
+TXN_000953,CUST_0087,Microwave;Milk;Dark Chocolate;Stand Mixer,2025-07-11,12:53,Home Cook,regular,Store A,Debit Card
+TXN_000954,CUST_0004,Champion Hoodie;Protein Bars,2025-06-03,12:48,Fashion Conscious,regular,Store A,Debit Card
+TXN_000955,CUST_0036,Graphics Card RTX 4070;USB-C Cable;Nintendo Switch;Xbox Series X,2025-06-10,12:59,Tech Enthusiast,regular,Online,Credit Card
+TXN_000956,CUST_0042,Toaster;Electric Kettle;Peanut Butter;Rice;Dark Chocolate,2025-04-02,18:03,Home Cook,regular,Store C,Debit Card
+TXN_000957,CUST_0126,Skincare Set;Soccer Ball;Conditioner;Dumbbells,2025-05-22,12:06,Fitness Enthusiast,regular,Store A,Debit Card
+TXN_000958,CUST_0160,Yogurt;Air Fryer;Flower Pots;Solar Lights;Stand Mixer;Outdoor Furniture;Rice Cooker;Plant Fertilizer;Patio Umbrella;Blender,2025-07-07,19:52,Home Cook,regular,Online,Cash
+TXN_000959,CUST_0083,RAM 16GB;iPad Mini;Samsung Watch,2025-03-19,15:20,Tech Enthusiast,vip,Store A,Credit Card
+TXN_000960,CUST_0042,Air Fryer;Cheese;Pasta;Garden Tools Set;Green Tea;Toaster;Electric Kettle,2025-07-22,22:13,Home Cook,regular,Store C,Cash
+TXN_000961,CUST_0006,Dumbbells;Water Bottle;Sleeping Bag,2025-01-28,04:16,Fitness Enthusiast,regular,Store B,Credit Card
+TXN_000962,CUST_0206,Face Cream;Green Tea,2025-06-04,10:02,Fitness Enthusiast,new,Store B,Credit Card
+TXN_000963,CUST_0027,AirPods Pro;Apple Watch;Sony WH-1000XM5;iPhone 15;Bluetooth Speaker,2025-03-26,15:11,Tech Enthusiast,vip,Store B,Credit Card
+TXN_000964,CUST_0074,Bluetooth Speaker;External SSD;Webcam,2025-07-14,14:34,Tech Enthusiast,regular,Store A,Debit Card
+TXN_000965,CUST_0117,4K Monitor;MacBook Pro;Apple Watch;Nintendo Switch,2025-05-14,11:50,Tech Enthusiast,vip,Online,Debit Card
+TXN_000966,CUST_0048,Uniqlo Sweater;Skincare Set;Nike Socks;H&M T-Shirt;Conditioner,2025-05-02,17:37,Fashion Conscious,vip,Store B,Debit Card
+TXN_000967,CUST_0047,4K Monitor;Microsoft Surface;Samsung Watch,2025-06-11,12:29,Tech Enthusiast,vip,Online,Credit Card
+TXN_000968,CUST_0064,Protein Powder;Body Wash;Adidas Track Pants;Hair Dryer;H&M T-Shirt;Zara Dress,2025-02-02,16:15,Fashion Conscious,regular,Store B,Debit Card
+TXN_000969,CUST_0068,Hair Dryer;Fruits,2025-02-12,18:38,Fashion Conscious,vip,Store B,Mobile Payment
+TXN_000970,CUST_0182,Tennis Racket;Golf Balls;Body Wash;Ski Equipment,2025-01-29,12:20,Fitness Enthusiast,new,Store C,Credit Card
+TXN_000971,CUST_0104,Garden Hose;Cereal;Toaster;Microwave;Peanut Butter,2025-07-04,12:16,Home Cook,regular,Store B,Cash
+TXN_000972,CUST_0241,1984;Tomato Sauce;Vegetables;Twilight,2025-07-05,01:27,Book Lover,regular,Store C,Debit Card
+TXN_000973,CUST_0033,Organic Coffee;Pasta;Cereal;Milk;Flower Pots;Chicken Breast;Peanut Butter;Nuts Mix;Fruits,2025-06-18,14:36,Home Cook,vip,Online,Debit Card
+TXN_000974,CUST_0081,Electric Toothbrush;Shampoo;Nike Air Max;Cereal,2025-06-18,18:41,Fashion Conscious,regular,Store C,Debit Card
+TXN_000975,CUST_0164,RAM 16GB;Samsung Watch;Apple Watch,2025-02-12,08:26,Tech Enthusiast,regular,Store A,Credit Card
+TXN_000976,CUST_0120,Hair Dryer;Sunscreen;Resistance Bands;Supplement Pills;Nike Socks;Moisturizer;Makeup Kit;Toothpaste;Fitness Tracker,2025-04-06,06:07,Fashion Conscious,new,Store B,Debit Card
+TXN_000977,CUST_0012,Vans Old Skool;Hair Dryer,2025-02-26,15:51,Fashion Conscious,new,Store C,Credit Card
+TXN_000978,CUST_0034,Gap Jeans;Nike Socks;Polo Ralph Lauren Shirt;Uniqlo Sweater,2025-02-01,12:33,Fashion Conscious,new,Store C,Cash
+TXN_000979,CUST_0123,Adidas Ultraboost;Under Armour T-Shirt;Fitness Tracker,2025-04-05,16:04,Fashion Conscious,new,Store A,Credit Card
+TXN_000980,CUST_0205,Harry Potter Series;Fruits,2025-06-20,19:13,Book Lover,vip,Store C,Credit Card
+TXN_000981,CUST_0106,Nike Socks;Fitness Tracker;Dumbbells;Uniqlo Sweater;Skincare Set;Eggs,2025-05-29,15:38,Fashion Conscious,regular,Store B,Debit Card
+TXN_000982,CUST_0077,Deodorant;Conditioner;Moisturizer;Electric Toothbrush;Face Cream,2025-03-13,09:36,Fitness Enthusiast,new,Store A,Credit Card
+TXN_000983,CUST_0019,Resistance Bands,2025-07-18,11:03,Fashion Conscious,regular,Store A,Mobile Payment
+TXN_000984,CUST_0020,Basketball;Tennis Balls;Hiking Boots;Fishing Rod;Water Bottle,2025-07-20,14:31,Fitness Enthusiast,vip,Store A,Debit Card
+TXN_000985,CUST_0237,Solar Lights,2025-04-19,13:01,Home Cook,regular,Store B,Debit Card
+TXN_000986,CUST_0105,Body Wash,2025-02-12,09:46,Fitness Enthusiast,regular,Store A,Credit Card
+TXN_000987,CUST_0031,Mystery Novel;Orange Juice;Protein Bars;Self-Help Book;Salmon,2025-07-15,11:53,Book Lover,vip,Store B,Debit Card
+TXN_000988,CUST_0093,Bluetooth Speaker;4K Monitor;Gaming Mouse;Gaming Keyboard;Power Bank;USB-C Cable;Graphics Card RTX 4070,2025-03-11,14:40,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000989,CUST_0078,Magazine,2025-07-04,00:27,Book Lover,regular,Store C,Debit Card
+TXN_000990,CUST_0150,H&M T-Shirt,2025-02-07,07:58,Fashion Conscious,regular,Online,Credit Card
+TXN_000991,CUST_0061,To Kill a Mockingbird;1984;Green Tea;Eggs;The Great Gatsby,2025-02-28,10:51,Book Lover,vip,Store A,Cash
+TXN_000992,CUST_0011,Tennis Balls,2025-04-01,13:05,Fitness Enthusiast,new,Store B,Debit Card
+TXN_000993,CUST_0067,Nintendo Switch;Bluetooth Speaker;iPad;PlayStation 5;Supplement Pills,2025-02-07,10:47,Tech Enthusiast,regular,Store C,Credit Card
+TXN_000994,CUST_0054,AirPods Pro;Power Bank,2025-05-15,16:45,Tech Enthusiast,vip,Store C,Credit Card
+TXN_000995,CUST_0023,Eggs;Bread;Electric Kettle;Salmon;Peanut Butter;Instant Pot,2025-07-22,20:31,Home Cook,regular,Store B,Credit Card
+TXN_000996,CUST_0031,Art Book,2025-02-18,07:58,Book Lover,vip,Store A,Mobile Payment
+TXN_000997,CUST_0050,Pride and Prejudice,2025-05-14,17:44,Book Lover,new,Store B,Debit Card
+TXN_000998,CUST_0082,Shampoo;Nike Hoodie;Conditioner;Deodorant;H&M T-Shirt;Makeup Kit;Protein Bars,2025-06-18,18:33,Fashion Conscious,vip,Online,Credit Card
+TXN_000999,CUST_0113,Coffee Maker,2025-05-24,20:19,Home Cook,new,Store B,Debit Card
+TXN_001000,CUST_0075,Twilight;Harry Potter Series;Romance Novel;Magazine;Pride and Prejudice;The Great Gatsby,2025-06-17,21:43,General Shopper,new,Store C,Debit Card

@@ -1,16 +1,29 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { useFileUpload } from '@/contexts/FileUploadContext';
-import { Button } from '@/components/ui/button';
-import { Progress } from '@/components/ui/progress';
-import { Badge } from '@/components/ui/badge';
-import { Alert, AlertDescription } from '@/components/ui/alert';
-import { Upload, Download, FileText, CheckCircle, AlertCircle, Plus } from 'lucide-react';
-import UploadDialog from '@/components/UploadDialog';
-import FileManager from '@/components/FileManager';
-import AnalysisTypeSelector from '@/components/AnalysisTypeSelector';
-import { downloadSampleCSV } from '@/utils/sampleData';
-import { validateFile, formatFileSize, getFileIcon, simulateFileUpload, FILE_STATUS } from '@/utils/fileUpload';
-import { toast } from 'sonner';
+import React, { useState, useRef, useEffect } from "react";
+import { useFileUpload } from "@/contexts/FileUploadContext";
+import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
+import { Badge } from "@/components/ui/badge";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import {
+  Upload,
+  Download,
+  FileText,
+  CheckCircle,
+  AlertCircle,
+  Plus,
+} from "lucide-react";
+import UploadDialog from "@/components/UploadDialog";
+import FileManager from "@/components/FileManager";
+import AnalysisTypeSelector from "@/components/AnalysisTypeSelector";
+import { downloadSampleCSV } from "@/utils/sampleData";
+import {
+  validateFile,
+  formatFileSize,
+  getFileIcon,
+  FILE_STATUS,
+} from "@/utils/fileUpload";
+import { toast } from "sonner";
+import apiService from "@/services/api";
 
 function DataUpload() {
   const { uploadedFiles, addFile, updateFile, removeFile } = useFileUpload();
@@ -20,7 +33,9 @@ function DataUpload() {
 
   // Update analysis selection visibility when uploaded files change
   useEffect(() => {
-    const successfulUploads = uploadedFiles.filter(file => file.status === FILE_STATUS.SUCCESS);
+    const successfulUploads = uploadedFiles.filter(
+      (file) => file.status === FILE_STATUS.SUCCESS
+    );
     setShowAnalysisSelection(successfulUploads.length > 0);
   }, [uploadedFiles]);
 
@@ -38,7 +53,7 @@ function DataUpload() {
     e.preventDefault();
     e.stopPropagation();
     setDragActive(false);
-    
+
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       handleFiles(Array.from(e.dataTransfer.files));
     }
@@ -52,10 +67,11 @@ function DataUpload() {
   };
 
   const handleFiles = (files) => {
-    files.forEach(file => {
+    files.forEach((file) => {
       const validation = validateFile(file);
-      const fileId = Date.now().toString() + Math.random().toString(36).substr(2);
-      
+      const fileId =
+        Date.now().toString() + Math.random().toString(36).substr(2);
+
       const fileObj = {
         id: fileId,
         file,
@@ -64,11 +80,11 @@ function DataUpload() {
         status: validation.isValid ? FILE_STATUS.PENDING : FILE_STATUS.ERROR,
         progress: 0,
         errors: validation.errors,
-        uploadedAt: new Date()
+        uploadedAt: new Date(),
       };
-      
+
       addFile(fileObj);
-      
+
       if (validation.isValid) {
         uploadFile(fileObj);
       }
@@ -79,32 +95,43 @@ function DataUpload() {
     updateFile(fileObj.id, { status: FILE_STATUS.UPLOADING });
 
     try {
-      await simulateFileUpload(fileObj.file, (progress) => {
-        updateFile(fileObj.id, { progress });
+      // Start progress at 10%
+      updateFile(fileObj.id, { progress: 10 });
+
+      // Upload to backend API
+      const uploadResult = await apiService.uploadData(fileObj.file);
+
+      // Update progress to 90%
+      updateFile(fileObj.id, { progress: 90 });
+
+      // Complete upload
+      updateFile(fileObj.id, {
+        status: FILE_STATUS.SUCCESS,
+        progress: 100,
+        backendResponse: uploadResult,
       });
 
-      updateFile(fileObj.id, { status: FILE_STATUS.SUCCESS, progress: 100 });
-      
       // Show success toast
       toast.success(`${fileObj.name} uploaded successfully!`, {
-        description: 'File is ready for analysis'
+        description: "File is ready for analysis",
       });
 
       // Show analysis selection if we have successful uploads
-      const hasSuccessfulUploads = uploadedFiles.some(f => f.status === FILE_STATUS.SUCCESS) || 
-                                    fileObj.status === FILE_STATUS.SUCCESS;
+      const hasSuccessfulUploads =
+        uploadedFiles.some((f) => f.status === FILE_STATUS.SUCCESS) ||
+        fileObj.status === FILE_STATUS.SUCCESS;
       if (hasSuccessfulUploads) {
         setShowAnalysisSelection(true);
       }
     } catch (error) {
-      updateFile(fileObj.id, { 
-        status: FILE_STATUS.ERROR, 
-        errors: [error.message] 
+      updateFile(fileObj.id, {
+        status: FILE_STATUS.ERROR,
+        errors: [error.message],
       });
-      
+
       // Show error toast
       toast.error(`Failed to upload ${fileObj.name}`, {
-        description: error.message
+        description: error.message,
       });
     }
   };
@@ -115,22 +142,26 @@ function DataUpload() {
 
   const handleRemoveFile = (fileId) => {
     removeFile(fileId);
-    
+
     // Hide analysis selection if no successful uploads remain
-    const remainingFiles = uploadedFiles.filter(f => f.id !== fileId);
-    const hasSuccessfulUploads = remainingFiles.some(f => f.status === FILE_STATUS.SUCCESS);
+    const remainingFiles = uploadedFiles.filter((f) => f.id !== fileId);
+    const hasSuccessfulUploads = remainingFiles.some(
+      (f) => f.status === FILE_STATUS.SUCCESS
+    );
     if (!hasSuccessfulUploads) {
       setShowAnalysisSelection(false);
     }
   };
 
   const handleAnalysisSelect = (analysisType) => {
-    console.log('Selected analysis:', analysisType);
+    console.log("Selected analysis:", analysisType);
     // Navigate to the appropriate analysis page
     // This will be implemented when we build the analysis pages
   };
 
-  const successfulUploads = uploadedFiles.filter(file => file.status === FILE_STATUS.SUCCESS);
+  const successfulUploads = uploadedFiles.filter(
+    (file) => file.status === FILE_STATUS.SUCCESS
+  );
 
   return (
     <div className="p-8">
@@ -155,8 +186,8 @@ function DataUpload() {
                 size="sm"
                 onClick={() => {
                   downloadSampleCSV();
-                  toast.success('Sample CSV downloaded!', {
-                    description: 'Use this as a template for your data'
+                  toast.success("Sample CSV downloaded!", {
+                    description: "Use this as a template for your data",
                   });
                 }}
                 className="flex items-center space-x-2"
@@ -179,9 +210,9 @@ function DataUpload() {
           {/* Main Upload Area */}
           <div
             className={`relative border-2 border-dashed rounded-lg p-12 text-center transition-colors ${
-              dragActive 
-                ? 'border-blue-500 bg-blue-50' 
-                : 'border-gray-300 hover:border-gray-400'
+              dragActive
+                ? "border-blue-500 bg-blue-50"
+                : "border-gray-300 hover:border-gray-400"
             }`}
             onDragEnter={handleDrag}
             onDragLeave={handleDrag}
@@ -196,12 +227,12 @@ function DataUpload() {
               className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
               multiple
             />
-            
+
             <div className="space-y-4">
               <div className="mx-auto w-16 h-16 bg-gray-100 rounded-lg flex items-center justify-center">
                 <Upload className="w-8 h-8 text-gray-600" />
               </div>
-              
+
               <div>
                 <p className="text-xl font-medium text-gray-900 mb-2">
                   Drop your files here, or click to browse
@@ -210,8 +241,8 @@ function DataUpload() {
                   Supports CSV and Excel files (max 10MB each)
                 </p>
               </div>
-              
-              <Button 
+
+              <Button
                 onClick={() => fileInputRef.current?.click()}
                 className="mx-auto"
               >
@@ -227,8 +258,8 @@ function DataUpload() {
             <FileManager
               files={uploadedFiles}
               onRemoveFile={handleRemoveFile}
-              onViewFile={(file) => console.log('View file:', file)}
-              onDownloadFile={(file) => console.log('Download file:', file)}
+              onViewFile={(file) => console.log("View file:", file)}
+              onDownloadFile={(file) => console.log("Download file:", file)}
             />
           </div>
         )}
@@ -249,14 +280,18 @@ function DataUpload() {
             Expected Data Format
           </h4>
           <div className="text-sm text-blue-800">
-            <p className="mb-3">Your CSV file should include the following columns for optimal analysis:</p>
+            <p className="mb-3">
+              Your CSV file should include the following columns for optimal
+              analysis:
+            </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <h5 className="font-medium mb-2">Required Columns:</h5>
                 <ul className="space-y-1">
                   <li className="flex items-center">
                     <CheckCircle className="w-3 h-3 mr-2 text-blue-600" />
-                    <strong>TransactionID:</strong> Unique transaction identifier
+                    <strong>TransactionID:</strong> Unique transaction
+                    identifier
                   </li>
                   <li className="flex items-center">
                     <CheckCircle className="w-3 h-3 mr-2 text-blue-600" />
@@ -301,4 +336,4 @@ function DataUpload() {
   );
 }
 
-export default DataUpload
+export default DataUpload;
