@@ -4,6 +4,7 @@ import {
   Upload,
   TrendingUp,
   ShoppingCart,
+  Lightbulb,
   Settings,
   Menu,
   X,
@@ -33,6 +34,11 @@ const navigationItems = [
     id: "market-basket-analysis",
     label: "Market Basket Analysis",
     icon: ShoppingCart,
+  },
+  {
+    id: "product-recommendations",
+    label: "Product Recommendations",
+    icon: Lightbulb,
   },
   {
     id: "settings",

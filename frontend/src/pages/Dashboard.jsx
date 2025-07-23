@@ -1,21 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useFileUpload } from "@/contexts/FileUploadContext";
+import apiService from "@/services/api";
 import {
   MetricCard,
   SalesOverviewCard,
   AnalysisResultsCard,
 } from "@/components/DashboardCards";
 import FileStatusOverview from "@/components/FileStatusOverview";
-import {
-  loadCSVData,
-  processSalesData,
-  processCustomerSegments,
-} from "@/utils/csvDataProcessor";
-import {
-  generateMockForecastData,
-  generateMockDashboardMetrics,
-  generateRecentAnalyses,
-} from "@/utils/mockData";
 import {
   DollarSign,
   ShoppingCart,
@@ -39,63 +30,74 @@ function Dashboard({ onNavigate }) {
       setLoading(true);
 
       try {
-        // Load real CSV data
-        const transactions = await loadCSVData();
-        console.log("Dashboard loaded transactions:", transactions.length);
+        // Load real data from backend
+        const [dataSummary, salesTrends] = await Promise.all([
+          apiService.getDataSummary(),
+          apiService.getSalesTrends(),
+        ]);
 
-        // Process data for dashboard
-        const salesData = processSalesData(transactions);
-        const customerData = processCustomerSegments(transactions);
+        console.log("Dashboard loaded data:", dataSummary, salesTrends);
 
-        // Generate dashboard metrics from real data
-        const totalRevenue = salesData.totalRevenue;
-        const totalTransactions = salesData.totalTransactions;
-        const totalCustomers = customerData.reduce(
-          (sum, segment) => sum + segment.size * 10,
-          0
-        ); // Rough estimate
-        const avgOrderValue = totalRevenue / totalTransactions;
+        // Extract metrics from API response
+        const metrics = {
+          totalRevenue: salesTrends.data.summary.total_revenue || 0,
+          totalTransactions:
+            dataSummary.data.transactions.total_transactions || 0,
+          totalCustomers: dataSummary.data.transactions.total_customers || 0,
+          avgOrderValue:
+            dataSummary.data.transactions.avg_transaction_value || 0,
+          revenueGrowth: salesTrends.data.summary.revenue_growth_rate || 0,
+          transactionGrowth: 0, // Will be calculated by backend later
+          customerGrowth: 0, // Will be calculated by backend later
+          aovGrowth: 0, // Will be calculated by backend later
+        };
 
-        setDashboardData({
-          metrics: {
-            totalRevenue,
-            totalTransactions,
-            totalCustomers,
-            avgOrderValue,
-            // Add some growth indicators
-            revenueGrowth: 8.5,
-            transactionGrowth: 12.3,
-            customerGrowth: 5.7,
-            aovGrowth: -2.1,
-          },
-          salesData: {
-            totalRevenue,
-            totalTransactions,
-            topProducts: salesData.historicalData
-              .slice(-7)
-              .map((day, index) => ({
-                name: `Product ${index + 1}`,
-                revenue: day.sales * 0.3, // Simulate individual product revenue
-                growth: Math.floor(Math.random() * 20) + 5,
-              })),
-          },
-          forecastData: generateMockForecastData(),
-          recentAnalyses: generateRecentAnalyses(),
-        });
-      } catch (error) {
-        console.error("Error loading dashboard data:", error);
-        // Fallback to mock data
-        const metrics = generateMockDashboardMetrics();
         const salesData = {
-          ...metrics,
-          topProducts: [],
+          totalRevenue: metrics.totalRevenue,
+          totalTransactions: metrics.totalTransactions,
+          topProducts: Object.entries(
+            dataSummary.data.products.top_products || {}
+          )
+            .slice(0, 7)
+            .map(([name, count]) => ({
+              name,
+              revenue: count * 50, // Estimate revenue from count
+              growth: Math.floor(Math.random() * 20) + 5,
+            })),
+          monthlyTrends: salesTrends.data.monthly_trends || [],
+          weeklyPatterns: salesTrends.data.weekly_patterns || {},
         };
 
         setDashboardData({
           metrics,
           salesData,
-          forecastData: generateMockForecastData(),
-          recentAnalyses: generateRecentAnalyses(),
+          forecastData: null, // Will load separately if needed
+          recentAnalyses: [], // Will load from backend later
+          trendsData: salesTrends.data,
+        });
+      } catch (error) {
+        console.error("Error loading dashboard data:", error);
+        // Fallback to empty state
+        setDashboardData({
+          metrics: {
+            totalRevenue: 0,
+            totalTransactions: 0,
+            totalCustomers: 0,
+            avgOrderValue: 0,
+            revenueGrowth: 0,
+            transactionGrowth: 0,
+            customerGrowth: 0,
+            aovGrowth: 0,
+          },
+          salesData: {
+            totalRevenue: 0,
+            totalTransactions: 0,
+            topProducts: [],
+            monthlyTrends: [],
+            weeklyPatterns: {},
+          },
+          forecastData: null,
+          recentAnalyses: [],
         });
       } finally {
         setLoading(false);
@@ -103,7 +105,7 @@ function Dashboard({ onNavigate }) {
     };
 
     loadDashboardData();
-  }, []);
+  }, [uploadedFiles]); // Reload when files change
 
   const handleUploadComplete = (file) => {
     console.log("File uploaded from dashboard:", file);
