@@ -82,12 +82,14 @@ function SalesForecasting() {
 
         console.log(`Loading sales forecast for ${forecastDays} days...`);
 
-        // Generate sales forecast using our actual backend API
-        const forecastResult = await apiService.generateSalesForecast({
-          forecastDays,
-        });
+        // Get both historical trends and forecast data
+        const [forecastResult, trendsResult] = await Promise.all([
+          apiService.generateSalesForecast({ forecastDays }),
+          apiService.getSalesTrends(),
+        ]);
 
         console.log("Sales forecast result:", forecastResult);
+        console.log("Sales trends result:", trendsResult);
 
         // Check if we have valid data
         if (!forecastResult || !forecastResult.data) {
@@ -96,20 +98,66 @@ function SalesForecasting() {
 
         // Process the actual response structure from our backend
         const backendData = forecastResult.data;
+        const trendsData = trendsResult?.data || {};
+
+        // Create historical data from monthly trends
+        const historicalData = (trendsData.monthly_trends || []).map(
+          (item, index) => {
+            const monthDate = new Date(item.month + "-15"); // Use mid-month date
+            return {
+              date: monthDate.toLocaleDateString(),
+              historical: Math.round(item.revenue / 30), // Daily average for the month
+              month: item.month,
+              type: "historical",
+              revenue: item.revenue,
+              transactions: item.transactions,
+            };
+          }
+        );
 
         // Create chart data from our backend forecast response
-        const chartData = (backendData.forecast || []).map((item, index) => ({
-          date: new Date(item.date).toLocaleDateString(),
-          predicted: item.predicted_sales,
-          confidence: (item.confidence * 100).toFixed(1),
-          day: `Day ${index + 1}`,
-        }));
+        const forecastData = (backendData.forecast || [])
+          .slice(0, 14)
+          .map((item, index) => ({
+            date: new Date(item.date).toLocaleDateString(),
+            predicted: item.predicted_sales,
+            confidence: (item.confidence * 100).toFixed(1),
+            day: `Day ${index + 1}`,
+            type: "predicted",
+          }));
+
+        // Create a transition point between historical and forecast
+        const lastHistorical = historicalData[historicalData.length - 1];
+        const firstForecast = forecastData[0];
+
+        let combinedChartData, processedForecast;
+
+        if (lastHistorical && firstForecast) {
+          // Add a connecting point
+          const today = new Date();
+          const transitionPoint = {
+            date: today.toLocaleDateString(),
+            historical: lastHistorical.historical,
+            predicted: firstForecast.predicted,
+            type: "transition",
+          };
+
+          // Combine historical and forecast data for the chart
+          combinedChartData = [
+            ...historicalData,
+            transitionPoint,
+            ...forecastData,
+          ];
+        } else {
+          // Fallback if no connecting point
+          combinedChartData = [...historicalData, ...forecastData];
+        }
 
         // Process forecast data for charts
-        const processedForecast = {
-          historical: [], // Our backend doesn't provide historical data in this endpoint
-          predictions: chartData,
-          combined: chartData,
+        processedForecast = {
+          historical: historicalData,
+          predictions: forecastData,
+          combined: combinedChartData,
         };
 
         setForecastData(processedForecast);
@@ -272,12 +320,35 @@ function SalesForecasting() {
   const prepareChartData = () => {
     if (!forecastData) return [];
 
-    // Use our simplified data structure
+    // For "combined" view, show both historical and predicted data
+    if (selectedView === "combined") {
+      return forecastData.combined.map((item) => ({
+        date: item.date,
+        historical: item.historical || null,
+        predicted: item.predicted || null,
+        confidence: item.confidence,
+        day: item.day,
+        type: item.type,
+      }));
+    }
+
+    // For "historical" view, show only historical data
+    if (selectedView === "historical") {
+      return forecastData.historical.map((item) => ({
+        date: item.date,
+        historical: item.historical,
+        month: item.month,
+        type: item.type,
+      }));
+    }
+
+    // For "predictions" view, show only predicted data
     return forecastData.predictions.map((item) => ({
       date: item.date,
       predicted: item.predicted,
       confidence: item.confidence,
       day: item.day,
+      type: item.type,
     }));
   };
 
@@ -478,6 +549,20 @@ function SalesForecasting() {
               Combined View
             </Button>
             <Button
+              variant={selectedView === "historical" ? "default" : "outline"}
+              size="sm"
+              onClick={() => setSelectedView("historical")}
+            >
+              Historical Only
+            </Button>
+            <Button
+              variant={selectedView === "predictions" ? "default" : "outline"}
+              size="sm"
+              onClick={() => setSelectedView("predictions")}
+            >
+              Forecast Only
+            </Button>
+            <Button
               variant={selectedView === "confidence" ? "default" : "outline"}
               size="sm"
               onClick={() => setSelectedView("confidence")}
@@ -558,11 +643,12 @@ function SalesForecasting() {
                     <Legend />
                     <Line
                       type="monotone"
-                      dataKey="sales"
+                      dataKey="historical"
                       stroke="#2563eb"
                       strokeWidth={2}
                       name="Historical Sales"
                       connectNulls={false}
+                      dot={{ fill: "#2563eb", strokeWidth: 2, r: 3 }}
                     />
                     <Line
                       type="monotone"
@@ -572,6 +658,7 @@ function SalesForecasting() {
                       strokeDasharray="5 5"
                       name="Forecast"
                       connectNulls={false}
+                      dot={{ fill: "#dc2626", strokeWidth: 2, r: 3 }}
                     />
                   </LineChart>
                 )}
