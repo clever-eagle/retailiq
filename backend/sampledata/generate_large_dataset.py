@@ -599,10 +599,10 @@ if __name__ == "__main__":
     print("Starting small dataset generation...")
 
     # Generate 1,000 transactions for better performance
-    transactions = generate_large_dataset(1000)
+    transactions = generate_large_dataset(1200)
 
     # Save to CSV
-    csv_filename = "sample2.csv"
+    csv_filename = "sample3.csv"
     save_transactions_to_csv(transactions, csv_filename)
 
     # Generate and save statistics

@@ -60,10 +60,11 @@ function MarketBasketAnalysis() {
 
         // Process association rules - handle different possible API response structures
         let processedRules = [];
-        let associationRules = analysisResult.data?.analysis?.association_rules || 
-                              analysisResult.data.association_rules || 
-                              analysisResult.association_rules || 
-                              [];
+        let associationRules =
+          analysisResult.data?.analysis?.association_rules ||
+          analysisResult.data.association_rules ||
+          analysisResult.association_rules ||
+          [];
 
         console.log("Found association rules:", associationRules.length);
         console.log("First few rules:", associationRules.slice(0, 3));
