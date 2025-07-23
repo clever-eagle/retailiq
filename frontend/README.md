@@ -1,0 +1,1 @@
+RetailIQ is a data-driven retail analytics platform designed to help businesses optimize inventory, track sales performance, and gain actionable insights through intuitive dashboards and automated reporting.
