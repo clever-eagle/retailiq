@@ -1,0 +1,15 @@
+TransactionID,Date,Product,Units Sold,Price,Category
+100000,2025-01-09,Product7,4,47.92,Category2
+100000,2025-01-09,Product3,2,16.61,Category3
+100000,2025-01-09,Product6,3,24.24,Category1
+100001,2025-01-25,Product9,5,35.39,Category4
+100001,2025-01-25,Product5,1,78.69,Category5
+100001,2025-01-25,Product14,1,74.84,Category4
+100001,2025-01-25,Product3,4,18.74,Category3
+100001,2025-01-25,Product13,4,58.47,Category3
+100002,2025-01-06,Product11,1,29.22,Category1
+100003,2025-01-29,Product5,4,78.31,Category5
+100003,2025-01-29,Product17,4,50.76,Category2
+100004,2025-01-30,Product11,3,29.23,Category1
+100004,2025-01-30,Product15,2,56.08,Category5
+100004,2025-01-30,Product1,3,64.74,Category1
