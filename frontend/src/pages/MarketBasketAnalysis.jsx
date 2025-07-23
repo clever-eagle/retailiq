@@ -58,10 +58,18 @@ function MarketBasketAnalysis() {
           throw new Error("No analysis data received from API");
         }
 
-        // Process association rules
+        // Process association rules - handle different possible API response structures
         let processedRules = [];
-        if (analysisResult.data.association_rules?.length > 0) {
-          const topRules = analysisResult.data.association_rules
+        let associationRules = analysisResult.data?.analysis?.association_rules || 
+                              analysisResult.data.association_rules || 
+                              analysisResult.association_rules || 
+                              [];
+
+        console.log("Found association rules:", associationRules.length);
+        console.log("First few rules:", associationRules.slice(0, 3));
+
+        if (associationRules && associationRules.length > 0) {
+          const topRules = associationRules
             .sort((a, b) => (b.lift || 0) - (a.lift || 0))
             .slice(0, 100);
 
@@ -69,15 +77,19 @@ function MarketBasketAnalysis() {
             id: index + 1,
             antecedent: Array.isArray(rule.antecedent)
               ? rule.antecedent
-              : [rule.antecedent || "Unknown"],
+              : Array.isArray(rule.antecedents)
+              ? rule.antecedents
+              : [rule.antecedent || rule.antecedents || "Unknown"],
             consequent: Array.isArray(rule.consequent)
               ? rule.consequent
-              : [rule.consequent || "Unknown"],
+              : Array.isArray(rule.consequents)
+              ? rule.consequents
+              : [rule.consequent || rule.consequents || "Unknown"],
             support: rule.support || 0,
             confidence: rule.confidence || 0,
             lift: rule.lift || 1,
             conviction: rule.conviction || 1.0,
-            transactions: Math.round((rule.support || 0) * 1000),
+            transactions: Math.round((rule.support || 0) * 1200),
             expectedRevenue: Math.round(Math.random() * 1000 + 100),
             strength:
               (rule.lift || 1) > 3
@@ -86,7 +98,10 @@ function MarketBasketAnalysis() {
                 ? "Strong"
                 : "Moderate",
           }));
+
+          console.log("Processed rules:", processedRules.length);
         } else {
+          console.log("No association rules found, using mock data");
           // Mock data if no rules found
           processedRules = [
             {
