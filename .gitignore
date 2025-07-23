@@ -27,3 +27,4 @@ frontend/*.local
 # Project overview.md
 
 **/__pycache__/
+**/.venv/
