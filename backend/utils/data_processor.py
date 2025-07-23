@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import os
+import json
 
 
 class DataProcessor:
@@ -22,7 +23,11 @@ class DataProcessor:
 
     def validate_and_clean_data(self, df):
         """
-        Validate and clean uploaded data
+                   for keyword in keywords:
+                if keyword in item_lower:
+                    return category
+
+        return 'Other' uploaded data
         """
         try:
             # Check if all required columns exist
@@ -114,10 +119,48 @@ class DataProcessor:
 
     def load_default_data(self):
         """
-        Load default retail transaction data
+        Load default retail transaction data - prioritize dynamic large dataset
         """
         try:
-            # Try to load from frontend data folder first
+            # First try to load the dynamic large market basket dataset
+            large_data_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                "large_market_basket_data.csv",
+            )
+
+            if os.path.exists(large_data_path):
+                print(
+                    f"Loading dynamic large market basket dataset from: {large_data_path}"
+                )
+                df = pd.read_csv(large_data_path)
+
+                # Process the large dataset format
+                processed_data = self.process_large_market_basket_data(df)
+                return processed_data
+
+            # Fallback to demo electronics data (small, fast)
+            demo_electronics_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                "demo_data_electronics.csv",
+            )
+
+            if os.path.exists(demo_electronics_path):
+                print(f"Loading demo electronics dataset from: {demo_electronics_path}")
+                df = pd.read_csv(demo_electronics_path)
+                return self.validate_and_clean_data(df)
+
+            # Fallback to sample market basket data
+            sample_data_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                "sample_market_basket_data.csv",
+            )
+
+            if os.path.exists(sample_data_path):
+                print(f"Loading sample market basket data from: {sample_data_path}")
+                df = pd.read_csv(sample_data_path)
+                return self.validate_and_clean_data(df)
+
+            # Try to load from frontend data folder
             frontend_data_path = os.path.join(
                 os.path.dirname(os.path.dirname(__file__)),
                 "frontend",
@@ -371,5 +414,295 @@ class DataProcessor:
             return processed_df
 
         except Exception as e:
-            print(f"Error in ML preprocessing: {e}")
-            return df
+            raise ValueError(f"ML preprocessing failed: {str(e)}")
+
+    def process_large_market_basket_data(self, df):
+        """
+        Process the large market basket dataset format for analysis
+        """
+        try:
+            print("Processing large market basket dataset...")
+
+            # The large dataset has format: transaction_id, customer_id, items, date, persona
+            # Convert to standard format for market basket analysis
+            processed_rows = []
+
+            for _, row in df.iterrows():
+                transaction_id = row["transaction_id"]
+                customer_id = row["customer_id"]
+                date = row["date"]
+                persona = row["persona"]
+
+                # Split items by semicolon
+                items = row["items"].split(";")
+
+                # Create a row for each item in the transaction
+                for item in items:
+                    processed_rows.append(
+                        {
+                            "transaction_id": transaction_id,
+                            "customer_id": customer_id,
+                            "product_name": item.strip(),
+                            "date": date,
+                            "persona": persona,
+                            "quantity": 1,  # Default quantity
+                            "unit_price": self._estimate_price_from_item(item.strip()),
+                            "category": self._categorize_item(item.strip()),
+                        }
+                    )
+
+            processed_df = pd.DataFrame(processed_rows)
+
+            # Convert date column to datetime
+            if "date" in processed_df.columns:
+                processed_df["date"] = pd.to_datetime(
+                    processed_df["date"], errors="coerce"
+                )
+                processed_df = processed_df.dropna(subset=["date"])
+
+            # Calculate total_amount if not present
+            if (
+                "total_amount" not in processed_df.columns
+                and "unit_price" in processed_df.columns
+                and "quantity" in processed_df.columns
+            ):
+                processed_df["total_amount"] = (
+                    processed_df["unit_price"] * processed_df["quantity"]
+                )
+
+            print(
+                f"Processed {len(processed_df)} item records from {len(df)} transactions"
+            )
+            print(f"Found {processed_df['product_name'].nunique()} unique products")
+            print(f"Customer personas: {processed_df['persona'].unique()}")
+
+            return processed_df
+
+        except Exception as e:
+            print(f"Error processing large market basket data: {str(e)}")
+            raise ValueError(f"Failed to process large dataset: {str(e)}")
+
+    def _estimate_price_from_item(self, item_name):
+        """
+        Estimate price based on item name and category
+        """
+        # Price estimation based on product categories
+        price_ranges = {
+            # Electronics
+            "iphone": (800, 1200),
+            "samsung galaxy": (700, 1100),
+            "macbook": (1200, 2500),
+            "ipad": (300, 800),
+            "airpods": (150, 250),
+            "watch": (250, 500),
+            "nintendo": (300, 400),
+            "playstation": (400, 500),
+            "xbox": (400, 500),
+            "tv": (400, 1200),
+            "monitor": (200, 600),
+            "keyboard": (50, 200),
+            # Clothing
+            "nike": (60, 200),
+            "adidas": (50, 180),
+            "jeans": (40, 120),
+            "hoodie": (30, 80),
+            "shirt": (20, 60),
+            "jacket": (50, 200),
+            "shoes": (50, 300),
+            "sunglasses": (50, 250),
+            # Home & Garden
+            "coffee maker": (50, 300),
+            "blender": (30, 150),
+            "vacuum": (100, 400),
+            "microwave": (80, 250),
+            "toaster": (25, 80),
+            "lawn mower": (200, 800),
+            "grill": (150, 600),
+            # Health & Beauty
+            "protein": (25, 80),
+            "vitamins": (15, 50),
+            "shampoo": (8, 25),
+            "perfume": (50, 200),
+            "makeup": (20, 100),
+            # Food & Beverages
+            "coffee": (10, 30),
+            "chocolate": (3, 15),
+            "oil": (5, 20),
+            "pasta": (2, 8),
+            "milk": (3, 6),
+            "bread": (2, 5),
+            # Sports & Outdoors
+            "tennis": (30, 200),
+            "basketball": (20, 50),
+            "bike": (200, 1200),
+            "tent": (100, 500),
+            "backpack": (50, 200),
+        }
+
+        item_lower = item_name.lower()
+
+        # Find matching price range
+        for keyword, (min_price, max_price) in price_ranges.items():
+            if keyword in item_lower:
+                return round(np.random.uniform(min_price, max_price), 2)
+
+        # Default price range for unknown items
+        return round(np.random.uniform(10, 100), 2)
+
+    def _categorize_item(self, item_name):
+        """
+        Categorize item based on its name
+        """
+        item_lower = item_name.lower()
+
+        categories = {
+            "Electronics": [
+                "iphone",
+                "samsung",
+                "macbook",
+                "ipad",
+                "airpods",
+                "watch",
+                "nintendo",
+                "playstation",
+                "xbox",
+                "tv",
+                "monitor",
+                "keyboard",
+                "mouse",
+                "charger",
+                "cable",
+                "speaker",
+                "headphones",
+                "kindle",
+                "graphics",
+            ],
+            "Clothing": [
+                "nike",
+                "adidas",
+                "jeans",
+                "hoodie",
+                "shirt",
+                "jacket",
+                "shoes",
+                "sunglasses",
+                "socks",
+                "polo",
+                "converse",
+                "vans",
+                "champion",
+                "tommy",
+                "gap",
+                "dress",
+                "sweater",
+                "underwear",
+            ],
+            "Home & Garden": [
+                "coffee maker",
+                "blender",
+                "fryer",
+                "pot",
+                "vacuum",
+                "microwave",
+                "toaster",
+                "rice cooker",
+                "mixer",
+                "kettle",
+                "lawn mower",
+                "hose",
+                "fertilizer",
+                "tools",
+                "furniture",
+                "grill",
+                "umbrella",
+                "lights",
+            ],
+            "Books & Media": [
+                "gatsby",
+                "mockingbird",
+                "1984",
+                "pride",
+                "harry potter",
+                "twilight",
+                "cookbook",
+                "biography",
+                "novel",
+                "book",
+                "magazine",
+            ],
+            "Health & Beauty": [
+                "protein",
+                "vitamins",
+                "cream",
+                "shampoo",
+                "conditioner",
+                "wash",
+                "toothpaste",
+                "deodorant",
+                "perfume",
+                "makeup",
+                "skincare",
+                "dryer",
+                "toothbrush",
+                "tracker",
+                "yoga",
+                "resistance",
+                "dumbbells",
+                "sunscreen",
+            ],
+            "Food & Beverages": [
+                "coffee",
+                "tea",
+                "protein bars",
+                "nuts",
+                "chocolate",
+                "oil",
+                "pasta",
+                "sauce",
+                "bread",
+                "milk",
+                "eggs",
+                "butter",
+                "cheese",
+                "yogurt",
+                "fruits",
+                "vegetables",
+                "chicken",
+                "salmon",
+                "rice",
+                "quinoa",
+                "honey",
+                "peanut",
+                "cereal",
+                "juice",
+            ],
+            "Sports & Outdoors": [
+                "tennis",
+                "basketball",
+                "soccer",
+                "golf",
+                "hiking",
+                "camping",
+                "tent",
+                "sleeping bag",
+                "backpack",
+                "bottle",
+                "helmet",
+                "bike",
+                "running",
+                "ski",
+                "snowboard",
+                "surfboard",
+                "fishing",
+                "swimming",
+                "balls",
+                "gym bag",
+            ],
+        }
+
+        for category, keywords in categories.items():
+            for keyword in keywords:
+                if keyword in item_lower:
+                    return category
+
+        return "Other"

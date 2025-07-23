@@ -1,0 +1,38 @@
+transaction_id,date,customer_id,product_name,category,quantity,unit_price,total_amount,customer_segment,store_location
+TXN001,2024-01-15,CUST001,Coffee Maker,Appliances,1,129.99,129.99,Coffee Lovers,Store A
+TXN001,2024-01-15,CUST001,Coffee Beans,Food & Beverage,2,12.99,25.98,Coffee Lovers,Store A
+TXN001,2024-01-15,CUST001,Coffee Filters,Kitchen,1,8.99,8.99,Coffee Lovers,Store A
+TXN002,2024-01-16,CUST002,Air Fryer,Appliances,1,199.99,199.99,Modern Cooks,Store B
+TXN002,2024-01-16,CUST002,Cooking Utensils Set,Kitchen,1,49.99,49.99,Modern Cooks,Store B
+TXN003,2024-01-17,CUST003,Office Chair,Furniture,1,299.99,299.99,Home Office,Store A
+TXN003,2024-01-17,CUST003,Desk Lamp,Furniture,1,79.99,79.99,Home Office,Store A
+TXN003,2024-01-17,CUST003,Monitor Stand,Office,1,59.99,59.99,Home Office,Store A
+TXN004,2024-01-18,CUST004,Vacuum Cleaner,Appliances,1,249.99,249.99,Homemakers,Store B
+TXN004,2024-01-18,CUST004,Cleaning Supplies,Household,1,29.99,29.99,Homemakers,Store B
+TXN005,2024-01-19,CUST005,Sofa,Furniture,1,899.99,899.99,Home Decorators,Store A
+TXN005,2024-01-19,CUST005,Coffee Table,Furniture,1,199.99,199.99,Home Decorators,Store A
+TXN005,2024-01-19,CUST005,Throw Pillows,Decor,2,24.99,49.98,Home Decorators,Store A
+TXN006,2024-01-20,CUST006,Blender,Appliances,1,89.99,89.99,Health Conscious,Store B
+TXN006,2024-01-20,CUST006,Smoothie Cups,Kitchen,2,15.99,31.98,Health Conscious,Store B
+TXN007,2024-01-21,CUST007,Dining Table,Furniture,1,699.99,699.99,Families,Store A
+TXN007,2024-01-21,CUST007,Dining Chairs,Furniture,4,89.99,359.96,Families,Store A
+TXN008,2024-01-22,CUST008,Microwave,Appliances,1,149.99,149.99,Quick Meals,Store B
+TXN008,2024-01-22,CUST008,Microwave Safe Dishes,Kitchen,1,39.99,39.99,Quick Meals,Store B
+TXN009,2024-01-23,CUST009,Bed Frame,Furniture,1,499.99,499.99,Bedroom Setup,Store A
+TXN009,2024-01-23,CUST009,Mattress,Furniture,1,799.99,799.99,Bedroom Setup,Store A
+TXN009,2024-01-23,CUST009,Pillows,Bedding,2,29.99,59.98,Bedroom Setup,Store A
+TXN010,2024-01-24,CUST010,Washing Machine,Appliances,1,599.99,599.99,Laundry Setup,Store B
+TXN010,2024-01-24,CUST010,Laundry Detergent,Household,2,12.99,25.98,Laundry Setup,Store B
+TXN011,2024-01-25,CUST011,Garden Tools,Garden,1,149.99,149.99,Gardeners,Store A
+TXN011,2024-01-25,CUST011,Plant Fertilizer,Garden,3,15.99,47.97,Gardeners,Store A
+TXN011,2024-01-25,CUST011,Garden Hose,Garden,1,39.99,39.99,Gardeners,Store A
+TXN012,2024-01-26,CUST012,BBQ Grill,Outdoor,1,399.99,399.99,Outdoor Cooks,Store B
+TXN012,2024-01-26,CUST012,Grilling Tools,Kitchen,1,59.99,59.99,Outdoor Cooks,Store B
+TXN013,2024-01-27,CUST013,Smart TV,Electronics,1,799.99,799.99,Entertainment,Store A
+TXN013,2024-01-27,CUST013,TV Stand,Furniture,1,149.99,149.99,Entertainment,Store A
+TXN013,2024-01-27,CUST013,Sound System,Electronics,1,299.99,299.99,Entertainment,Store A
+TXN014,2024-01-28,CUST014,Refrigerator,Appliances,1,1199.99,1199.99,Kitchen Upgrade,Store B
+TXN014,2024-01-28,CUST014,Water Filter,Kitchen,1,89.99,89.99,Kitchen Upgrade,Store B
+TXN015,2024-01-29,CUST015,Bookshelf,Furniture,1,199.99,199.99,Book Lovers,Store A
+TXN015,2024-01-29,CUST015,Reading Lamp,Furniture,1,69.99,69.99,Book Lovers,Store A
+TXN015,2024-01-29,CUST015,Books Set,Books,5,19.99,99.95,Book Lovers,Store A

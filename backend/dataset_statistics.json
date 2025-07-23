@@ -1,0 +1,97 @@
+{
+  "total_transactions": 1000,
+  "unique_items": 146,
+  "total_items_sold": 4168,
+  "avg_items_per_transaction": 4.17,
+  "persona_distribution": {
+    "Fashion Conscious": 274,
+    "Fitness Enthusiast": 181,
+    "Tech Enthusiast": 151,
+    "General Shopper": 71,
+    "Home Cook": 171,
+    "Book Lover": 152
+  },
+  "top_items": [
+    [
+      "Fitness Tracker",
+      69
+    ],
+    [
+      "Vitamins",
+      57
+    ],
+    [
+      "Skincare Set",
+      55
+    ],
+    [
+      "Conditioner",
+      53
+    ],
+    [
+      "Resistance Bands",
+      53
+    ],
+    [
+      "Electric Toothbrush",
+      51
+    ],
+    [
+      "Face Cream",
+      50
+    ],
+    [
+      "Under Armour T-Shirt",
+      50
+    ],
+    [
+      "Dumbbells",
+      49
+    ],
+    [
+      "Shampoo",
+      49
+    ],
+    [
+      "Supplement Pills",
+      48
+    ],
+    [
+      "Deodorant",
+      48
+    ],
+    [
+      "Electric Kettle",
+      45
+    ],
+    [
+      "Olive Oil",
+      44
+    ],
+    [
+      "Yoga Mat",
+      44
+    ],
+    [
+      "Sunscreen",
+      43
+    ],
+    [
+      "Peanut Butter",
+      43
+    ],
+    [
+      "Makeup Kit",
+      43
+    ],
+    [
+      "Protein Powder",
+      43
+    ],
+    [
+      "Nike Socks",
+      42
+    ]
+  ],
+  "dataset_generation_date": "2025-07-23T12:22:10.228044"
+}

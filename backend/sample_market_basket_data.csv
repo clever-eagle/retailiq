@@ -1,0 +1,61 @@
+transaction_id,date,customer_id,product_name,category,quantity,unit_price,total_amount,customer_segment,store_location
+TXN001,2024-01-15,CUST001,Wireless Headphones,Electronics,1,89.99,89.99,Tech Enthusiasts,Store A
+TXN001,2024-01-15,CUST001,Smartphone Case,Electronics,1,24.99,24.99,Tech Enthusiasts,Store A
+TXN001,2024-01-15,CUST001,Phone Charger,Electronics,1,19.99,19.99,Tech Enthusiasts,Store A
+TXN002,2024-01-16,CUST002,Coffee Maker,Appliances,1,129.99,129.99,Home & Office,Store B
+TXN002,2024-01-16,CUST002,Coffee Beans,Food & Beverage,2,12.99,25.98,Home & Office,Store B
+TXN002,2024-01-16,CUST002,Coffee Filters,Appliances,1,8.99,8.99,Home & Office,Store B
+TXN003,2024-01-17,CUST003,Yoga Mat,Fitness,1,35.99,35.99,Fitness Focused,Store C
+TXN003,2024-01-17,CUST003,Water Bottle,Fitness,1,19.99,19.99,Fitness Focused,Store C
+TXN003,2024-01-17,CUST003,Resistance Bands,Fitness,1,15.99,15.99,Fitness Focused,Store C
+TXN004,2024-01-18,CUST004,Office Chair,Furniture,1,299.99,299.99,Home & Office,Store A
+TXN004,2024-01-18,CUST004,Desk Lamp,Furniture,1,45.99,45.99,Home & Office,Store A
+TXN004,2024-01-18,CUST004,Mouse Pad,Electronics,1,12.99,12.99,Home & Office,Store A
+TXN005,2024-01-19,CUST005,Laptop,Electronics,1,899.99,899.99,Tech Enthusiasts,Store A
+TXN005,2024-01-19,CUST005,Wireless Mouse,Electronics,1,49.99,49.99,Tech Enthusiasts,Store A
+TXN005,2024-01-19,CUST005,Laptop Bag,Electronics,1,39.99,39.99,Tech Enthusiasts,Store A
+TXN006,2024-01-20,CUST006,Running Shoes,Fitness,1,89.99,89.99,Fitness Focused,Store C
+TXN006,2024-01-20,CUST006,Sports Watch,Electronics,1,199.99,199.99,Fitness Focused,Store C
+TXN006,2024-01-20,CUST006,Protein Powder,Health,1,29.99,29.99,Fitness Focused,Store C
+TXN007,2024-01-21,CUST007,Coffee Maker,Appliances,1,129.99,129.99,Home & Office,Store B
+TXN007,2024-01-21,CUST007,Coffee Beans,Food & Beverage,2,12.99,25.98,Home & Office,Store B
+TXN008,2024-01-22,CUST008,Smartphone,Electronics,1,599.99,599.99,Tech Enthusiasts,Store A
+TXN008,2024-01-22,CUST008,Smartphone Case,Electronics,1,24.99,24.99,Tech Enthusiasts,Store A
+TXN008,2024-01-22,CUST008,Screen Protector,Electronics,1,9.99,9.99,Tech Enthusiasts,Store A
+TXN008,2024-01-22,CUST008,Wireless Headphones,Electronics,1,89.99,89.99,Tech Enthusiasts,Store A
+TXN009,2024-01-23,CUST009,Yoga Mat,Fitness,1,35.99,35.99,Fitness Focused,Store C
+TXN009,2024-01-23,CUST009,Water Bottle,Fitness,1,19.99,19.99,Fitness Focused,Store C
+TXN010,2024-01-24,CUST010,Office Chair,Furniture,1,299.99,299.99,Home & Office,Store A
+TXN010,2024-01-24,CUST010,Desk Lamp,Furniture,1,45.99,45.99,Home & Office,Store A
+TXN010,2024-01-24,CUST010,Notebook,Office Supplies,3,5.99,17.97,Home & Office,Store A
+TXN011,2024-01-25,CUST011,Coffee Beans,Food & Beverage,2,12.99,25.98,Home & Office,Store B
+TXN011,2024-01-25,CUST011,Coffee Filters,Appliances,1,8.99,8.99,Home & Office,Store B
+TXN011,2024-01-25,CUST011,Milk,Food & Beverage,1,3.99,3.99,Home & Office,Store B
+TXN012,2024-01-26,CUST012,Laptop,Electronics,1,899.99,899.99,Tech Enthusiasts,Store A
+TXN012,2024-01-26,CUST012,Wireless Mouse,Electronics,1,49.99,49.99,Tech Enthusiasts,Store A
+TXN013,2024-01-27,CUST013,Running Shoes,Fitness,1,89.99,89.99,Fitness Focused,Store C
+TXN013,2024-01-27,CUST013,Sports Watch,Electronics,1,199.99,199.99,Fitness Focused,Store C
+TXN013,2024-01-27,CUST013,Water Bottle,Fitness,1,19.99,19.99,Fitness Focused,Store C
+TXN013,2024-01-27,CUST013,Yoga Mat,Fitness,1,35.99,35.99,Fitness Focused,Store C
+TXN014,2024-01-28,CUST014,Smartphone,Electronics,1,599.99,599.99,Tech Enthusiasts,Store A
+TXN014,2024-01-28,CUST014,Wireless Headphones,Electronics,1,89.99,89.99,Tech Enthusiasts,Store A
+TXN015,2024-01-29,CUST015,Coffee Maker,Appliances,1,129.99,129.99,Home & Office,Store B
+TXN015,2024-01-29,CUST015,Coffee Beans,Food & Beverage,2,12.99,25.98,Home & Office,Store B
+TXN015,2024-01-29,CUST015,Coffee Filters,Appliances,1,8.99,8.99,Home & Office,Store B
+TXN015,2024-01-29,CUST015,Sugar,Food & Beverage,1,2.99,2.99,Home & Office,Store B
+TXN016,2024-01-30,CUST016,Office Chair,Furniture,1,299.99,299.99,Home & Office,Store A
+TXN016,2024-01-30,CUST016,Desk Lamp,Furniture,1,45.99,45.99,Home & Office,Store A
+TXN016,2024-01-30,CUST016,Keyboard,Electronics,1,79.99,79.99,Home & Office,Store A
+TXN016,2024-01-30,CUST016,Wireless Mouse,Electronics,1,49.99,49.99,Home & Office,Store A
+TXN017,2024-01-31,CUST017,Yoga Mat,Fitness,1,35.99,35.99,Fitness Focused,Store C
+TXN017,2024-01-31,CUST017,Resistance Bands,Fitness,1,15.99,15.99,Fitness Focused,Store C
+TXN018,2024-02-01,CUST018,Laptop,Electronics,1,899.99,899.99,Tech Enthusiasts,Store A
+TXN018,2024-02-01,CUST018,Laptop Bag,Electronics,1,39.99,39.99,Tech Enthusiasts,Store A
+TXN018,2024-02-01,CUST018,Wireless Mouse,Electronics,1,49.99,49.99,Tech Enthusiasts,Store A
+TXN018,2024-02-01,CUST018,USB Cable,Electronics,1,14.99,14.99,Tech Enthusiasts,Store A
+TXN019,2024-02-02,CUST019,Coffee Beans,Food & Beverage,2,12.99,25.98,Home & Office,Store B
+TXN019,2024-02-02,CUST019,Milk,Food & Beverage,1,3.99,3.99,Home & Office,Store B
+TXN020,2024-02-03,CUST020,Smartphone,Electronics,1,599.99,599.99,Tech Enthusiasts,Store A
+TXN020,2024-02-03,CUST020,Smartphone Case,Electronics,1,24.99,24.99,Tech Enthusiasts,Store A
+TXN020,2024-02-03,CUST020,Wireless Headphones,Electronics,1,89.99,89.99,Tech Enthusiasts,Store A
+TXN020,2024-02-03,CUST020,Phone Charger,Electronics,1,19.99,19.99,Tech Enthusiasts,Store A

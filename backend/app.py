@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import os
-from models.market_basket_analyzer import MarketBasketAnalyzer
+from models.apriori_market_basket import AprioriMarketBasket
 from models.sales_forecaster import SalesForecaster
 from utils.data_processor import DataProcessor
 from utils.response_handler import ResponseHandler
@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize models
-market_basket_analyzer = MarketBasketAnalyzer()
+apriori_analyzer = AprioriMarketBasket()
 sales_forecaster = SalesForecaster()
 data_processor = DataProcessor()
 response_handler = ResponseHandler()
@@ -79,7 +79,7 @@ def market_basket_analysis():
             return response_handler.error("No data available for analysis", 400)
 
         # Perform market basket analysis
-        results = market_basket_analyzer.analyze(
+        results = apriori_analyzer.analyze(
             df,
             min_support=min_support,
             min_confidence=min_confidence,
@@ -112,7 +112,12 @@ def get_recommendations():
         if df is None:
             return response_handler.error("No data available for recommendations", 400)
 
-        recommendations = market_basket_analyzer.get_recommendations(df, current_items)
+        # Load data into the analyzer and generate rules
+        apriori_analyzer.load_transactions(df)
+        apriori_analyzer.find_frequent_itemsets(min_support=0.01)
+        apriori_analyzer.generate_association_rules(min_confidence=0.2, min_lift=1.0)
+
+        recommendations = apriori_analyzer.get_recommendations(current_items)
 
         return response_handler.success(
             {"current_items": current_items, "recommendations": recommendations}
@@ -213,7 +218,11 @@ def frequent_itemsets():
         if df is None:
             return response_handler.error("No data available for analysis", 400)
 
-        itemsets = market_basket_analyzer.get_frequent_itemsets(df, min_support)
+        # Load data into the analyzer first
+        apriori_analyzer.load_transactions(df)
+        apriori_analyzer.find_frequent_itemsets(min_support)
+
+        itemsets = apriori_analyzer.get_formatted_frequent_itemsets()
 
         return response_handler.success(
             {"frequent_itemsets": itemsets, "min_support": min_support}
