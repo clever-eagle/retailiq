@@ -1,0 +1,10 @@
+{
+  "training_date": "2025-07-23T08:18:45.830764",
+  "market_basket_trained": true,
+  "sales_forecasting_trained": true,
+  "training_data_size": "synthetic_15000_transactions",
+  "model_versions": {
+    "market_basket_analyzer": "1.0",
+    "sales_forecaster": "1.0"
+  }
+}
