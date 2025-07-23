@@ -1,14 +1,22 @@
-# Retail Analytics Backend
+# RetailIQ Backend - ML-Powered Retail Analytics
 
-A Python Flask backend service that provides AI-powered retail analytics including market basket analysis using the Apriori algorithm and sales forecasting.
+A comprehensive machine learning backend for retail analytics that provides instant insights from CSV uploads.
 
-## Features
+## 🚀 Features
 
-- **Market Basket Analysis**: Uses Apriori algorithm to find frequent itemsets and association rules
-- **Product Recommendations**: Get product recommendations based on current items in cart
-- **Sales Forecasting**: Multiple forecasting models including Linear Regression, Random Forest, and time series analysis
+### Core ML Models
+
+- **Customer Segmentation**: K-Means clustering for customer behavior analysis
+- **Sales Forecasting**: Random Forest regression for future sales predictions
+- **Churn Prediction**: ML-based customer churn risk assessment
+- **Product Recommendations**: Collaborative filtering for cross-sell opportunities
+
+### Traditional Analytics
+
+- **Market Basket Analysis**: Apriori algorithm for association rules
+- **Sales Forecasting**: Time series analysis with multiple models
 - **Data Processing**: Upload and process CSV data files
-- **RESTful API**: Clean API endpoints for frontend integration
+- **RESTful API**: Comprehensive API endpoints for frontend integration
 
 ## Installation
 
@@ -25,15 +33,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Running the Server
-
-### Option 1: Using the run script
+3. **Train ML Models** (First time only):
 
 ```bash
-python run.py
+python ml_trainer.py
 ```
 
-### Option 2: Using Flask directly
+## Running the Server
 
 ```bash
 python app.py
@@ -41,15 +47,87 @@ python app.py
 
 The server will start on `http://localhost:5000`
 
+## 📁 File Structure
+
+```
+backend/
+├── app.py                      # Main Flask application
+├── ml_trainer.py              # ML model training system
+├── ml_predictor.py            # ML prediction engine
+├── generate_large_dataset.py  # Dynamic dataset generator
+├── demo_data_selector.py      # Demo data management
+├── models/                    # Traditional analytics models
+│   ├── apriori_market_basket.py
+│   └── sales_forecaster.py
+├── utils/                     # Utility functions
+│   ├── data_processor.py
+│   └── response_handler.py
+├── trained_models/            # Pre-trained ML models
+│   ├── retail_models.pkl
+│   ├── encoders.pkl
+│   ├── scalers.pkl
+│   └── feature_importance.pkl
+├── demo_data_*.csv           # Sample datasets
+└── large_market_basket_data.csv # Main dynamic dataset
+```
+
 ## API Endpoints
 
-### Health Check
+### 🤖 ML Analysis Endpoints
+
+#### Instant CSV Analysis
+
+```
+POST /predict-analysis
+Content-Type: multipart/form-data
+Body: file (CSV file)
+```
+
+#### ML Insights
+
+```
+GET /ml-insights
+```
+
+#### Model Status
+
+```
+GET /ml-status
+```
+
+#### Train Models
+
+```
+POST /train-models
+```
+
+#### Customer Segmentation
+
+```
+GET /customer-segments
+```
+
+#### Churn Analysis
+
+```
+GET /churn-analysis
+```
+
+#### Product Recommendations
+
+```
+GET /product-recommendations
+```
+
+### 📊 Traditional Analytics
+
+#### Health Check
 
 ```
 GET /health
 ```
 
-### Data Upload
+#### Data Upload
 
 ```
 POST /upload-data

@@ -1,9 +1,11 @@
+# Flask Backend Dependencies for ML-Powered Retail Analytics
 Flask>=2.0.0
 Flask-CORS>=4.0.0
 pandas>=1.5.0
 numpy>=1.21.0
 scikit-learn>=1.0.0
-mlxtend>=0.20.0
 python-dateutil>=2.8.0
 joblib>=1.0.0
-requests>=2.25.0
+
+# Optional: For enhanced data processing
+openpyxl>=3.0.0
