@@ -602,7 +602,7 @@ if __name__ == "__main__":
     transactions = generate_large_dataset(1000)
 
     # Save to CSV
-    csv_filename = "large_market_basket_data.csv"
+    csv_filename = "sample2.csv"
     save_transactions_to_csv(transactions, csv_filename)
 
     # Generate and save statistics

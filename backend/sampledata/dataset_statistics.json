@@ -1,0 +1,97 @@
+{
+  "total_transactions": 1000,
+  "unique_items": 146,
+  "total_items_sold": 4608,
+  "avg_items_per_transaction": 4.61,
+  "persona_distribution": {
+    "Home Cook": 256,
+    "Tech Enthusiast": 159,
+    "Fashion Conscious": 178,
+    "General Shopper": 94,
+    "Fitness Enthusiast": 158,
+    "Book Lover": 155
+  },
+  "top_items": [
+    [
+      "Milk",
+      66
+    ],
+    [
+      "Eggs",
+      65
+    ],
+    [
+      "Dark Chocolate",
+      62
+    ],
+    [
+      "Green Tea",
+      61
+    ],
+    [
+      "Organic Coffee",
+      60
+    ],
+    [
+      "Food Processor",
+      60
+    ],
+    [
+      "Plant Fertilizer",
+      59
+    ],
+    [
+      "Fruits",
+      59
+    ],
+    [
+      "Cheese",
+      58
+    ],
+    [
+      "Orange Juice",
+      58
+    ],
+    [
+      "BBQ Grill",
+      58
+    ],
+    [
+      "Lawn Mower",
+      57
+    ],
+    [
+      "Toaster",
+      57
+    ],
+    [
+      "Chicken Breast",
+      56
+    ],
+    [
+      "Butter",
+      56
+    ],
+    [
+      "Tomato Sauce",
+      55
+    ],
+    [
+      "Garden Hose",
+      55
+    ],
+    [
+      "Cereal",
+      55
+    ],
+    [
+      "Stand Mixer",
+      54
+    ],
+    [
+      "Olive Oil",
+      53
+    ]
+  ],
+  "dataset_generation_date": "2025-07-23T20:11:52.452885"
+}
