@@ -25,3 +25,5 @@ frontend/*.local
 
 # files
 # Project overview.md
+
+**/__pycache__/

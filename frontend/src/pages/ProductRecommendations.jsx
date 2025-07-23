@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "../components/ui/card";
-import { Button } from "../components/ui/Button";
+import { Button } from "../components/ui/button";
 import { Badge } from "../components/ui/badge";
 import { Alert, AlertDescription } from "../components/ui/alert";
 import apiService from "../services/api";

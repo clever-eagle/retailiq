@@ -7,3 +7,4 @@ mlxtend>=0.20.0
 python-dateutil>=2.8.0
 joblib>=1.0.0
 requests>=2.25.0
+statsmodels
