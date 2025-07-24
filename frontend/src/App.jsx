@@ -5,7 +5,6 @@ import Dashboard from "./pages/Dashboard";
 import DataUpload from "./pages/DataUpload";
 import SalesForecasting from "./pages/SalesForecasting";
 import MarketBasketAnalysis from "./pages/MarketBasketAnalysis";
-import ProductRecommendations from "./pages/ProductRecommendations";
 import Settings from "./pages/Settings";
 import { FileUploadProvider } from "./contexts/FileUploadContext";
 import { Toaster } from "@/components/ui/sonner";
@@ -23,8 +22,6 @@ function App() {
         return <SalesForecasting />;
       case "market-basket-analysis":
         return <MarketBasketAnalysis />;
-      case "product-recommendations":
-        return <ProductRecommendations />;
       case "settings":
         return <Settings />;
       default:
