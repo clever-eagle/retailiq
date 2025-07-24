@@ -13,8 +13,6 @@
 
 ---
 
-## 2. `test_clean_system.py`
-
 - **What it contains:**  
   Python script for ensuring the system's initial state has no data loaded and displays a summary of the output.
 - **How does the file work:**
@@ -27,7 +25,7 @@
 
 ---
 
-## 3. `test_enhanced_backend.py`
+## 3. `sample_data_generator.py`
 
 - **What it contains:**  
   Python script for generating synthetic test data that mimics the structure of `large_market_basket_data.csv`.
