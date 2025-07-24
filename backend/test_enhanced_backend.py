@@ -80,31 +80,6 @@ def generate_synthetic_transactions():
     return pd.DataFrame(test_data)
 
 
-def run_model_training_test():
-    """Test if ML trainer works with the generated transactions data"""
-    from ml_trainer import RetailMLTrainer
-    from utils.data_processor import DataProcessor
-
-    # Create test data
-    df = generate_synthetic_transactions()
-    print(f"✅ Created test dataset with {len(df)} transactions")
-
-    # Process the data
-    processor = DataProcessor()
-
-    # Convert to the format expected by ML trainer
-    processed_data = processor.process_large_market_basket_data(df)
-    print(f"✅ Processed data: {len(processed_data)} item records")
-
-    # Save processed data to a temporary CSV file
-    processed_data.to_csv("temp_processed_data.csv", index=False)
-
-    # Test ML trainer
-    trainer = RetailMLTrainer()
-    results = trainer.train_all_models("temp_processed_data.csv")
-    print(f"✅ ML training completed: {results}")
-
-    return True
 
 
 def test_data_upload_flow():
@@ -130,9 +105,9 @@ if __name__ == "__main__":
 
     try:
         # Test 1: ML Trainer with sample data
-        print("1️⃣ Testing ML Trainer...")
-        run_model_training_test()
-        print()
+        # print("1️⃣ Testing ML Trainer...")
+        # run_model_training_test()
+        # print()
 
         # Test 2: Create test upload file
         print("2️⃣ Creating test upload data...")

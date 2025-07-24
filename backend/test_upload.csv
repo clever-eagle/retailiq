@@ -1,51 +1,51 @@
 transaction_id,customer_id,items,date,time,persona,customer_loyalty,store_location,payment_method
-TEST_TXN_001,CUST_0007,Coffee;Book,2025-07-11,19:53,Tech Enthusiast,vip,Online,Debit Card
-TEST_TXN_002,CUST_0004,Bread;Protein Bars;Shampoo;iPhone 15;Jeans,2025-07-14,22:31,Tech Enthusiast,regular,Store B,Debit Card
-TEST_TXN_003,CUST_0010,Protein Bars,2025-07-07,22:20,Fitness Enthusiast,regular,Store B,Debit Card
-TEST_TXN_004,CUST_0013,Protein Bars;Jeans;Bread;Nike Shoes,2025-07-13,21:37,Book Lover,new,Store C,Credit Card
-TEST_TXN_005,CUST_0001,Book;T-Shirt;Protein Bars,2025-07-02,10:14,Fashion Conscious,vip,Store A,Cash
-TEST_TXN_006,CUST_0005,Coffee,2025-07-07,15:26,Fitness Enthusiast,regular,Store A,Credit Card
-TEST_TXN_007,CUST_0002,Milk,2025-07-19,21:04,Home Cook,regular,Store A,Credit Card
-TEST_TXN_008,CUST_0013,Protein Bars,2025-07-01,10:46,Tech Enthusiast,vip,Store B,Cash
-TEST_TXN_009,CUST_0012,Jeans;Bread;Coffee,2025-07-05,14:00,Tech Enthusiast,vip,Store B,Debit Card
-TEST_TXN_010,CUST_0019,Shampoo;iPhone 15;Book;T-Shirt;MacBook Pro,2025-07-02,18:29,Home Cook,new,Store C,Mobile Payment
-TEST_TXN_011,CUST_0013,Milk,2025-06-30,12:49,Book Lover,vip,Online,Mobile Payment
-TEST_TXN_012,CUST_0013,Coffee;Shampoo;T-Shirt;AirPods Pro;Milk,2025-07-04,22:14,Fitness Enthusiast,vip,Store B,Debit Card
-TEST_TXN_013,CUST_0011,Bread;Milk;Shampoo;Jeans,2025-07-11,22:37,Fashion Conscious,vip,Store C,Cash
-TEST_TXN_014,CUST_0010,MacBook Pro;Book,2025-07-04,22:09,Fitness Enthusiast,vip,Online,Cash
-TEST_TXN_015,CUST_0002,Nike Shoes;Bread,2025-07-08,08:18,Tech Enthusiast,vip,Store A,Mobile Payment
-TEST_TXN_016,CUST_0017,MacBook Pro,2025-06-30,20:55,Book Lover,new,Store B,Credit Card
-TEST_TXN_017,CUST_0001,Bread;Book;Jeans;T-Shirt;MacBook Pro,2025-07-20,11:37,Book Lover,new,Store C,Credit Card
-TEST_TXN_018,CUST_0016,Coffee;Jeans;MacBook Pro;AirPods Pro,2025-07-03,12:49,Tech Enthusiast,vip,Store A,Cash
-TEST_TXN_019,CUST_0011,Book;Bread;Coffee;Protein Bars;Milk,2025-06-26,18:35,Fitness Enthusiast,regular,Online,Mobile Payment
-TEST_TXN_020,CUST_0015,Bread;Nike Shoes;T-Shirt;AirPods Pro;Book,2025-07-14,16:10,Fitness Enthusiast,vip,Online,Credit Card
-TEST_TXN_021,CUST_0007,MacBook Pro,2025-07-04,17:12,Home Cook,vip,Store C,Mobile Payment
-TEST_TXN_022,CUST_0007,AirPods Pro;Milk;Nike Shoes;T-Shirt;MacBook Pro,2025-07-23,15:41,Fitness Enthusiast,vip,Online,Debit Card
-TEST_TXN_023,CUST_0010,Book;Shampoo,2025-07-23,11:32,Fashion Conscious,vip,Online,Mobile Payment
-TEST_TXN_024,CUST_0020,Shampoo;MacBook Pro,2025-07-21,14:47,Book Lover,vip,Store C,Credit Card
-TEST_TXN_025,CUST_0012,AirPods Pro,2025-07-04,18:01,Book Lover,regular,Online,Credit Card
-TEST_TXN_026,CUST_0012,Nike Shoes;iPhone 15;Jeans;Bread,2025-07-06,18:28,Fashion Conscious,vip,Store C,Cash
-TEST_TXN_027,CUST_0014,Book;T-Shirt;Protein Bars;Bread,2025-07-06,15:12,Fitness Enthusiast,new,Store C,Debit Card
-TEST_TXN_028,CUST_0016,MacBook Pro,2025-07-07,11:00,Fitness Enthusiast,new,Store B,Mobile Payment
-TEST_TXN_029,CUST_0014,Book;iPhone 15;T-Shirt;Milk,2025-07-03,10:31,Fashion Conscious,new,Store C,Cash
-TEST_TXN_030,CUST_0011,iPhone 15;Nike Shoes;Coffee,2025-07-15,14:11,Fashion Conscious,new,Store C,Debit Card
-TEST_TXN_031,CUST_0009,Jeans,2025-07-03,10:39,Tech Enthusiast,vip,Store B,Debit Card
-TEST_TXN_032,CUST_0014,Jeans,2025-07-02,10:14,Book Lover,new,Store A,Cash
-TEST_TXN_033,CUST_0020,Nike Shoes;Bread;Protein Bars;Jeans,2025-06-29,21:10,Fitness Enthusiast,vip,Store C,Credit Card
-TEST_TXN_034,CUST_0014,MacBook Pro;Protein Bars;Coffee,2025-06-26,13:35,Book Lover,regular,Online,Mobile Payment
-TEST_TXN_035,CUST_0009,iPhone 15;AirPods Pro;Coffee,2025-07-03,09:47,Fitness Enthusiast,vip,Store B,Mobile Payment
-TEST_TXN_036,CUST_0012,Bread;AirPods Pro;Coffee;Shampoo;Milk,2025-07-22,17:11,Book Lover,vip,Store C,Credit Card
-TEST_TXN_037,CUST_0008,T-Shirt;Protein Bars;MacBook Pro,2025-06-30,17:40,Home Cook,regular,Store A,Cash
-TEST_TXN_038,CUST_0010,Milk;Bread,2025-07-06,11:43,Home Cook,regular,Store A,Debit Card
-TEST_TXN_039,CUST_0009,T-Shirt;MacBook Pro;AirPods Pro;Coffee,2025-06-26,15:02,Fitness Enthusiast,regular,Store A,Credit Card
-TEST_TXN_040,CUST_0003,Nike Shoes;Milk;Bread;Book;iPhone 15,2025-07-21,14:27,Home Cook,vip,Store A,Debit Card
-TEST_TXN_041,CUST_0010,Bread;Protein Bars,2025-06-30,21:38,Tech Enthusiast,regular,Online,Mobile Payment
-TEST_TXN_042,CUST_0009,Nike Shoes;Milk;T-Shirt;AirPods Pro,2025-07-02,08:28,Home Cook,new,Store B,Credit Card
-TEST_TXN_043,CUST_0018,Jeans;Shampoo;Book,2025-07-14,08:42,Tech Enthusiast,vip,Store A,Debit Card
-TEST_TXN_044,CUST_0003,Milk;Nike Shoes;Protein Bars;Shampoo;AirPods Pro,2025-07-08,21:34,Fitness Enthusiast,vip,Store C,Debit Card
-TEST_TXN_045,CUST_0007,iPhone 15;Book;AirPods Pro;Protein Bars;Coffee,2025-07-06,08:49,Book Lover,new,Online,Mobile Payment
-TEST_TXN_046,CUST_0016,Bread,2025-06-27,13:57,Book Lover,regular,Store C,Credit Card
-TEST_TXN_047,CUST_0007,Book;iPhone 15;Protein Bars;AirPods Pro;Nike Shoes,2025-06-28,12:47,Fashion Conscious,new,Store C,Cash
-TEST_TXN_048,CUST_0010,Bread,2025-07-24,17:00,Tech Enthusiast,regular,Store B,Debit Card
-TEST_TXN_049,CUST_0003,T-Shirt;Nike Shoes;Protein Bars,2025-07-02,21:11,Tech Enthusiast,vip,Online,Mobile Payment
-TEST_TXN_050,CUST_0019,Milk,2025-07-08,18:24,Fashion Conscious,regular,Store A,Mobile Payment
+TEST_TXN_001,CUST_0006,Milk,2025-07-17,22:47,Book Lover,vip,Online,Cash
+TEST_TXN_002,CUST_0009,Protein Bars,2025-07-07,12:59,Fashion Conscious,regular,Store C,Credit Card
+TEST_TXN_003,CUST_0018,Shampoo;Coffee,2025-07-24,15:31,Tech Enthusiast,new,Store A,Credit Card
+TEST_TXN_004,CUST_0013,MacBook Pro;T-Shirt;Book;Coffee,2025-07-16,17:41,Book Lover,vip,Store B,Debit Card
+TEST_TXN_005,CUST_0016,Shampoo;Milk,2025-06-25,15:34,Tech Enthusiast,vip,Store B,Cash
+TEST_TXN_006,CUST_0020,Book,2025-06-26,19:24,Tech Enthusiast,new,Store C,Cash
+TEST_TXN_007,CUST_0017,Bread;MacBook Pro,2025-06-27,14:26,Home Cook,vip,Store C,Mobile Payment
+TEST_TXN_008,CUST_0002,Jeans;iPhone 15;T-Shirt;Shampoo,2025-07-04,10:30,Fitness Enthusiast,regular,Store A,Credit Card
+TEST_TXN_009,CUST_0009,Shampoo;T-Shirt;Coffee;iPhone 15;Protein Bars,2025-07-07,15:19,Fitness Enthusiast,new,Store B,Credit Card
+TEST_TXN_010,CUST_0008,Nike Shoes;Bread;Coffee,2025-07-01,16:19,Fashion Conscious,regular,Store A,Cash
+TEST_TXN_011,CUST_0017,AirPods Pro;MacBook Pro;Milk;Coffee;Protein Bars,2025-07-20,22:29,Book Lover,vip,Store A,Cash
+TEST_TXN_012,CUST_0014,MacBook Pro;iPhone 15;Coffee,2025-07-13,13:52,Fitness Enthusiast,vip,Store B,Mobile Payment
+TEST_TXN_013,CUST_0016,Bread;AirPods Pro;Nike Shoes,2025-07-09,18:46,Book Lover,new,Store C,Mobile Payment
+TEST_TXN_014,CUST_0007,Protein Bars;Milk;iPhone 15;MacBook Pro,2025-07-11,21:38,Tech Enthusiast,regular,Store B,Debit Card
+TEST_TXN_015,CUST_0007,Nike Shoes;Milk;Jeans;MacBook Pro;Bread,2025-07-03,10:14,Fitness Enthusiast,regular,Online,Credit Card
+TEST_TXN_016,CUST_0016,Milk;Shampoo,2025-07-19,16:47,Fashion Conscious,regular,Store C,Cash
+TEST_TXN_017,CUST_0002,Shampoo,2025-07-09,14:43,Tech Enthusiast,vip,Store A,Cash
+TEST_TXN_018,CUST_0018,iPhone 15,2025-07-24,09:48,Book Lover,vip,Online,Mobile Payment
+TEST_TXN_019,CUST_0019,T-Shirt;Milk,2025-07-19,10:21,Book Lover,regular,Store B,Credit Card
+TEST_TXN_020,CUST_0019,iPhone 15;Bread,2025-06-27,12:06,Tech Enthusiast,new,Store B,Debit Card
+TEST_TXN_021,CUST_0013,AirPods Pro;Jeans,2025-07-02,14:58,Tech Enthusiast,vip,Online,Debit Card
+TEST_TXN_022,CUST_0013,Book,2025-07-05,09:27,Fitness Enthusiast,regular,Store B,Mobile Payment
+TEST_TXN_023,CUST_0013,Milk;iPhone 15;Coffee,2025-07-14,12:50,Book Lover,new,Online,Cash
+TEST_TXN_024,CUST_0019,Nike Shoes;Shampoo;AirPods Pro;iPhone 15;Coffee,2025-07-06,12:22,Tech Enthusiast,new,Store B,Cash
+TEST_TXN_025,CUST_0015,Protein Bars;iPhone 15;Shampoo;Bread,2025-07-08,08:40,Home Cook,new,Store C,Mobile Payment
+TEST_TXN_026,CUST_0013,T-Shirt;Bread;Coffee;Nike Shoes;Milk,2025-07-24,14:35,Fashion Conscious,new,Store A,Debit Card
+TEST_TXN_027,CUST_0001,T-Shirt;Bread;iPhone 15;Coffee,2025-07-11,09:27,Fashion Conscious,vip,Store A,Debit Card
+TEST_TXN_028,CUST_0020,Coffee;MacBook Pro,2025-06-26,19:37,Fashion Conscious,new,Store C,Credit Card
+TEST_TXN_029,CUST_0020,iPhone 15;Milk,2025-07-19,10:14,Book Lover,new,Store B,Credit Card
+TEST_TXN_030,CUST_0020,T-Shirt;Bread,2025-07-07,14:30,Fitness Enthusiast,regular,Store B,Debit Card
+TEST_TXN_031,CUST_0007,T-Shirt;Protein Bars;AirPods Pro,2025-07-09,15:39,Home Cook,vip,Store A,Debit Card
+TEST_TXN_032,CUST_0003,AirPods Pro;Coffee;Nike Shoes,2025-07-06,11:14,Fashion Conscious,vip,Online,Cash
+TEST_TXN_033,CUST_0012,Jeans;Bread;iPhone 15,2025-07-17,14:11,Home Cook,vip,Store C,Debit Card
+TEST_TXN_034,CUST_0005,T-Shirt;iPhone 15;Protein Bars,2025-07-01,12:14,Home Cook,regular,Store B,Debit Card
+TEST_TXN_035,CUST_0018,Jeans,2025-07-14,16:49,Fashion Conscious,vip,Store C,Mobile Payment
+TEST_TXN_036,CUST_0008,Milk;Coffee,2025-07-07,10:05,Book Lover,vip,Online,Cash
+TEST_TXN_037,CUST_0001,Protein Bars;Milk;Book;Coffee,2025-06-25,18:15,Fashion Conscious,regular,Store B,Credit Card
+TEST_TXN_038,CUST_0017,iPhone 15;Coffee,2025-07-12,08:39,Tech Enthusiast,regular,Store B,Mobile Payment
+TEST_TXN_039,CUST_0010,Shampoo,2025-07-02,16:32,Tech Enthusiast,new,Store B,Mobile Payment
+TEST_TXN_040,CUST_0011,MacBook Pro;iPhone 15;Book;Coffee,2025-07-16,20:10,Book Lover,vip,Store A,Credit Card
+TEST_TXN_041,CUST_0006,Book;Coffee;Jeans;MacBook Pro;Bread,2025-07-04,16:14,Fashion Conscious,regular,Store B,Cash
+TEST_TXN_042,CUST_0006,Protein Bars;T-Shirt;iPhone 15;Milk,2025-07-19,20:43,Fashion Conscious,vip,Store B,Cash
+TEST_TXN_043,CUST_0005,T-Shirt;Shampoo;Coffee;Milk,2025-07-01,15:37,Tech Enthusiast,new,Store A,Debit Card
+TEST_TXN_044,CUST_0010,Jeans,2025-06-29,09:40,Fashion Conscious,regular,Store B,Mobile Payment
+TEST_TXN_045,CUST_0012,Milk,2025-07-17,18:47,Tech Enthusiast,regular,Store B,Debit Card
+TEST_TXN_046,CUST_0020,Jeans;T-Shirt;Milk,2025-06-29,08:12,Home Cook,regular,Online,Debit Card
+TEST_TXN_047,CUST_0014,Book;Shampoo;Nike Shoes,2025-07-18,18:33,Fashion Conscious,new,Store C,Cash
+TEST_TXN_048,CUST_0019,Nike Shoes;Shampoo;MacBook Pro;iPhone 15;Milk,2025-07-18,15:47,Fashion Conscious,vip,Store B,Credit Card
+TEST_TXN_049,CUST_0012,AirPods Pro;Nike Shoes;Coffee;Shampoo,2025-07-11,19:09,Book Lover,new,Online,Debit Card
+TEST_TXN_050,CUST_0008,iPhone 15;Book,2025-07-21,22:06,Fashion Conscious,regular,Store C,Mobile Payment
