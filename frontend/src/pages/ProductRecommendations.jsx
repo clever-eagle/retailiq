@@ -41,7 +41,8 @@ function ProductRecommendations() {
 
     try {
       const result = await apiService.getRecommendations(currentItems);
-      setRecommendations(result);
+      // Fix: extract recommendations array from backend response
+      setRecommendations(result.data?.recommendations || []);
     } catch (err) {
       console.error("Error getting recommendations:", err);
       setError(`Failed to get recommendations: ${err.message}`);
