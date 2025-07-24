@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import json
 
 
-def create_test_data():
+def generate_synthetic_transactions():
     """Create sample test data in the same format as large_market_basket_data.csv"""
 
     # Sample data similar to your existing format
@@ -80,13 +80,13 @@ def create_test_data():
     return pd.DataFrame(test_data)
 
 
-def test_ml_trainer():
-    """Test if ML trainer works with the test data"""
+def run_model_training_test():
+    """Test if ML trainer works with the generated transactions data"""
     from ml_trainer import RetailMLTrainer
     from utils.data_processor import DataProcessor
 
     # Create test data
-    df = create_test_data()
+    df = generate_synthetic_transactions()
     print(f"✅ Created test dataset with {len(df)} transactions")
 
     # Process the data
@@ -108,7 +108,7 @@ def test_data_upload_flow():
     """Test the complete data upload and analysis flow"""
 
     # Create test CSV file
-    df = create_test_data()
+    df = generate_synthetic_transactions()
     test_file = "test_upload.csv"
     df.to_csv(test_file, index=False)
     print(f"✅ Created test CSV file: {test_file}")
