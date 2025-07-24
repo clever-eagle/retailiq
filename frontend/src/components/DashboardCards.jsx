@@ -110,9 +110,9 @@ const AnalysisResultsCard = ({ recentAnalyses = [] }) => {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {recentAnalyses.slice(0, 3).map((analysis) => (
+          {recentAnalyses.slice(0, 3).map((analysis, idx) => (
             <div
-              key={analysis.id}
+              key={analysis.id || idx}
               className="border border-gray-200 rounded-lg p-3"
             >
               <div className="flex items-center justify-between mb-2">
