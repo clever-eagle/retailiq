@@ -82,12 +82,12 @@ def generate_synthetic_transactions():
 
 
 
-def test_data_upload_flow():
+def generate_sample_csv():
     """Test the complete data upload and analysis flow"""
 
     # Create test CSV file
     df = generate_synthetic_transactions()
-    test_file = "test_upload.csv"
+    test_file = "sample_data.csv"
     df.to_csv(test_file, index=False)
     print(f"✅ Created test CSV file: {test_file}")
 
@@ -110,8 +110,8 @@ if __name__ == "__main__":
         # print()
 
         # Test 2: Create test upload file
-        print("2️⃣ Creating test upload data...")
-        test_file = test_data_upload_flow()
+        print("2️⃣ Creating sample csv...")
+        test_file = generate_sample_csv()
         print()
 
         print("✅ All tests passed! Your enhanced backend is ready.")
