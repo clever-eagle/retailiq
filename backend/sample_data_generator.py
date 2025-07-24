@@ -11,7 +11,7 @@ import json
 
 
 def generate_synthetic_transactions():
-    """Create sample test data in the same format as large_market_basket_data.csv"""
+    """Generate a table of random synthetic transactions for demo and testing purposes."""
 
     # Sample data similar to your existing format
     products = [
@@ -43,7 +43,7 @@ def generate_synthetic_transactions():
 
     test_data = []
 
-    for i in range(50):  # Create 50 test transactions
+    for i in range(50):  # Generate 50 random transactions with varied attributes
         transaction_id = f"TEST_TXN_{str(i+1).zfill(3)}"
         customer_id = np.random.choice(customers)
 
@@ -83,14 +83,15 @@ def generate_synthetic_transactions():
 
 
 def generate_sample_csv():
-    """Test the complete data upload and analysis flow"""
+    """Generate synthetic transaction data and save it as a CSV file for upload demo."""
 
-    # Create test CSV file
+    # Generate synthetic data and write to CSV for frontend upload
     df = generate_synthetic_transactions()
     test_file = "sample_data.csv"
     df.to_csv(test_file, index=False)
     print(f"✅ Created test CSV file: {test_file}")
 
+    # Print summary statistics for quick verification
     print(f"📊 Test data summary:")
     print(f"  - Transactions: {len(df)}")
     print(f"  - Unique customers: {df['customer_id'].nunique()}")
@@ -101,20 +102,15 @@ def generate_sample_csv():
 
 
 if __name__ == "__main__":
-    print("🧪 Testing Enhanced ML Backend Functionality\n")
+    print("🧪 Generating synthetic transaction data for demo and upload\n")
 
     try:
-        # Test 1: ML Trainer with sample data
-        # print("1️⃣ Testing ML Trainer...")
-        # run_model_training_test()
-        # print()
-
-        # Test 2: Create test upload file
-        print("2️⃣ Creating sample csv...")
+        # Generate and save the sample CSV file for frontend upload demo
+        print("2️⃣ Generating sample CSV file...")
         test_file = generate_sample_csv()
         print()
 
-        print("✅ All tests passed! Your enhanced backend is ready.")
+        print("✅ Data generation complete. Ready for demo.")
         print()
         print("🚀 Usage Instructions:")
         print("1. Start the Flask server: python app.py")
@@ -126,7 +122,6 @@ if __name__ == "__main__":
         print("   You can use this file to test the upload functionality")
 
     except Exception as e:
-        print(f"❌ Test failed: {str(e)}")
+        print(f"❌ Data generation failed: {str(e)}")
         import traceback
-
         traceback.print_exc()
