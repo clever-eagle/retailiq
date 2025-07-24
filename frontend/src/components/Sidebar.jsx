@@ -36,11 +36,6 @@ const navigationItems = [
     icon: ShoppingCart,
   },
   {
-    id: "product-recommendations",
-    label: "Product Recommendations",
-    icon: Lightbulb,
-  },
-  {
     id: "settings",
     label: "Settings",
     icon: Settings,
