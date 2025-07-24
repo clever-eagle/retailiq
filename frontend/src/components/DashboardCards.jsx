@@ -31,35 +31,13 @@ const MetricCard = ({
       </CardHeader>
       <CardContent>
         <div className="text-2xl font-bold text-gray-900">{value}</div>
-        {change !== undefined && (
-          <div className="flex items-center mt-1">
-            <TrendIcon
-              className={`h-3 w-3 mr-1 ${
-                isPositive ? "text-green-600" : "text-red-600"
-              }`}
-            />
-            <span
-              className={`text-xs ${
-                isPositive ? "text-green-600" : "text-red-600"
-              }`}
-            >
-              {Math.abs(change)}%
-            </span>
-            <span className="text-xs text-gray-500 ml-1">from last month</span>
-          </div>
-        )}
-        {subtitle && <p className="text-xs text-gray-500 mt-1">{subtitle}</p>}
       </CardContent>
     </Card>
   );
 };
 
 const SalesOverviewCard = ({ salesData = {} }) => {
-  const {
-    totalRevenue = 0,
-    totalTransactions = 0,
-    topProducts = [],
-  } = salesData;
+  const { totalRevenue = 0, topProducts = [] } = salesData;
 
   return (
     <Card>
@@ -68,21 +46,6 @@ const SalesOverviewCard = ({ salesData = {} }) => {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <p className="text-2xl font-bold text-gray-900">
-                ${totalRevenue.toLocaleString()}
-              </p>
-              <p className="text-sm text-gray-500">Total Revenue</p>
-            </div>
-            <div>
-              <p className="text-2xl font-bold text-gray-900">
-                {totalTransactions.toLocaleString()}
-              </p>
-              <p className="text-sm text-gray-500">Transactions</p>
-            </div>
-          </div>
-
           <div>
             <h4 className="font-medium text-gray-900 mb-2">
               Top Performing Products

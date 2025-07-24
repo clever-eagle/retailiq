@@ -288,27 +288,6 @@ function Dashboard({ onNavigate }) {
             icon={DollarSign}
             subtitle="This month"
           />
-          <MetricCard
-            title="Transactions"
-            value={metrics.totalTransactions?.toLocaleString() || "0"}
-            change={metrics.transactionGrowth}
-            icon={ShoppingCart}
-            subtitle="This month"
-          />
-          <MetricCard
-            title="Active Customers"
-            value={metrics.totalCustomers?.toLocaleString() || "0"}
-            change={metrics.customerGrowth}
-            icon={Users}
-            subtitle="This month"
-          />
-          <MetricCard
-            title="Product Lines"
-            value={metrics.activeProducts || "0"}
-            change={null}
-            icon={Package}
-            subtitle={`of ${metrics.totalProducts || "0"} total`}
-          />
         </div>
 
         {/* Main Content Grid */}
