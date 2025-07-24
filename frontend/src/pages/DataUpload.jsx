@@ -26,6 +26,25 @@ import { toast } from "sonner";
 import apiService from "@/services/api";
 
 function DataUpload() {
+  // List of sample files available in public folder
+  const sampleFiles = [
+    { name: "Sample 1", file: "sample1.csv" },
+    { name: "Sample 2", file: "sample2.csv" },
+    { name: "Sample 3", file: "sample3.csv" },
+  ];
+
+  // Handler to fetch and upload sample file
+  const handleSampleFileSelect = async (fileName) => {
+    try {
+      const response = await fetch(`/${fileName}`);
+      const blob = await response.blob();
+      const file = new File([blob], fileName, { type: blob.type });
+      handleFiles([file]);
+      toast.success(`${fileName} selected and ready for upload!`);
+    } catch (error) {
+      toast.error(`Failed to load ${fileName}`);
+    }
+  };
   const { uploadedFiles, addFile, updateFile, removeFile } = useFileUpload();
   const [dragActive, setDragActive] = useState(false);
   const [showAnalysisSelection, setShowAnalysisSelection] = useState(false);
@@ -166,6 +185,24 @@ function DataUpload() {
   return (
     <div className="p-8">
       <div className="max-w-4xl mx-auto space-y-8">
+        {/* Sample Files Section */}
+        <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm mb-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">
+            Choose a Sample Dataset
+          </h3>
+          <div className="flex space-x-4">
+            {sampleFiles.map((sample) => (
+              <Button
+                key={sample.file}
+                variant="outline"
+                onClick={() => handleSampleFileSelect(sample.file)}
+              >
+                <FileText className="w-4 h-4 mr-2" />
+                {sample.name}
+              </Button>
+            ))}
+          </div>
+        </div>
         {/* Header */}
         <div>
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Data Upload</h1>
