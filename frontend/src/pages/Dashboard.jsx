@@ -246,7 +246,7 @@ function Dashboard({ onNavigate }) {
                 Upload a CSV file to start analyzing your retail data
               </p>
               <button
-                onClick={() => handleNavigation("upload")}
+                onClick={() => handleNavigation("data-upload")}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg"
               >
                 Upload CSV File
