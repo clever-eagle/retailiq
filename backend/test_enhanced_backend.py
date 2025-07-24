@@ -96,9 +96,12 @@ def run_model_training_test():
     processed_data = processor.process_large_market_basket_data(df)
     print(f"✅ Processed data: {len(processed_data)} item records")
 
+    # Save processed data to a temporary CSV file
+    processed_data.to_csv("temp_processed_data.csv", index=False)
+
     # Test ML trainer
     trainer = RetailMLTrainer()
-    results = trainer.train_all_models(processed_data)
+    results = trainer.train_all_models("temp_processed_data.csv")
     print(f"✅ ML training completed: {results}")
 
     return True
@@ -128,7 +131,7 @@ if __name__ == "__main__":
     try:
         # Test 1: ML Trainer with sample data
         print("1️⃣ Testing ML Trainer...")
-        test_ml_trainer()
+        run_model_training_test()
         print()
 
         # Test 2: Create test upload file
