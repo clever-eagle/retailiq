@@ -6,7 +6,6 @@ import {
   SalesOverviewCard,
   AnalysisResultsCard,
 } from "@/components/DashboardCards";
-import FileStatusOverview from "@/components/FileStatusOverview";
 import {
   DollarSign,
   ShoppingCart,
@@ -290,25 +289,13 @@ function Dashboard({ onNavigate }) {
           />
         </div>
 
-        {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Left Column - Sales and Analysis */}
-          <div className="lg:col-span-2 space-y-6">
-            {/* Sales Overview */}
-            <SalesOverviewCard salesData={salesData} />
+        {/* Main Content Grid - Only Sales and Analysis */}
+        <div className="space-y-6">
+          {/* Sales Overview */}
+          <SalesOverviewCard salesData={salesData} />
 
-            {/* Recent Analysis Results */}
-            <AnalysisResultsCard recentAnalyses={recentAnalyses} />
-          </div>
-
-          {/* Right Column - Files and Actions */}
-          <div className="space-y-6">
-            {/* File Status */}
-            <FileStatusOverview
-              uploadedFiles={uploadedFiles}
-              onUploadComplete={handleUploadComplete}
-            />
-          </div>
+          {/* Recent Analysis Results */}
+          <AnalysisResultsCard recentAnalyses={recentAnalyses} />
         </div>
       </div>
     </div>

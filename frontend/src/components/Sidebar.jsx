@@ -35,11 +35,6 @@ const navigationItems = [
     label: "Market Basket Analysis",
     icon: ShoppingCart,
   },
-  {
-    id: "settings",
-    label: "Settings",
-    icon: Settings,
-  },
 ];
 
 function Sidebar({ currentPage, setCurrentPage }) {
