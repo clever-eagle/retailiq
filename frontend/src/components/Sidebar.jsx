@@ -89,7 +89,9 @@ function Sidebar({ currentPage, setCurrentPage }) {
       >
         {/* Logo */}
         <div className="bg-black text-white p-4 flex items-center justify-between">
-          <h1 className="text-xl font-bold">RetailIQ</h1>
+          <a href="/" className="text-xl font-bold hover:underline">
+            RetailIQ
+          </a>
           {/* Close button for mobile - only show when menu is open */}
           <button
             className="md:hidden text-white"
@@ -126,30 +128,7 @@ function Sidebar({ currentPage, setCurrentPage }) {
               </button>
             );
           })}
-
-          {/* Quick Upload Button */}
-          <div className="pt-4 border-t border-gray-200">
-            <UploadDialog
-              trigger={
-                <Button
-                  variant="outline"
-                  className="w-full justify-start gap-3"
-                  size="sm"
-                >
-                  <Plus className="h-4 w-4" />
-                  <span>Quick Upload</span>
-                </Button>
-              }
-              onUploadComplete={(file) => {
-                console.log("File uploaded from sidebar:", file);
-                // Optionally navigate to data upload page
-                setCurrentPage("data-upload");
-              }}
-            />
-          </div>
         </nav>
-
-        {/* Footer */}
       </div>
     </>
   );
