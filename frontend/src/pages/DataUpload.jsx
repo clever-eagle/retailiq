@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import UploadDialog from "@/components/UploadDialog";
 import FileManager from "@/components/FileManager";
-import AnalysisTypeSelector from "@/components/AnalysisTypeSelector";
 import { downloadSampleCSV } from "@/utils/sampleData";
 import {
   validateFile,
@@ -172,16 +171,6 @@ function DataUpload() {
     }
   };
 
-  const handleAnalysisSelect = (analysisType) => {
-    console.log("Selected analysis:", analysisType);
-    // Navigate to the appropriate analysis page
-    // This will be implemented when we build the analysis pages
-  };
-
-  const successfulUploads = uploadedFiles.filter(
-    (file) => file.status === FILE_STATUS.SUCCESS
-  );
-
   return (
     <div className="p-8">
       <div className="max-w-4xl mx-auto space-y-8">
@@ -297,16 +286,6 @@ function DataUpload() {
               onRemoveFile={handleRemoveFile}
               onViewFile={(file) => console.log("View file:", file)}
               onDownloadFile={(file) => console.log("Download file:", file)}
-            />
-          </div>
-        )}
-
-        {/* Analysis Type Selection */}
-        {showAnalysisSelection && successfulUploads.length > 0 && (
-          <div className="bg-white p-6 rounded-lg border border-gray-200 shadow-sm">
-            <AnalysisTypeSelector
-              uploadedFiles={uploadedFiles}
-              onAnalysisSelect={handleAnalysisSelect}
             />
           </div>
         )}
