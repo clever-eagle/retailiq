@@ -71,5 +71,15 @@
     - Implementation: 
       - Pickle file is used to save trained ML models like Random Forest(), encoders and scales as `.pkl` files after training: 
       - Use these `.pkl` files in backend to use the model to process new data without retraining the models. 
+      - Usage: 
+        - In `ml_trainer.py`:
+          - Purpose: Save trained ML models, encoders, scalers and feature importance dictionaries to disk after training.
+          - Implementation: 
+             - `pickle.dump()` to serialize and store the models as `.pkl` files in `trained_models` directory
+             - `picle.load()` to load the model for later use to avoid retraining. 
+        - In `ml_predictor.py`: 
+          - Purpose: Load pre-trained models and preprocessors for instant analysis of new data uploads. 
+          - Implementation: 
+            - `pickle.load()`: to load the models, encoders, scales from `.pkl` files. 
 
 ## File Structure:
