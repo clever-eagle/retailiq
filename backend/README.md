@@ -81,5 +81,7 @@
           - Purpose: Load pre-trained models and preprocessors for instant analysis of new data uploads. 
           - Implementation: 
             - `pickle.load()`: to load the models, encoders, scales from `.pkl` files. 
+  - **Apriori (AI Model):**
+    - 
 
 ## File Structure:
