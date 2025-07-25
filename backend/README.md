@@ -82,6 +82,20 @@
           - Implementation: 
             - `pickle.load()`: to load the models, encoders, scales from `.pkl` files. 
   - **Apriori (AI Model):**
-    - 
+    - What it does: 
+      - **Purpose**: The apriori model is used for Market Basket Analysis (MBA) to discover frequent itemsets and generate association rules from retail transaction data. 
+      - **Business Value**: It helps to identify products often bought together, enabling cross-selling, bundling, and product recommendation strategies. 
+    - How it works: 
+      - **Algorithm**: 
+        - The Apriori algorithm finds frequent itemsets in transaction data by iteratively expanding item combinations and pruning infrequent ones. It then generates association rules with metrics like support, confidence and lift. 
+        - **Workflow:** 
+          - Data Preparation: Transaction data is grouped by transaction ID, forming basket of items. 
+          - Frequent itemset mining: The algorithm finds itemsets that meet a minimum support threshold. 
+          - Rule Generation: Association rules are created from frequent itemsets, filtered by minimum confidence and lift. 
+    - Implementation: 
+      - `apriori_market_basket.py`: contains the main implmentation
+    - Integration: 
+      - The backend exposes REST API endpoint `/market-basket-analysis` that triggers the class `AprioriMarketBasket` from `apriori_market_basket.py` and generates association rules using methods from that file. 
+      - The React frontend calls the backend API, recevies association rules and itemsets, and displays the output. 
 
 ## File Structure:
